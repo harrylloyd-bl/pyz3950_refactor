@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:32</Created>
+        <LastChange>2022-08-01T18:52:02.082+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405042" pageNr="44" tsid="92259727" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=TRFZNDABKBKTMJPLGNSRZIWC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GAIHGBLADKEPCJTJPIVINBJV" imageId="35575680"/>
+    </Metadata>
+    <Page imageFilename="0044_24568001044.jpg" imageWidth="1471" imageHeight="1217">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938971" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="1035,83 1451,83 1451,181 1035,181"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="1071,149 1181,150 1213,162 1243,146 1296,155 1323,140 1340,156 1414,162 1445,152 1446,115 1408,123 1360,97 1224,125 1199,101 1158,111 1071,102"/>
+                <Baseline points="1076,145 1102,146 1128,146 1154,146 1180,145 1206,145 1232,145 1258,145 1284,145 1310,145 1336,146 1362,147 1388,148 1414,149 1440,151"/>
+                <TextEquiv>
+                    <Unicode>14112. a. 294.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. a. 294.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="188,369 1410,369 1413,1123 191,1123"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="192,579 398,554 574,579 689,553 963,579 990,522 782,535 732,506 684,540 594,508 449,529 192,516"/>
+                <Baseline points="197,553 236,553 275,553 315,553 354,554 393,554 433,554 472,555 511,555 551,555 590,556 629,556 669,557 708,558 747,558 787,559 826,560 865,561 905,562 944,562 984,564"/>
+                <TextEquiv>
+                    <Unicode>Kharosh-i-Intikam. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="193,626 271,622 286,610 315,625 437,614 479,641 559,635 598,617 598,597 543,572 472,570 428,603 379,567 193,581"/>
+                <Baseline points="198,614 224,612 250,612 277,611 303,611 329,611 356,611 382,611 408,612 435,612 461,613 487,613 514,613 540,613 566,613 593,612"/>
+                <TextEquiv>
+                    <Unicode>pp. 522. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="193,718 1037,721 999,669 871,700 689,677 660,702 575,677 193,676"/>
+                <Baseline points="198,711 239,712 281,713 323,713 364,714 406,714 448,715 489,715 531,715 573,716 615,716 656,717 698,717 740,718 781,718 823,719 865,720 906,720 948,721 990,722 1032,722"/>
+                <TextEquiv>
+                    <Unicode>Pasha Publishers: Lahore, 1966.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1295,830 1328,835 1365,821 1376,824 1385,833 1406,829 1407,802 1370,802 1341,774 1317,785 1297,785"/>
+                <Baseline points="1301,822 1326,821 1351,821 1376,823 1401,826"/>
+                <TextEquiv>
+                    <Unicode>12.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1263,896 1269,896 1278,906 1329,906 1339,915 1367,913 1375,905 1395,907 1396,879 1387,879 1376,869 1368,871 1348,859 1326,863 1264,860"/>
+                <Baseline points="1268,897 1298,896 1329,896 1359,898 1390,899"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kharosh-i-Intikam. [A novel.]&#13;
+pp. 522. lith.&#13;
+Pasha Publishers: Lahore, 1966.&#13;
+12.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="159,204 771,204 771,285 159,285"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="182,278 222,289 440,263 574,284 647,266 647,228 555,209 456,226 383,214 297,230 183,220"/>
+                <Baseline points="188,263 213,262 238,262 263,261 288,261 314,261 339,261 364,261 389,262 415,262 440,262 465,263 490,263 515,263 541,264 566,264 591,265 616,265 642,265"/>
+                <TextEquiv>
+                    <Unicode>KHAROSH-I-INTIEXN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHAROSH-I-INTIEXN</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="159,289 1006,289 1006,368 159,368"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="160,370 344,347 393,370 752,356 864,377 959,369 974,333 798,308 737,333 697,301 161,311"/>
+                <Baseline points="166,347 206,348 246,348 286,348 326,348 366,349 406,349 446,349 486,350 526,350 567,350 607,351 647,351 687,351 727,352 767,352 807,352 847,352 887,352 927,353 968,353"/>
+                <TextEquiv>
+                    <Unicode>SIDDIEI (Sadik Husain), Maulana.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SIDDIEI (Sadik Husain), Maulana.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

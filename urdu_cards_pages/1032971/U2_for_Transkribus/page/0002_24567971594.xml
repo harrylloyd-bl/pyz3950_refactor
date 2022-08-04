@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:22.713+01:00</Created>
+        <LastChange>2022-08-01T18:45:56.315+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404981" pageNr="2" tsid="92259501" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=LLKLFUKZZDRMNWBXFGWYZUBX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GOCKNORNTHEMRZJAMHRKXZVC" imageId="35575637"/>
+    </Metadata>
+    <Page imageFilename="0002_24567971594.jpg" imageWidth="1466" imageHeight="1214">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534937937" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="868,30 1284,30 1284,129 868,129"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="922,105 985,103 1006,88 1083,98 1111,81 1130,97 1200,91 1251,107 1251,43 1227,36 1192,36 1164,60 1121,44 1100,64 1052,37 981,53 966,40 956,50 922,44"/>
+                <Baseline points="930,86 956,85 982,84 1008,84 1034,84 1060,84 1086,84 1112,84 1138,84 1164,84 1190,85 1216,85 1243,85"/>
+                <TextEquiv>
+                    <Unicode>14105. c. 33</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14105. c. 33</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:title;}">
+            <Coords points="163,154 1329,154 1329,251 163,251"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="172,213 1296,215 1322,138 172,168"/>
+                <Baseline points="179,196 235,196 292,196 349,196 406,196 463,196 519,195 576,195 633,195 690,195 747,195 803,195 860,195 917,195 974,195 1031,196 1087,196 1144,196 1201,196 1258,196 1315,197"/>
+                <TextEquiv>
+                    <Unicode>AL-KAUKABAT AL-SHAHHABIYAH FI KUFARIYAT-I-ABI</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l2" custom="readingOrder {index:1;}">
+                <Coords points="179,257 379,252 422,255 435,268 450,252 531,258 531,218 516,212 378,202 247,222 230,212 179,215"/>
+                <Baseline points="186,245 212,243 238,243 264,243 290,242 316,242 342,242 368,242 394,243 420,243 446,243 472,243 498,244 524,244"/>
+                <TextEquiv>
+                    <Unicode>AL-WAHHABI YAH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>AL-KAUKABAT AL-SHAHHABIYAH FI KUFARIYAT-I-ABI
+AL-WAHHABI YAH</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:author;}">
+            <Coords points="110,252 1325,242 1331,371 116,381"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="126,323 1006,320 1080,299 1080,263 1031,240 989,268 125,275"/>
+                <Baseline points="133,315 180,313 227,312 274,310 321,309 368,307 415,306 462,305 509,304 556,303 603,302 650,301 697,300 744,299 791,299 838,298 885,298 932,297 979,297 1026,297 1073,298"/>
+                <TextEquiv>
+                    <Unicode>BARELAWI (Muhammad Abmad Riza Khan),</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l2" custom="readingOrder {index:1;}">
+                <Coords points="356,380 396,393 413,380 429,385 466,378 504,386 540,375 551,384 571,374 571,335 546,328 484,330 458,321 433,328 407,317 390,326 356,322"/>
+                <Baseline points="363,358 388,358 413,358 438,357 463,356 488,356 513,356 538,356 563,358"/>
+                <TextEquiv>
+                    <Unicode>Maulana</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>BARELAWI (Muhammad Abmad Riza Khan),
+Maulana</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:additional_information;}">
+            <Coords points="142,382 1351,382 1336,990 127,990"/>
+            <TextLine id="r4l2" custom="readingOrder {index:0;}">
+                <Coords points="182,570 1230,544 1176,491 182,541"/>
+                <Baseline points="190,568 241,568 293,567 344,566 396,565 448,564 499,563 551,561 602,560 654,559 706,557 757,556 809,554 860,553 912,551 964,550 1015,548 1067,547 1118,546 1170,545 1222,543"/>
+                <TextEquiv>
+                    <Unicode>al-Kaukabat al-shahhabiyah fi kufariyat-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l3" custom="readingOrder {index:1;}">
+                <Coords points="186,627 995,622 1201,610 1200,570 185,593"/>
+                <Baseline points="193,622 243,621 293,621 343,620 393,619 443,619 493,618 543,617 593,615 643,614 693,613 743,612 793,610 843,609 893,607 943,606 993,604 1043,603 1093,601 1143,599 1193,598"/>
+                <TextEquiv>
+                    <Unicode>i-abi al-Wahhabiyah. [A controversial</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l4" custom="readingOrder {index:2;}">
+                <Coords points="184,685 326,705 449,670 833,690 1221,656 1220,622 1148,607 183,648"/>
+                <Baseline points="190,679 241,678 292,677 343,676 394,675 445,674 496,673 548,672 599,670 650,669 701,668 752,666 803,665 854,663 906,662 957,660 1008,658 1059,657 1110,655 1161,653 1213,651"/>
+                <TextEquiv>
+                    <Unicode>religions treatise in reputation of the</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l5" custom="readingOrder {index:3;}">
+                <Coords points="189,733 251,749 464,730 522,744 676,738 675,674 618,699 499,686 468,702 399,698 382,681 309,706 189,690"/>
+                <Baseline points="197,730 223,730 249,730 275,730 301,730 328,729 354,729 380,728 406,727 433,727 459,726 485,725 511,725 537,725 564,725 590,726 616,726 642,728 669,729"/>
+                <TextEquiv>
+                    <Unicode>Wahhabi doctrine.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l6" custom="readingOrder {index:4;}">
+                <Coords points="191,804 213,811 317,789 555,808 554,760 499,739 434,747 421,737 380,763 330,739 265,761 189,757"/>
+                <Baseline points="197,790 222,790 247,789 272,788 297,787 322,786 347,785 372,784 397,783 422,782 447,781 472,781 497,780 522,781 547,781"/>
+                <TextEquiv>
+                    <Unicode>pp. 64. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l7" custom="readingOrder {index:5;}">
+                <Coords points="190,887 469,883 512,912 1164,864 1148,814 677,853 247,826 190,855"/>
+                <Baseline points="197,887 245,886 293,885 341,884 389,883 437,881 485,881 533,880 581,879 629,878 677,877 725,876 773,875 821,874 869,873 917,872 965,871 1013,870 1061,869 1109,868 1157,867"/>
+                <TextEquiv>
+                    <Unicode>Nuri Kutub-khanah: Lahore, 1375 A.H.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l8" custom="readingOrder {index:6;}">
+                <Coords points="1202,914 1236,926 1248,919 1252,923 1260,923 1268,918 1280,921 1283,863 1263,866 1238,858 1226,864 1205,863"/>
+                <Baseline points="1209,912 1241,914 1274,915"/>
+                <TextEquiv>
+                    <Unicode>40</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l9" custom="readingOrder {index:7;}">
+                <Coords points="200,951 230,961 264,950 303,963 394,941 453,955 492,940 533,947 533,916 503,912 478,892 452,912 430,895 410,915 383,891 331,910 312,897 245,895 200,907"/>
+                <Baseline points="207,938 233,937 260,935 286,934 313,933 339,933 366,932 393,932 419,932 446,933 472,934 499,935 526,935"/>
+                <TextEquiv>
+                    <Unicode>1955-56 A.D.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l10" custom="readingOrder {index:8;}">
+                <Coords points="1151,984 1185,985 1192,978 1211,979 1216,973 1238,980 1267,976 1287,968 1287,936 1275,939 1268,932 1250,934 1235,924 1221,925 1211,916 1197,925 1181,925 1174,918 1150,919"/>
+                <Baseline points="1158,968 1188,967 1219,966 1249,966 1280,966"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>al-Kaukabat al-shahhabiyah fi kufariyat-&#13;
+i-abi al-Wahhabiyah. [A controversial&#13;
+religions treatise in reputation of the&#13;
+Wahhabi doctrine.]&#13;
+pp. 64. lith.&#13;
+Nuri Kutub-khanah: Lahore, 1375 A.H.&#13;
+40&#13;
+1955-56 A.D.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:45</Created>
+        <LastChange>2022-08-01T18:52:14.030+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405045" pageNr="46" tsid="92259730" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=FAHLNWRAHGHUWNOQNOPCEVIU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EBFRZLCRAUBZDFCNWIWYXIVM" imageId="35575682"/>
+    </Metadata>
+    <Page imageFilename="0046_24568001094.jpg" imageWidth="1472" imageHeight="1221">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534939009" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="766,60 1182,60 1182,158 766,158"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="765,129 847,130 863,146 944,129 1040,143 1188,129 1188,115 1126,85 1080,85 1046,113 1014,92 918,110 897,87 853,77 766,89"/>
+                <Baseline points="771,124 796,125 822,126 848,127 873,127 899,128 925,128 950,129 976,129 1002,129 1027,129 1053,130 1079,130 1104,130 1130,131 1156,131 1182,132"/>
+                <TextEquiv>
+                    <Unicode>14114. ee. 114</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14114. ee. 114</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="145,373 1358,373 1361,1046 148,1046"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="204,570 1088,569 973,524 513,514 450,546 406,509 204,516"/>
+                <Baseline points="209,557 252,557 296,558 339,558 383,558 427,558 470,559 514,559 558,559 601,559 645,559 689,560 732,560 776,561 820,561 863,562 907,563 951,564 994,565 1038,567 1082,569"/>
+                <TextEquiv>
+                    <Unicode>Kharabat. [Poems of the author.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="205,623 324,626 363,608 391,626 622,633 624,574 600,567 569,595 550,580 470,572 412,572 372,590 332,572 314,582 206,572"/>
+                <Baseline points="211,612 236,613 261,613 287,613 312,614 337,614 363,614 388,614 414,614 439,615 464,615 490,616 515,617 540,619 566,620 591,623 617,626"/>
+                <TextEquiv>
+                    <Unicode>Third edition.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="202,694 237,696 260,685 286,690 308,677 345,681 358,690 378,681 397,681 410,691 433,683 432,659 380,629 324,630 296,653 277,653 259,637 201,643"/>
+                <Baseline points="208,682 235,680 262,679 290,676 317,676 344,675 372,675 399,676 427,677"/>
+                <TextEquiv>
+                    <Unicode>pp. 172.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="203,795 358,793 374,810 418,790 460,803 572,802 573,775 558,775 525,741 434,741 392,770 359,748 204,740"/>
+                <Baseline points="209,784 234,784 260,784 285,784 311,785 336,785 362,786 388,787 413,788 439,789 464,790 490,791 515,791 541,791 567,792"/>
+                <TextEquiv>
+                    <Unicode>Lahore, 1959.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1040,844 1045,844 1060,859 1079,858 1097,848 1107,860 1116,860 1127,867 1137,858 1146,858 1150,805 1137,804 1130,810 1095,783 1082,782 1055,802 1042,803"/>
+                <Baseline points="1045,845 1077,847 1109,849 1141,852"/>
+                <TextEquiv>
+                    <Unicode>46.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1039,999 1090,1002 1097,997 1111,1002 1142,1002 1151,995 1153,998 1167,983 1173,984 1173,961 1133,957 1123,948 1101,952 1040,948"/>
+                <Baseline points="1045,986 1075,989 1106,990 1136,989 1167,988"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kharabat. [Poems of the author.&#13;
+Third edition.]&#13;
+pp. 172.&#13;
+Lahore, 1959.&#13;
+46.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="124,142 736,142 736,224 124,224"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="131,207 155,199 183,214 200,201 227,200 306,210 354,197 354,156 326,149 290,147 275,154 257,143 221,147 205,158 131,152"/>
+                <Baseline points="136,193 162,193 189,192 215,192 242,192 268,192 295,192 321,192 348,192"/>
+                <TextEquiv>
+                    <Unicode>KHARABAT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHARABAT</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="97,272 945,272 945,351 97,351"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="145,346 200,362 438,345 516,349 543,369 572,354 682,360 710,344 710,302 624,287 594,306 467,311 336,293 278,315 254,294 145,303"/>
+                <Baseline points="150,338 177,339 205,339 233,340 260,340 288,341 316,341 343,341 371,341 399,341 427,341 454,341 482,341 510,342 537,342 565,342 593,342 620,343 648,343 676,343 704,344"/>
+                <TextEquiv>
+                    <Unicode>ADAM ('Abd al-Hamid)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ADAM ('Abd al-Hamid)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

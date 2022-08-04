@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:29.934+01:00</Created>
+        <LastChange>2022-08-01T18:48:07.343+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404992" pageNr="11" tsid="92259576" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=VFXNGNEUIPURXYKLMHBDWYYP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KZIKFRIFBEWPMMDVRSRUWPLS" imageId="35575646"/>
+    </Metadata>
+    <Page imageFilename="0011_24567972844.jpg" imageWidth="1486" imageHeight="1214">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938178" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="947,82 1369,82 1369,182 947,182"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="978,162 1077,163 1108,176 1153,156 1310,170 1363,148 1363,112 1275,115 1242,144 1210,144 1176,121 1149,134 1115,111 1072,119 1056,104 1016,120 978,116"/>
+                <Baseline points="985,157 1011,156 1038,157 1064,157 1091,158 1117,158 1144,158 1170,159 1197,159 1223,159 1250,159 1276,159 1303,158 1329,157 1356,156"/>
+                <TextEquiv>
+                    <Unicode>14112. a. 198</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. a. 198</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="144,443 1370,443 1373,1124 147,1124"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="257,589 509,586 557,616 627,583 1353,585 1305,530 1157,556 554,533 493,574 384,527 257,544"/>
+                <Baseline points="264,586 318,585 372,585 426,585 480,584 534,584 588,584 642,583 696,583 750,582 805,582 859,582 913,582 967,581 1021,581 1075,581 1129,581 1183,581 1237,581 1291,581 1346,581"/>
+                <TextEquiv>
+                    <Unicode>Kandid. [An Urdu translation by Saiyid</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="254,645 465,667 595,633 628,652 993,652 993,588 930,629 885,595 713,590 254,618"/>
+                <Baseline points="261,643 297,643 333,643 369,642 406,642 442,642 478,642 514,641 551,641 587,641 623,641 659,640 696,640 732,640 768,640 804,640 841,640 877,640 913,641 949,641 986,642"/>
+                <TextEquiv>
+                    <Unicode>Sajjad Zahir of 'Candide.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="255,710 287,722 362,692 392,714 414,706 444,714 456,706 469,719 495,713 493,646 450,646 430,658 394,652 354,661 333,676 292,660 254,667"/>
+                <Baseline points="262,705 287,702 312,700 337,699 362,698 387,698 412,697 437,697 462,697 488,697"/>
+                <TextEquiv>
+                    <Unicode>pp. 207.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="259,812 421,818 478,809 531,826 553,813 592,813 592,777 547,748 494,764 457,758 433,781 341,747 312,763 260,762"/>
+                <Baseline points="266,803 292,803 319,803 346,803 372,803 399,803 426,804 452,805 479,805 506,806 532,806 559,805 586,805"/>
+                <TextEquiv>
+                    <Unicode>Delhi, 1957.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1219,857 1229,857 1246,866 1257,855 1269,856 1283,870 1302,860 1310,861 1314,803 1295,799 1289,804 1278,793 1263,791 1238,808 1223,808"/>
+                <Baseline points="1227,848 1252,850 1277,851 1303,854"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1159,1053 1170,1050 1182,1060 1201,1062 1235,1048 1277,1049 1297,1040 1298,1006 1266,1010 1223,992 1216,996 1200,991 1189,994 1161,986"/>
+                <Baseline points="1166,1037 1191,1039 1216,1039 1241,1039 1266,1040 1291,1042"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kandid. [An Urdu translation by Saiyid&#13;
+Sajjad Zahir of 'Candide.]&#13;
+pp. 207.&#13;
+Delhi, 1957.&#13;
+89.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="173,178 791,178 791,261 173,261"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="342,239 385,249 410,242 420,254 453,242 484,256 509,239 529,247 530,211 512,210 471,185 455,195 437,195 419,180 380,196 343,201"/>
+                <Baseline points="349,232 377,233 406,234 435,233 464,234 493,236 522,239"/>
+                <TextEquiv>
+                    <Unicode>KANDID</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KANDID</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="180,326 1178,314 1178,393 180,405"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="213,391 1132,385 1147,313 864,354 833,326 213,325"/>
+                <Baseline points="220,373 266,374 312,374 358,374 404,374 450,374 496,374 542,373 588,373 634,373 680,372 726,372 772,372 818,371 864,371 910,371 956,370 1002,370 1048,370 1094,370 1141,371"/>
+                <TextEquiv>
+                    <Unicode>VOLTAIRE (Frangois Marie Aronet de)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>VOLTAIRE (Frangois Marie Aronet de)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

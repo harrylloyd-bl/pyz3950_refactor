@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:25.164+01:00</Created>
+        <LastChange>2022-08-01T18:46:47.304+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404985" pageNr="5" tsid="92259519" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=UDFBDNTSWOKOUMMJJWOCVOTF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GVJTRRZQLLTWSJYZXMUVDSWB" imageId="35575640"/>
+    </Metadata>
+    <Page imageFilename="0005_24567972014.jpg" imageWidth="1463" imageHeight="1206">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938019" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="908,116 1322,116 1322,214 908,214"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="917,192 935,202 1098,190 1163,203 1221,187 1306,197 1305,166 1228,140 1169,138 1142,154 1098,142 1077,163 1044,145 916,150"/>
+                <Baseline points="923,188 948,188 973,188 998,188 1023,188 1048,188 1073,188 1098,188 1123,188 1148,187 1173,187 1198,187 1223,186 1248,186 1273,186 1299,186"/>
+                <TextEquiv>
+                    <Unicode>14109. b. 101.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14109. b. 101.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="145,455 1351,455 1351,1106 145,1106"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="222,677 1213,676 1263,658 1263,621 808,615 757,658 690,620 221,636"/>
+                <Baseline points="228,675 279,674 330,673 382,672 433,671 485,671 536,670 588,669 639,669 691,668 742,667 793,667 845,666 896,665 948,665 999,664 1051,663 1102,662 1154,661 1205,661 1257,660"/>
+                <TextEquiv>
+                    <Unicode>Kashmir hamara hai. [A history of the</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="227,738 967,702 1201,721 1214,696 1074,667 226,687"/>
+                <Baseline points="233,721 281,720 330,719 379,719 427,718 476,717 525,716 573,715 622,715 671,714 720,713 768,712 817,712 866,711 914,710 963,710 1012,709 1060,709 1109,708 1158,708 1207,708"/>
+                <TextEquiv>
+                    <Unicode>Indo-Pakistani dispute over Kashmir.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="222,794 475,774 562,801 681,784 815,798 865,779 865,757 765,724 684,760 598,725 505,731 458,761 417,732 348,733 313,763 221,746"/>
+                <Baseline points="228,782 259,780 291,779 322,778 354,778 385,777 417,776 448,776 480,775 511,775 543,775 575,774 606,774 638,774 669,773 701,773 732,773 764,772 795,771 827,771 859,770"/>
+                <TextEquiv>
+                    <Unicode>pp. 408. 2 pls. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="229,894 864,889 864,846 797,825 712,852 511,837 467,868 396,835 349,858 229,844"/>
+                <Baseline points="236,882 267,882 298,882 329,881 360,881 391,881 422,880 453,880 484,880 515,880 546,880 577,879 608,879 639,879 670,879 701,879 732,878 763,878 794,878 825,878 857,877"/>
+                <TextEquiv>
+                    <Unicode>Kalasik: Lahore, 1965.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1213,988 1245,989 1258,979 1273,974 1290,985 1309,985 1313,948 1297,952 1287,944 1282,949 1273,947 1262,951 1248,934 1239,935 1233,931 1219,933"/>
+                <Baseline points="1222,971 1249,975 1276,974 1303,982"/>
+                <TextEquiv>
+                    <Unicode>4 .</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1171,1085 1178,1085 1203,1105 1232,1095 1255,1108 1292,1099 1302,1106 1319,1099 1320,1077 1301,1076 1289,1066 1247,1054 1218,1060 1206,1051 1173,1050"/>
+                <Baseline points="1178,1093 1204,1092 1231,1092 1258,1093 1285,1095 1312,1099"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kashmir hamara hai. [A history of the&#13;
+Indo-Pakistani dispute over Kashmir.]&#13;
+pp. 408. 2 pls. lith.&#13;
+Kalasik: Lahore, 1965.&#13;
+4 .&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="190,244 799,244 799,326 190,326"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="205,323 290,317 322,333 421,311 525,326 595,311 692,331 691,252 586,273 558,253 456,246 428,262 264,259 205,277"/>
+                <Baseline points="211,306 237,306 263,306 290,306 316,306 342,305 369,305 395,305 421,305 448,305 474,305 500,305 527,305 553,305 579,305 606,306 632,306 658,306 685,306"/>
+                <TextEquiv>
+                    <Unicode>KASHMIR HAMARA HAI</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KASHMIR HAMARA HAI</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="160,362 897,345 897,423 160,440"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="157,427 883,428 882,374 851,356 755,387 719,361 521,388 374,365 349,387 313,365 156,372"/>
+                <Baseline points="163,418 198,418 234,417 269,417 305,417 341,416 376,415 412,415 448,414 483,413 519,413 555,412 590,411 626,411 662,411 697,410 733,411 769,411 804,411 840,412 876,413"/>
+                <TextEquiv>
+                    <Unicode>KASHFI (Ghulam Ahmad), Mir</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KASHFI (Ghulam Ahmad), Mir</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

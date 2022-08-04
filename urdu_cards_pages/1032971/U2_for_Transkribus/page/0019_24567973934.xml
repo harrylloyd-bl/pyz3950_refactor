@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:36.079+01:00</Created>
+        <LastChange>2022-08-01T18:49:16.733+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405004" pageNr="19" tsid="92259624" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=ECNEYQHBEHKGFFZLCATUCBTU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BUZTPJBFEKSLYDORZIAXUGRI" imageId="35575654"/>
+    </Metadata>
+    <Page imageFilename="0019_24567973934.jpg" imageWidth="1457" imageHeight="1201">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938388" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="882,43 1294,43 1294,140 882,140"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="914,113 967,121 997,98 1039,114 1075,101 1101,116 1131,106 1212,114 1271,98 1272,79 1190,55 1158,78 1120,66 1090,86 1051,54 915,63"/>
+                <Baseline points="919,96 945,96 972,97 999,98 1025,99 1052,100 1079,101 1105,101 1132,102 1159,103 1185,103 1212,102 1239,101 1266,100"/>
+                <TextEquiv>
+                    <Unicode>14112. g. 37.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. g. 37.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="121,291 1322,291 1325,1038 124,1038"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="125,520 635,498 832,515 851,513 851,460 637,473 583,452 548,487 487,453 314,476 125,462"/>
+                <Baseline points="130,505 165,504 201,503 237,502 273,502 309,501 344,501 380,501 416,501 452,500 488,501 523,501 559,501 595,501 631,502 667,502 702,503 738,503 774,504 810,505 846,506"/>
+                <TextEquiv>
+                    <Unicode>Kaisar-o-Kisra. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="123,572 173,578 216,561 237,576 359,554 391,578 453,579 532,562 532,533 455,513 393,518 368,544 312,510 189,534 123,523"/>
+                <Baseline points="128,566 154,563 181,562 207,561 234,560 261,559 287,559 314,559 340,559 367,559 394,559 420,559 447,558 473,558 500,558 527,556"/>
+                <TextEquiv>
+                    <Unicode>pp. 736. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="121,688 667,681 695,663 748,682 856,658 771,612 680,645 501,617 464,643 277,611 121,621"/>
+                <Baseline points="126,672 162,669 198,667 234,666 271,664 307,663 343,662 379,662 416,662 452,661 488,662 524,662 561,662 597,662 633,663 669,663 706,663 742,663 778,663 814,663 851,663"/>
+                <TextEquiv>
+                    <Unicode>HijazI Sons: Lahore, 1964.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1199,693 1215,698 1224,690 1237,690 1253,675 1258,675 1274,690 1301,689 1300,640 1287,642 1270,626 1263,630 1253,621 1236,621 1217,637 1198,646"/>
+                <Baseline points="1204,682 1234,680 1265,680 1296,680"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1145,788 1154,788 1176,803 1207,792 1216,792 1224,801 1245,801 1269,789 1283,793 1292,785 1303,786 1303,753 1272,767 1230,742 1188,753 1180,743 1146,734"/>
+                <Baseline points="1150,781 1179,785 1209,786 1238,785 1268,785 1298,787"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kaisar-o-Kisra. [A novel.]&#13;
+pp. 736. lith.&#13;
+HijazI Sons: Lahore, 1964.&#13;
+89.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:author;}">
+            <Coords points="51,231 569,221 569,299 51,308"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="60,299 338,308 391,342 440,313 441,266 393,237 373,249 264,246 236,267 170,244 124,260 87,245 61,254"/>
+                <Baseline points="66,287 92,287 118,288 145,289 171,290 198,291 224,292 251,293 277,293 303,293 330,293 356,292 383,290 409,288 436,284"/>
+                <TextEquiv>
+                    <Unicode>NASIM, Hijazi.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>NASIM, Hijazi.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:title;}">
+            <Coords points="75,111 682,111 682,193 75,193"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="150,193 538,186 537,134 503,116 480,127 394,117 210,135 149,124"/>
+                <Baseline points="155,172 180,171 205,170 230,169 255,168 280,167 305,166 330,165 356,164 381,164 406,164 431,163 456,164 481,164 506,165 532,166"/>
+                <TextEquiv>
+                    <Unicode>KAISAR-O-KISRA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KAISAR-O-KISRA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

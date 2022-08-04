@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:25</Created>
+        <LastChange>2022-08-01T18:49:44.969+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405009" pageNr="22" tsid="92259642" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=LTZMBUFZLWVJCPCTVCXETJDA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MLSWRWWSIBUBENKNQEKYIIBQ" imageId="35575657"/>
+    </Metadata>
+    <Page imageFilename="0022_24567997984.jpg" imageWidth="1462" imageHeight="1210">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938457" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="952,82 1365,82 1365,180 952,180"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="958,155 1074,171 1152,161 1324,174 1334,170 1335,114 1297,121 1263,109 1220,144 1169,126 1134,145 1087,108 989,110 958,128"/>
+                <Baseline points="963,152 989,153 1015,154 1041,155 1067,156 1093,157 1119,157 1146,157 1172,158 1198,158 1224,158 1250,158 1276,158 1302,158 1329,158"/>
+                <TextEquiv>
+                    <Unicode>14112. a. 629</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. a. 629</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="144,371 1349,371 1352,1120 147,1120"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="201,738 673,724 723,746 952,748 986,740 987,689 722,677 656,716 595,668 202,682"/>
+                <Baseline points="206,717 244,718 283,719 322,720 360,721 399,722 438,722 476,723 515,724 554,725 593,725 631,726 670,727 709,728 747,729 786,729 825,730 863,731 902,732 941,732 980,733"/>
+                <TextEquiv>
+                    <Unicode>Kuchli hu'i lssh. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="195,788 240,795 308,775 530,798 594,781 594,764 557,758 527,731 504,743 450,736 419,761 392,736 352,729 294,761 256,741 195,749"/>
+                <Baseline points="200,776 225,776 251,776 277,775 303,775 329,775 355,775 381,775 406,775 432,775 458,775 484,775 510,776 536,777 562,778 588,779"/>
+                <TextEquiv>
+                    <Unicode>pp. 108. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="196,878 1052,899 1053,857 1008,842 895,862 736,834 197,843"/>
+                <Baseline points="202,872 244,873 286,873 328,874 371,874 413,875 455,875 497,875 540,876 582,876 624,877 666,877 709,878 751,879 793,879 835,880 878,882 920,883 962,885 1004,886 1047,888"/>
+                <TextEquiv>
+                    <Unicode>Asrar Publications: Lahore, n.d.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1109,983 1115,983 1136,1001 1144,1002 1168,982 1185,997 1197,998 1202,938 1186,937 1178,928 1156,924 1126,945 1122,942 1112,946"/>
+                <Baseline points="1114,981 1140,985 1166,986 1192,989"/>
+                <TextEquiv>
+                    <Unicode>86.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1111,1105 1133,1107 1144,1097 1165,1105 1180,1099 1195,1104 1205,1099 1234,1107 1263,1094 1263,1066 1244,1068 1231,1056 1179,1053 1171,1060 1159,1052 1139,1051 1133,1044 1113,1049"/>
+                <Baseline points="1117,1089 1145,1089 1173,1090 1201,1091 1229,1092 1257,1093"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kuchli hu'i lssh. [A novel.]&#13;
+pp. 108. lith.&#13;
+Asrar Publications: Lahore, n.d.&#13;
+86.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="181,178 789,178 789,259 181,259"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="199,239 240,260 304,264 333,239 407,250 457,231 488,250 564,244 597,256 629,243 629,179 582,193 551,174 511,194 472,173 373,196 320,180 199,188"/>
+                <Baseline points="204,232 230,232 256,232 282,232 309,232 335,232 361,232 387,231 414,231 440,230 466,230 492,230 519,230 545,230 571,230 597,231 624,232"/>
+                <TextEquiv>
+                    <Unicode>KUCHLI HU'I LASH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KUCHLI HU'I LASH</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="126,290 969,290 969,368 126,368"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="149,355 170,362 188,356 197,364 233,355 274,370 382,361 390,358 390,305 370,295 331,312 258,317 239,301 224,301 206,314 173,306 149,316"/>
+                <Baseline points="154,351 179,351 205,351 231,352 256,352 282,352 308,352 333,352 359,351 385,350"/>
+                <TextEquiv>
+                    <Unicode>IBN SAFI</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>IBN SAFI</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

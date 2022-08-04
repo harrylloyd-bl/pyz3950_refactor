@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:40</Created>
+        <LastChange>2022-08-01T18:50:22.231+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405019" pageNr="27" tsid="92259663" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=EAASCVWHPWYSOTMUQVUOKMLM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BOAXJRZWYRMFJXMBGLOWLVIC" imageId="35575662"/>
+    </Metadata>
+    <Page imageFilename="0027_24567998534.jpg" imageWidth="1458" imageHeight="1210">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938578" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="839,63 1251,63 1251,160 839,160"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="852,133 1205,146 1213,84 1140,81 1107,111 1056,92 1030,115 991,84 958,94 873,85 853,96"/>
+                <Baseline points="857,126 882,127 907,128 932,129 957,129 982,129 1007,129 1032,129 1057,129 1082,129 1107,129 1132,130 1157,131 1182,132 1207,134"/>
+                <TextEquiv>
+                    <Unicode>14112. a. 453</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. a. 453</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="143,370 1345,370 1348,1117 146,1117"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="142,705 380,715 436,698 471,720 585,707 709,722 724,653 562,671 466,651 408,674 370,647 292,673 205,654 142,672"/>
+                <Baseline points="147,699 175,700 204,700 232,701 261,701 289,701 318,701 346,701 375,701 403,701 432,701 461,701 489,701 518,701 546,701 575,702 603,703 632,703 660,705 689,707 718,709"/>
+                <TextEquiv>
+                    <Unicode>Kishwari. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="154,776 283,759 516,766 540,745 486,714 410,712 377,736 338,712 316,722 279,713 253,738 181,719 153,726"/>
+                <Baseline points="159,761 184,760 209,759 234,758 259,757 284,756 309,755 334,754 359,754 384,754 409,753 434,753 459,754 484,754 509,755 535,757"/>
+                <TextEquiv>
+                    <Unicode>pp. 240. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="147,866 990,857 941,805 824,838 720,805 641,830 148,820"/>
+                <Baseline points="152,851 193,851 235,852 276,852 318,853 360,853 401,854 443,854 484,855 526,855 568,855 609,856 651,856 692,856 734,857 776,857 817,857 859,857 900,857 942,857 984,857"/>
+                <TextEquiv>
+                    <Unicode>Shakir Bcok Depot: Delhi, 1966.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1141,948 1150,949 1157,958 1169,960 1189,947 1198,946 1211,962 1226,963 1229,927 1222,927 1196,901 1185,901 1171,908 1146,904"/>
+                <Baseline points="1146,949 1171,949 1196,952 1221,956"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1138,1035 1174,1052 1187,1047 1197,1051 1206,1045 1240,1051 1273,1049 1285,1047 1287,1014 1279,1014 1263,997 1211,996 1198,1005 1191,997 1140,996"/>
+                <Baseline points="1143,1033 1170,1035 1198,1037 1225,1037 1253,1039 1281,1040"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kishwari. [A novel.]&#13;
+pp. 240. lith.&#13;
+Shakir Bcok Depot: Delhi, 1966.&#13;
+89.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="148,153 755,153 755,234 148,234"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="146,205 170,217 189,208 205,217 239,212 251,222 275,223 312,209 341,226 361,211 379,210 379,149 296,164 241,158 204,168 146,167"/>
+                <Baseline points="151,199 178,201 206,202 234,202 262,202 290,201 318,201 346,201 374,203"/>
+                <TextEquiv>
+                    <Unicode>KISHWARI</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KISHWARI</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="96,270 936,270 936,348 96,348"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="93,345 187,346 205,335 233,363 265,344 360,345 361,297 313,284 251,301 203,297 179,285 151,300 138,292 93,297"/>
+                <Baseline points="98,335 123,335 149,336 175,336 200,336 226,336 252,336 277,336 303,336 329,337 355,337"/>
+                <TextEquiv>
+                    <Unicode>IBN HAIXT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>IBN HAIXT</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

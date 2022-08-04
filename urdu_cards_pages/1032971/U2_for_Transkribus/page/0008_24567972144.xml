@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:27.525+01:00</Created>
+        <LastChange>2022-08-01T18:47:36.876+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404988" pageNr="8" tsid="92259553" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=YBCTMFGVRMNELRYKSHCPDLFV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YHMKTGOUSELIGAQLYTKQWNTF" imageId="35575643"/>
+    </Metadata>
+    <Page imageFilename="0008_24567972144.jpg" imageWidth="1472" imageHeight="1210">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938098" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="941,110 1358,110 1358,209 941,209"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="976,183 1000,177 1018,192 1072,178 1089,193 1107,180 1203,183 1223,173 1294,193 1328,175 1329,133 1295,124 1213,155 1190,134 1162,139 1147,127 1131,137 1075,109 977,124"/>
+                <Baseline points="983,171 1009,171 1035,173 1061,173 1087,174 1113,175 1139,175 1165,176 1191,176 1217,177 1243,177 1269,177 1295,176 1321,176"/>
+                <TextEquiv>
+                    <Unicode>14104. f. 103</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14104. f. 103</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="142,346 1357,346 1360,1111 145,1111"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="221,551 1260,576 1293,526 700,502 649,539 579,497 222,503"/>
+                <Baseline points="229,538 281,540 334,541 387,542 440,544 493,545 545,546 598,547 651,548 704,549 757,550 809,551 862,553 915,553 968,554 1021,556 1073,557 1126,558 1179,560 1232,561 1285,562"/>
+                <TextEquiv>
+                    <Unicode>Kashf al-mahjub. [An Urdu translation of</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="214,601 1040,631 1196,626 1219,590 215,555"/>
+                <Baseline points="220,590 269,592 319,593 368,594 418,595 467,596 517,597 566,599 616,599 665,600 715,602 765,603 814,604 864,605 913,606 963,607 1012,608 1062,609 1111,610 1161,611 1211,612"/>
+                <TextEquiv>
+                    <Unicode>Kashf al-mahjub, a treatise on Sufism.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="221,658 1243,682 1271,638 222,614"/>
+                <Baseline points="228,647 279,648 331,648 383,649 435,650 487,651 538,652 590,653 642,654 694,656 746,657 797,658 849,659 901,660 953,661 1005,663 1056,664 1108,665 1160,665 1212,666 1264,667"/>
+                <TextEquiv>
+                    <Unicode>Translated and edited with an account of</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="220,701 909,707 952,734 986,709 1169,743 1312,730 1313,692 220,682"/>
+                <Baseline points="227,701 280,702 334,702 388,703 442,704 496,705 550,706 604,707 658,708 712,709 766,711 819,712 873,713 927,715 981,716 1035,717 1089,718 1143,719 1197,720 1251,721 1305,722"/>
+                <TextEquiv>
+                    <Unicode>of author's life and works by Miyan Tufail</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="221,766 499,756 903,782 892,721 658,740 522,716 477,743 429,716 409,732 222,716"/>
+                <Baseline points="227,753 260,753 294,753 327,754 361,754 394,755 428,756 461,756 495,757 528,758 562,758 595,760 629,760 662,761 696,762 729,763 763,764 796,764 830,765 863,766 897,766"/>
+                <TextEquiv>
+                    <Unicode>Muhammad. Third edition.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="216,819 251,820 274,832 310,809 345,825 361,819 394,827 414,817 427,820 445,802 456,805 456,791 369,765 356,776 331,772 290,789 268,772 215,778"/>
+                <Baseline points="223,813 248,811 273,810 298,810 323,810 348,810 373,810 398,810 423,810 449,810"/>
+                <TextEquiv>
+                    <Unicode>pp. 435.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="217,911 1163,950 1308,928 1309,885 1179,912 218,868"/>
+                <Baseline points="224,906 277,907 331,908 385,909 439,910 493,911 547,912 600,912 654,913 708,914 762,915 816,916 870,917 924,918 977,920 1031,921 1085,923 1139,924 1193,926 1247,928 1301,930"/>
+                <TextEquiv>
+                    <Unicode>Islamic Publications Limited: Lahore, 1970</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:7;}">
+                <Coords points="1169,1054 1193,1059 1215,1046 1222,1046 1236,1059 1256,1058 1258,1011 1245,1010 1215,984 1202,986 1184,1003 1170,1003"/>
+                <Baseline points="1176,1045 1213,1045 1250,1047"/>
+                <TextEquiv>
+                    <Unicode>40.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l10" custom="readingOrder {index:8;}">
+                <Coords points="1156,1100 1165,1100 1182,1115 1218,1112 1236,1120 1244,1114 1264,1112 1276,1118 1287,1116 1289,1082 1277,1082 1266,1070 1258,1075 1247,1064 1218,1075 1192,1067 1173,1053 1158,1053"/>
+                <Baseline points="1163,1097 1192,1101 1222,1102 1251,1103 1281,1104"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kashf al-mahjub. [An Urdu translation of&#13;
+Kashf al-mahjub, a treatise on Sufism.&#13;
+Translated and edited with an account of&#13;
+of author's life and works by Miyan Tufail&#13;
+Muhammad. Third edition.]&#13;
+pp. 435.&#13;
+Islamic Publications Limited: Lahore, 1970&#13;
+40.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="139,158 751,158 751,241 139,241"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="174,228 280,238 427,226 480,242 501,226 544,232 594,214 594,179 566,186 551,171 442,188 411,180 398,194 376,181 174,177"/>
+                <Baseline points="180,219 205,219 231,219 256,219 282,219 307,219 333,219 358,219 384,219 409,219 435,219 460,219 486,219 511,219 537,220 562,220 588,220"/>
+                <TextEquiv>
+                    <Unicode>KASHF al-MAHJUB</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KASHF al-MAHJUB</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="174,269 1276,257 1276,335 174,347"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="192,313 345,347 923,324 986,355 1035,318 1146,363 1226,327 1227,285 835,261 551,302 500,267 192,272"/>
+                <Baseline points="199,309 250,312 301,313 352,315 403,317 454,318 505,318 556,319 607,320 658,321 709,321 760,322 811,322 862,323 913,323 964,324 1015,325 1066,326 1117,327 1168,329 1219,331"/>
+                <TextEquiv>
+                    <Unicode>ALI, Hujwiri, surnamed DATA GANJ BAKHSH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ALI, Hujwiri, surnamed DATA GANJ BAKHSH</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

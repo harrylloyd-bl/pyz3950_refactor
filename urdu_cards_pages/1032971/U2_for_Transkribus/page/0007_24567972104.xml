@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:26.732+01:00</Created>
+        <LastChange>2022-08-01T18:47:20.827+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404987" pageNr="7" tsid="92259545" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=JQCOSADKSEDVOHVFPTLMCYNA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YTVAIACXLKSFONBRVWBMSCGD" imageId="35575642"/>
+    </Metadata>
+    <Page imageFilename="0007_24567972104.jpg" imageWidth="1465" imageHeight="1202">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938072" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="934,49 1349,49 1349,148 934,148"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="944,106 983,122 1003,108 1096,114 1112,101 1158,120 1195,101 1264,121 1314,112 1314,77 1270,53 1240,52 1197,83 1136,69 1109,84 1071,60 944,71"/>
+                <Baseline points="950,101 975,102 1001,102 1026,102 1052,102 1077,102 1103,102 1129,102 1154,102 1180,102 1205,102 1231,102 1256,102 1282,102 1308,103"/>
+                <TextEquiv>
+                    <Unicode>14117. a. 166.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14117. a. 166.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="142,356 1350,356 1353,1108 145,1108"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="205,538 1190,532 1222,485 205,489"/>
+                <Baseline points="212,528 262,527 312,526 362,525 412,525 462,524 512,524 563,523 613,523 663,523 713,522 763,522 813,522 863,522 914,522 964,521 1014,521 1064,521 1114,520 1164,520 1215,519"/>
+                <TextEquiv>
+                    <Unicode>Kashif al-haka'ik. [A treatise on the</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="209,596 1144,587 1172,540 830,537 775,564 732,532 208,538"/>
+                <Baseline points="215,580 262,580 310,579 357,579 405,578 452,578 500,578 547,578 595,577 642,577 690,577 738,577 785,577 833,577 880,576 928,576 975,576 1023,575 1070,575 1118,574 1166,573"/>
+                <TextEquiv>
+                    <Unicode>literary and artistic attainments of</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="211,644 580,649 612,636 649,651 649,621 606,603 503,605 489,592 414,621 395,604 324,609 308,596 211,609"/>
+                <Baseline points="218,635 244,635 271,635 297,635 324,635 350,635 377,635 403,635 430,635 456,635 483,634 509,634 536,634 562,634 589,633 615,633 642,633"/>
+                <TextEquiv>
+                    <Unicode>various nations.)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="213,722 710,712 759,689 860,714 935,686 863,638 769,669 651,652 615,669 572,645 549,664 212,652"/>
+                <Baseline points="219,691 254,691 289,691 325,691 360,691 396,690 431,690 467,689 502,689 538,688 573,688 608,688 644,687 679,687 715,686 750,686 786,686 821,685 857,685 892,685 928,685"/>
+                <TextEquiv>
+                    <Unicode>2 vols bound in one. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="204,807 1255,793 1234,736 922,748 888,778 599,742 204,761"/>
+                <Baseline points="210,797 261,796 313,794 365,793 417,792 469,791 521,791 573,790 625,790 677,790 729,790 780,789 832,789 884,789 936,789 988,788 1040,788 1092,788 1144,787 1196,786 1248,785"/>
+                <TextEquiv>
+                    <Unicode>Maktabah-i-Mu'in al-Adab: Lahore, 1956.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1254,835 1267,835 1284,850 1298,851 1311,841 1318,841 1340,819 1352,820 1352,770 1330,772 1309,788 1284,787 1278,794 1267,796 1255,791"/>
+                <Baseline points="1261,831 1289,829 1317,830 1345,831"/>
+                <TextEquiv>
+                    <Unicode>129</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="1225,949 1284,953 1298,963 1323,951 1338,955 1349,947 1359,949 1359,915 1339,914 1315,901 1288,908 1276,907 1265,899 1252,902 1245,894 1225,898"/>
+                <Baseline points="1232,941 1262,942 1292,942 1322,941 1352,942"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kashif al-haka'ik. [A treatise on the&#13;
+literary and artistic attainments of&#13;
+various nations.)&#13;
+2 vols bound in one. lith.&#13;
+Maktabah-i-Mu'in al-Adab: Lahore, 1956.&#13;
+129&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="188,142 797,142 797,224 188,224"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="223,208 252,219 403,200 580,226 603,205 651,222 686,203 686,154 655,150 504,147 477,172 441,156 224,155"/>
+                <Baseline points="230,194 256,194 282,194 309,195 335,194 362,194 388,194 414,194 441,194 467,194 494,194 520,194 546,195 573,195 599,196 626,196 652,197 679,199"/>
+                <TextEquiv>
+                    <Unicode>KASHIF AL-HAKA'IK</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KASHIF AL-HAKA'IK</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="132,273 858,256 858,334 132,351"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="144,321 221,354 276,324 797,345 860,315 803,276 659,276 636,299 592,270 507,285 401,267 359,292 144,278"/>
+                <Baseline points="151,321 186,321 221,320 256,320 291,320 326,319 361,319 396,318 431,318 466,318 502,318 537,317 572,317 607,317 642,317 677,317 712,317 747,316 782,316 817,316 853,316"/>
+                <TextEquiv>
+                    <Unicode>ASAR (Imdad Imam), Saiyid.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ASAR (Imdad Imam), Saiyid.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

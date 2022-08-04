@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:40</Created>
+        <LastChange>2022-08-01T18:50:55.698+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405027" pageNr="32" tsid="92259684" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=TIFKGYNLHRMOSATJYORJZZRO&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VFSZYDCXMLZKGKQLJZCANIDD" imageId="35575668"/>
+    </Metadata>
+    <Page imageFilename="0032_24567999124.jpg" imageWidth="1462" imageHeight="1210">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938710" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="994,67 1407,67 1407,165 994,165"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="1015,142 1076,151 1101,138 1153,139 1190,156 1275,138 1328,147 1368,131 1368,100 1305,79 1256,105 1189,97 1180,107 1098,84 1061,98 1014,93"/>
+                <Baseline points="1022,133 1048,131 1074,131 1100,130 1126,130 1152,130 1178,130 1204,130 1230,130 1256,130 1282,130 1308,129 1334,128 1361,127"/>
+                <TextEquiv>
+                    <Unicode>14110. c. 53.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14110. c. 53.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="221,369 1426,369 1425,1020 220,1020"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="227,533 1381,507 1380,468 1310,449 788,488 722,463 670,500 532,460 226,477"/>
+                <Baseline points="234,516 293,515 353,514 413,514 473,513 533,512 593,512 653,511 713,510 773,510 833,509 893,508 953,507 1013,506 1073,506 1133,505 1193,503 1253,502 1313,500 1373,499"/>
+                <TextEquiv>
+                    <Unicode>Khutut-i-Ghalib. [A collection of Ghalib's</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="239,581 387,575 406,584 420,573 461,586 485,579 484,518 457,516 432,540 403,542 318,539 299,521 238,524"/>
+                <Baseline points="245,570 270,570 296,569 321,568 347,567 373,566 398,566 424,566 478,568"/>
+                <TextEquiv>
+                    <Unicode>letters.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="235,644 288,643 330,619 353,636 424,644 468,620 501,642 571,650 648,626 648,605 583,573 528,588 500,580 471,606 389,577 348,579 320,607 277,589 234,594"/>
+                <Baseline points="241,624 267,624 294,624 320,624 347,624 374,623 400,623 427,623 453,622 480,622 507,621 533,621 560,620 586,620 613,619 640,618"/>
+                <TextEquiv>
+                    <Unicode>pp. 664. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="225,739 419,755 594,729 952,732 986,728 985,689 627,672 593,701 520,675 494,698 308,684 224,703"/>
+                <Baseline points="232,729 269,729 306,729 343,729 381,728 418,728 455,727 493,727 530,726 567,725 605,725 642,724 679,723 716,723 754,722 791,721 828,721 866,720 903,720 940,720 978,720"/>
+                <TextEquiv>
+                    <Unicode>Shaikh Ghulam 'Ali and Sons:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="225,784 414,804 443,779 525,800 593,783 584,739 522,733 511,744 422,730 404,747 323,755 304,742 277,750 224,739"/>
+                <Baseline points="232,782 257,783 282,782 307,782 333,782 358,781 383,780 409,780 434,779 459,778 484,778 510,777 535,777 560,777 586,777"/>
+                <TextEquiv>
+                    <Unicode>Lahore, 1962.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1305,791 1322,795 1331,802 1338,802 1342,798 1357,794 1368,794 1368,728 1355,731 1349,727 1337,727 1324,738 1320,735 1315,740 1305,740"/>
+                <Baseline points="1313,789 1361,789"/>
+                <TextEquiv>
+                    <Unicode>49</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="1254,869 1271,877 1349,875 1354,870 1359,875 1403,874 1403,827 1382,839 1349,819 1325,838 1294,829 1281,832 1271,825 1254,830"/>
+                <Baseline points="1261,866 1288,866 1315,865 1342,865 1369,865 1396,867"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khutut-i-Ghalib. [A collection of Ghalib's&#13;
+letters.]&#13;
+pp. 664. lith.&#13;
+Shaikh Ghulam 'Ali and Sons:&#13;
+Lahore, 1962.&#13;
+49&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="149,208 757,208 757,289 149,289"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="177,294 255,303 302,283 322,303 395,282 424,301 476,282 543,283 583,269 582,215 536,216 519,232 479,215 452,235 408,238 347,238 318,223 242,231 227,219 176,238"/>
+                <Baseline points="184,274 210,273 236,272 262,272 288,271 314,270 340,269 366,269 393,269 419,268 445,268 471,268 497,268 523,268 549,268 576,268"/>
+                <TextEquiv>
+                    <Unicode>KHUTUT-I-GHALIB</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHUTUT-I-GHALIB</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="156,292 999,292 999,370 156,370"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="180,373 645,348 872,388 871,285 796,283 712,321 599,280 493,284 444,320 388,298 356,321 179,303"/>
+                <Baseline points="186,349 219,348 253,347 287,346 321,345 355,345 389,345 423,344 457,344 491,344 525,344 558,343 592,343 626,343 660,343 694,342 728,342 762,341 796,341 830,340 864,338"/>
+                <TextEquiv>
+                    <Unicode>GHALIB (Asad Allah), Khan.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>GHALIB (Asad Allah), Khan.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

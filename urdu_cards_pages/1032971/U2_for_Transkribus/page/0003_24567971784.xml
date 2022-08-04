@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:23.539+01:00</Created>
+        <LastChange>2022-08-01T18:46:21.399+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404982" pageNr="3" tsid="92259511" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=ARFVTHDHGMQGKDUQWZLMJWVY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VXSDCYYVIWQGOVRXATMVYUSU" imageId="35575638"/>
+    </Metadata>
+    <Page imageFilename="0003_24567971784.jpg" imageWidth="1468" imageHeight="1206">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534937966" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="936,49 1352,49 1352,148 936,148"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="941,121 983,131 1235,123 1265,139 1333,128 1333,70 1321,64 1266,62 1230,85 1147,83 1124,103 1081,69 942,75"/>
+                <Baseline points="948,111 973,113 998,114 1023,116 1048,117 1074,118 1099,118 1124,119 1149,119 1174,119 1200,119 1225,118 1250,118 1275,117 1300,116 1326,116"/>
+                <TextEquiv>
+                    <Unicode>14106. ggg. 17</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14106. ggg. 17</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:title;}">
+            <Coords points="235,150 846,150 846,232 235,232"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="238,217 463,203 600,218 701,195 745,219 822,214 845,210 845,163 594,148 473,172 238,164"/>
+                <Baseline points="245,203 274,202 304,202 334,202 363,202 393,202 423,202 452,202 482,202 512,202 542,202 571,202 601,202 631,202 660,202 690,202 720,202 749,202 779,202 809,201 839,201"/>
+                <TextEquiv>
+                    <Unicode>KASRAT-I-ABKDI KA 'ILAJ</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KASRAT-I-ABKDI KA 'ILAJ</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:author;}">
+            <Coords points="174,274 603,266 603,344 174,352"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="179,354 233,339 340,349 387,330 421,348 496,322 534,346 600,334 599,275 516,276 485,295 415,277 204,283 179,296"/>
+                <Baseline points="186,331 211,331 237,331 262,331 288,330 313,330 339,329 364,328 390,327 415,327 441,326 466,326 492,326 517,326 543,326 568,327 594,328"/>
+                <TextEquiv>
+                    <Unicode>SIDDIEI (Na'Im)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SIDDIEI (Na'Im)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:additional_information;}">
+            <Coords points="142,357 1353,357 1356,1110 145,1110"/>
+            <TextLine id="r4l2" custom="readingOrder {index:0;}">
+                <Coords points="230,589 1234,582 1215,548 952,532 891,572 809,532 230,549"/>
+                <Baseline points="237,589 286,588 336,587 385,586 435,585 484,585 534,585 583,585 633,585 682,586 732,586 781,586 831,586 880,587 930,587 979,586 1029,586 1078,585 1128,584 1177,582 1227,580"/>
+                <TextEquiv>
+                    <Unicode>Kasrat-i-abadi ka 'ilaj. [An Islamio</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l3" custom="readingOrder {index:1;}">
+                <Coords points="235,647 1245,651 1284,612 306,598 235,624"/>
+                <Baseline points="241,643 292,642 344,642 396,642 448,641 500,641 551,641 603,641 655,641 707,641 759,641 810,641 862,641 914,641 966,641 1018,640 1069,640 1121,639 1173,638 1225,637 1277,636"/>
+                <TextEquiv>
+                    <Unicode>alternative to birth control as a means</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l4" custom="readingOrder {index:2;}">
+                <Coords points="239,705 1119,721 1331,706 1331,660 238,674"/>
+                <Baseline points="245,698 301,697 358,697 415,697 472,697 528,697 585,697 642,697 699,697 756,697 812,697 869,697 926,696 983,696 1040,696 1096,695 1153,695 1210,694 1267,694 1324,693"/>
+                <TextEquiv>
+                    <Unicode>of dealing with the problem of population</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l5" custom="readingOrder {index:3;}">
+                <Coords points="234,763 453,762 461,754 475,763 490,760 490,729 464,731 445,715 406,726 393,716 291,719 259,708 235,723"/>
+                <Baseline points="241,752 267,751 294,750 321,749 348,749 375,749 402,750 429,750 456,751 483,753"/>
+                <TextEquiv>
+                    <Unicode>increase.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l6" custom="readingOrder {index:4;}">
+                <Coords points="232,824 341,810 558,827 595,811 595,780 569,782 525,756 503,766 467,759 438,787 386,759 362,762 341,784 301,771 231,777"/>
+                <Baseline points="238,811 263,810 288,809 313,807 338,807 363,806 388,805 413,805 438,804 463,804 488,804 513,804 538,805 563,805 588,806"/>
+                <TextEquiv>
+                    <Unicode>pp. 30. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l7" custom="readingOrder {index:5;}">
+                <Coords points="235,916 1188,916 1140,860 1042,889 980,852 830,887 706,861 235,869"/>
+                <Baseline points="242,905 291,905 340,905 390,905 439,905 489,904 538,904 587,903 637,903 686,903 736,902 785,902 835,902 884,903 933,903 983,904 1032,906 1082,907 1131,910 1181,912"/>
+                <TextEquiv>
+                    <Unicode>Friends" Publications: Multan, n.d.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l8" custom="readingOrder {index:6;}">
+                <Coords points="1221,1016 1228,1016 1231,1012 1236,1013 1248,1011 1243,964 1236,964 1232,962 1231,964 1216,965"/>
+                <Baseline points="1226,1004 1240,1003"/>
+                <TextEquiv>
+                    <Unicode>8</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r4l9" custom="readingOrder {index:7;}">
+                <Coords points="1154,1075 1189,1083 1276,1081 1289,1088 1307,1081 1307,1051 1291,1051 1274,1039 1251,1043 1245,1037 1226,1037 1218,1045 1210,1045 1191,1030 1155,1035"/>
+                <Baseline points="1161,1072 1188,1074 1216,1074 1244,1073 1272,1074 1300,1075"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kasrat-i-abadi ka 'ilaj. [An Islamio&#13;
+alternative to birth control as a means&#13;
+of dealing with the problem of population&#13;
+increase.&#13;
+pp. 30. lith.&#13;
+Friends" Publications: Multan, n.d.&#13;
+8&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

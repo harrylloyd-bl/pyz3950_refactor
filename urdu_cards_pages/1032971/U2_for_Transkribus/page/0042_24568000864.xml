@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:32</Created>
+        <LastChange>2022-08-01T18:51:50.689+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405040" pageNr="42" tsid="92259717" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=BVWGBUFVDYJBHGNBVAJJGWOK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=COYVIMXHVDVILIYTBHBKPCBD" imageId="35575678"/>
+    </Metadata>
+    <Page imageFilename="0042_24568000864.jpg" imageWidth="1472" imageHeight="1220">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938919" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="877,197 1293,197 1293,295 877,295"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="903,290 956,269 1035,274 1069,259 1105,290 1139,266 1170,266 1202,290 1233,288 1233,223 1213,218 1118,225 1065,242 1022,221 903,220"/>
+                <Baseline points="910,258 936,260 962,260 989,261 1015,262 1041,262 1068,263 1094,263 1120,262 1147,262 1173,261 1199,261 1226,259"/>
+                <TextEquiv>
+                    <Unicode>14114. g. 81</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14114. g. 81</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="141,441 1354,441 1361,1128 148,1128"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="273,627 1228,627 1228,596 1171,581 1005,607 865,576 772,611 706,577 609,608 577,580 273,585"/>
+                <Baseline points="279,621 326,622 373,623 420,623 467,624 514,624 561,624 608,625 655,625 702,625 750,624 797,624 844,624 891,624 938,624 985,623 1032,623 1079,623 1126,623 1173,623 1221,623"/>
+                <TextEquiv>
+                    <Unicode>Khawar-nameh. [The earliest, and the</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="277,687 1212,669 1254,695 1275,648 1056,631 1003,667 924,634 368,655 276,631"/>
+                <Baseline points="283,681 332,680 381,680 430,680 480,679 529,679 578,679 628,679 677,678 726,678 776,678 825,678 874,677 923,677 973,677 1022,677 1071,677 1121,677 1170,677 1219,677 1269,677"/>
+                <TextEquiv>
+                    <Unicode>Iongest epic poem in Urdu. Edited by</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="275,736 1246,743 1238,683 898,714 841,687 493,688 450,716 274,696"/>
+                <Baseline points="281,731 328,732 376,732 424,732 472,732 520,732 568,732 616,732 664,732 712,732 760,731 807,731 855,731 903,731 951,730 999,730 1047,730 1095,730 1143,730 1191,730 1239,731"/>
+                <TextEquiv>
+                    <Unicode>Shaikh Chand ibn Husain Ahmadnagari.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="278,801 629,788 701,821 1030,787 1029,757 968,740 844,765 808,738 770,766 748,746 702,763 657,738 465,733 278,761"/>
+                <Baseline points="284,794 322,791 361,790 400,788 439,787 478,786 517,786 556,785 595,785 634,785 672,785 711,785 750,785 789,785 828,785 867,785 906,785 945,784 984,784 1023,783"/>
+                <TextEquiv>
+                    <Unicode>pp. 20, 836, 15. 2 pl. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="267,900 1247,901 1264,852 545,864 447,831 267,863"/>
+                <Baseline points="273,887 322,886 371,886 420,885 470,885 519,885 568,885 617,885 667,885 716,885 765,885 814,885 864,885 913,885 962,885 1011,885 1061,885 1110,885 1159,884 1208,883 1258,882"/>
+                <TextEquiv>
+                    <Unicode>Tarakki-i- Urdu Board: Karachi, 1968.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1212,1037 1227,1043 1243,1038 1258,1044 1279,1041 1289,1046 1299,1042 1306,1050 1320,1047 1331,1037 1346,1037 1347,1006 1328,1009 1294,992 1280,995 1273,987 1262,991 1245,985 1235,994 1224,989 1214,993"/>
+                <Baseline points="1219,1032 1249,1034 1279,1033 1309,1034 1339,1038"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khawar-nameh. [The earliest, and the&#13;
+Iongest epic poem in Urdu. Edited by&#13;
+Shaikh Chand ibn Husain Ahmadnagari.&#13;
+pp. 20, 836, 15. 2 pl. lith.&#13;
+Tarakki-i- Urdu Board: Karachi, 1968.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="150,262 762,262 762,344 150,344"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="221,359 263,358 298,336 342,332 359,347 383,348 432,331 460,344 496,330 550,340 550,290 464,283 438,269 409,283 350,268 313,280 242,273 221,284"/>
+                <Baseline points="227,322 253,322 279,321 306,321 332,321 359,321 385,320 411,320 438,321 464,321 491,321 517,322 544,323"/>
+                <TextEquiv>
+                    <Unicode>KHAWAR-NAMEH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHAWAR-NAMEH</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="178,360 1027,358 1027,437 178,439"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="218,424 1029,439 1029,373 992,370 890,393 821,369 782,397 734,370 677,394 626,372 553,393 218,382"/>
+                <Baseline points="225,418 264,418 304,418 344,418 384,418 424,418 464,418 504,418 544,418 584,418 624,419 663,419 703,419 743,419 783,419 823,420 863,420 903,420 943,420 983,420 1023,419"/>
+                <TextEquiv>
+                    <Unicode>RUSTAMI (Kamal Khan), Bijapuri</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>RUSTAMI (Kamal Khan), Bijapuri</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

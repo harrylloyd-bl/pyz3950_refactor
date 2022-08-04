@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:40</Created>
+        <LastChange>2022-08-01T18:52:19.669+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405046" pageNr="47" tsid="92259732" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=FAJUSPADHOIREMHASNTEJXON&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LKBKLLDOVIAJUZHWHOOVBFMQ" imageId="35575683"/>
+    </Metadata>
+    <Page imageFilename="0047_24568001154.jpg" imageWidth="1473" imageHeight="1206">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534939029" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="874,107 1290,107 1290,205 874,205"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="945,187 1022,194 1034,182 1125,181 1143,194 1239,196 1288,178 1289,153 1228,138 1208,153 1168,157 1135,141 1113,158 1061,133 1044,144 1017,135 993,145 974,133 946,145"/>
+                <Baseline points="951,179 976,179 1002,180 1027,181 1053,182 1078,182 1104,183 1129,183 1155,184 1180,184 1206,185 1231,185 1257,185 1283,184"/>
+                <TextEquiv>
+                    <Unicode>14112. h. 39</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. h. 39</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="145,373 1359,373 1362,1036 148,1036"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="228,659 486,641 514,654 556,639 708,642 743,661 770,646 771,595 681,589 579,611 512,588 435,622 383,588 344,609 228,604"/>
+                <Baseline points="233,635 259,636 286,636 312,637 339,637 366,638 392,638 419,639 445,639 472,639 499,640 525,640 552,640 578,641 605,641 632,641 658,642 685,643 711,643 738,644 765,646"/>
+                <TextEquiv>
+                    <Unicode>Khandan. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="228,723 309,699 427,700 455,713 487,699 550,707 616,697 615,683 556,652 545,662 478,652 449,678 409,652 353,653 326,678 253,660 227,671"/>
+                <Baseline points="233,699 258,698 283,697 308,696 333,695 358,695 383,694 408,694 434,693 459,693 484,693 509,693 534,693 559,693 584,694 610,694"/>
+                <TextEquiv>
+                    <Unicode>pp. 398. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="229,798 1091,812 1091,758 230,758"/>
+                <Baseline points="235,794 277,794 320,794 362,794 405,795 447,795 490,795 532,796 575,796 617,797 660,797 702,798 745,798 787,799 830,799 872,800 915,800 957,801 1000,801 1042,801 1085,801"/>
+                <TextEquiv>
+                    <Unicode>Eastern Publishers: Lahore, 1971.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1204,898 1212,898 1222,907 1233,907 1257,887 1277,906 1293,905 1306,897 1305,859 1285,862 1259,841 1244,838 1228,856 1220,857 1213,865 1203,865"/>
+                <Baseline points="1209,901 1301,900"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1201,969 1235,956 1250,970 1266,962 1298,970 1307,961 1330,961 1351,949 1359,950 1359,940 1341,941 1328,932 1318,932 1310,924 1296,922 1286,910 1266,923 1250,920 1241,912 1223,915 1217,909 1204,908"/>
+                <Baseline points="1208,949 1237,951 1266,952 1295,953 1324,954 1353,956"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khandan. [A novel.]&#13;
+pp. 398. lith.&#13;
+Eastern Publishers: Lahore, 1971.&#13;
+89.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="150,183 763,183 763,265 150,265"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="184,263 204,266 217,258 235,265 276,246 323,250 358,242 366,248 390,229 391,199 361,198 343,183 323,181 298,201 279,202 268,192 235,194 201,172 185,170"/>
+                <Baseline points="189,234 217,235 245,236 273,236 301,235 329,236 357,237 385,238"/>
+                <TextEquiv>
+                    <Unicode>KHANDAN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHANDAN</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="97,273 946,273 946,352 97,352"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="174,333 204,345 287,328 311,346 348,333 375,351 482,337 505,347 530,336 530,291 511,284 447,302 405,281 367,303 309,284 274,292 264,281 175,292"/>
+                <Baseline points="180,324 206,326 232,327 259,328 285,328 312,329 338,329 365,329 391,329 418,329 444,330 471,330 497,331 524,333"/>
+                <TextEquiv>
+                    <Unicode>BAT (Raziyah)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>BAT (Raziyah)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

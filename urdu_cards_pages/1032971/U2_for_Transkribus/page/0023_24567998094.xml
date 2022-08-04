@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:32</Created>
+        <LastChange>2022-08-01T18:49:51.127+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405011" pageNr="23" tsid="92259645" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=AOXVFZCHNZEEDJOCMNPEPKTA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=YLWFOELGKMDTPFCOLMXBWRBG" imageId="35575658"/>
+    </Metadata>
+    <Page imageFilename="0023_24567998094.jpg" imageWidth="1474" imageHeight="1212">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938481" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="951,103 1368,103 1368,201 951,201"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="954,183 1127,194 1142,180 1170,190 1230,178 1299,195 1324,184 1325,129 1282,126 1189,149 1169,133 1137,149 1054,133 954,146"/>
+                <Baseline points="960,179 985,179 1011,180 1036,180 1062,180 1087,181 1113,181 1139,181 1164,181 1190,181 1215,181 1241,181 1266,182 1292,182 1318,182"/>
+                <TextEquiv>
+                    <Unicode>14112. k. 177</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. k. 177</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="145,416 687,408 805,355 1263,348 1360,416 1363,1129 148,1129"/>
+            <TextLine id="r2l3" custom="readingOrder {index:0;}">
+                <Coords points="246,611 1325,603 1324,558 1257,549 1101,544 1051,582 824,548 245,567"/>
+                <Baseline points="252,607 305,607 358,606 411,605 465,604 518,604 571,603 625,603 678,603 731,602 785,602 838,602 891,601 944,601 998,600 1051,600 1104,599 1158,599 1211,598 1264,597 1318,597"/>
+                <TextEquiv>
+                    <Unicode>Krspacandra ke bihtarin afsane. [Selected</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:1;}">
+                <Coords points="240,666 1260,675 1275,619 240,630"/>
+                <Baseline points="247,660 298,660 349,660 400,660 451,659 502,659 553,659 604,658 655,658 706,657 758,657 809,656 860,656 911,655 962,654 1013,654 1064,654 1115,653 1166,653 1217,653 1269,653"/>
+                <TextEquiv>
+                    <Unicode>short stories, together with a critical</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:2;}">
+                <Coords points="249,723 913,709 1090,737 1089,676 1017,668 249,685"/>
+                <Baseline points="256,714 297,714 338,714 380,714 421,714 462,714 504,713 545,713 586,712 628,712 669,711 710,711 752,710 793,710 834,709 876,709 917,709 958,709 1000,708 1041,708 1083,708"/>
+                <TextEquiv>
+                    <Unicode>introduction by Professor Akhtar</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:3;}">
+                <Coords points="244,768 310,777 326,762 350,778 438,770 463,778 464,730 432,718 410,720 397,732 372,732 364,724 337,730 322,719 299,735 272,724 245,744"/>
+                <Baseline points="251,765 276,765 302,764 327,764 353,763 379,764 404,765 430,766 456,768"/>
+                <TextEquiv>
+                    <Unicode>Ja fanf.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:4;}">
+                <Coords points="236,827 280,836 339,822 471,821 497,842 597,841 624,821 624,793 556,772 504,772 470,793 436,771 368,773 342,798 314,785 235,789"/>
+                <Baseline points="243,827 269,824 296,822 323,820 349,819 376,818 403,817 430,816 456,816 483,816 510,816 536,816 563,816 590,816 617,815"/>
+                <TextEquiv>
+                    <Unicode>pp. 206. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:5;}">
+                <Coords points="238,945 684,944 736,905 1139,930 1138,870 995,892 816,869 781,895 470,865 237,903"/>
+                <Baseline points="244,922 288,921 332,921 377,920 421,920 466,919 510,918 554,918 599,918 643,917 688,917 732,916 776,916 821,915 865,915 910,915 954,914 998,914 1043,914 1087,913 1132,913"/>
+                <TextEquiv>
+                    <Unicode>ChaudharI Academy: Lahore, 1966.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:6;}">
+                <Coords points="1204,1011 1212,1010 1231,1026 1243,1025 1256,1017 1267,1020 1274,1012 1282,1013 1278,970 1245,975 1229,967 1225,973 1213,975 1208,981 1201,982"/>
+                <Baseline points="1211,1015 1243,1010 1275,1009"/>
+                <TextEquiv>
+                    <Unicode>80.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l10" custom="readingOrder {index:7;}">
+                <Coords points="1150,1074 1169,1073 1181,1082 1187,1075 1230,1075 1235,1071 1265,1083 1289,1074 1289,1038 1264,1027 1250,1034 1234,1023 1222,1035 1206,1035 1195,1025 1175,1019 1163,1028 1150,1026"/>
+                <Baseline points="1156,1065 1181,1065 1206,1064 1231,1064 1256,1064 1282,1065"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Krspacandra ke bihtarin afsane. [Selected&#13;
+short stories, together with a critical&#13;
+introduction by Professor Akhtar&#13;
+Ja fanf.&#13;
+pp. 206. lith.&#13;
+ChaudharI Academy: Lahore, 1966.&#13;
+80.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="251,174 1025,186 1025,268 251,256"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="247,246 339,261 498,236 559,267 670,234 834,274 898,243 1024,244 1025,204 360,191 249,160"/>
+                <Baseline points="255,221 293,221 331,222 369,223 407,224 445,224 483,225 521,225 559,226 597,227 636,228 674,228 712,229 750,230 788,231 826,231 864,232 902,233 940,234 978,235 1017,236"/>
+                <TextEquiv>
+                    <Unicode>KRSNACANDRA KE BIHTARIN AFSANE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KRSNACANDRA KE BIHTARIN AFSANE</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="174,335 527,333 527,412 174,414"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="189,409 218,400 247,419 270,419 283,410 294,417 318,399 330,409 375,399 490,403 499,401 499,356 480,352 463,363 416,349 363,363 269,360 188,342"/>
+                <Baseline points="195,394 222,395 249,397 276,397 303,397 330,396 357,396 384,395 411,394 438,393 465,393 493,394"/>
+                <TextEquiv>
+                    <Unicode>KESYACANDRA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KESYACANDRA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:32.254+01:00</Created>
+        <LastChange>2022-08-01T18:48:35.710+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404996" pageNr="14" tsid="92259590" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=QBYKZBILAUPKSVKZCCHBZPWY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XTBHVLMALOVETWPENOYDDICB" imageId="35575649"/>
+    </Metadata>
+    <Page imageFilename="0014_24567973344.jpg" imageWidth="1471" imageHeight="1212">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938256" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="1052,77 1469,77 1469,176 1052,176"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="1101,158 1318,167 1367,152 1474,167 1475,113 1450,103 1389,103 1344,128 1315,109 1289,122 1255,109 1183,111 1158,93 1102,105"/>
+                <Baseline points="1109,150 1134,150 1160,151 1185,151 1211,152 1236,152 1262,152 1288,153 1313,153 1339,153 1364,153 1390,154 1415,154 1441,154 1467,155"/>
+                <TextEquiv>
+                    <Unicode>14112. b. 176</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. b. 176</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="140,388 1464,380 1467,1134 143,1142"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="314,574 460,579 500,565 526,581 577,566 606,582 680,571 786,585 786,519 719,511 690,537 665,525 649,541 569,536 529,515 480,538 403,516 380,532 349,520 315,531"/>
+                <Baseline points="322,565 347,565 372,566 398,566 423,566 448,566 474,566 499,566 524,566 550,566 575,566 600,566 626,567 651,567 676,567 702,568 727,568 752,569 778,570"/>
+                <TextEquiv>
+                    <Unicode>Kalim [A novel].</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="318,658 418,629 506,643 538,633 593,650 736,640 735,610 684,580 597,580 564,613 511,581 471,575 318,594"/>
+                <Baseline points="326,630 351,627 376,626 401,625 426,624 451,624 477,624 502,624 527,624 552,625 577,625 603,626 628,626 653,626 678,626 703,625 729,624"/>
+                <TextEquiv>
+                    <Unicode>pp. 272. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="318,757 1132,720 1437,764 1474,748 1474,670 1357,707 318,681"/>
+                <Baseline points="325,731 383,731 442,732 501,732 560,732 619,732 678,732 737,732 796,732 855,732 913,732 972,732 1031,732 1090,732 1149,733 1208,733 1267,734 1326,734 1385,735 1467,735"/>
+                <TextEquiv>
+                    <Unicode>Shaikh Shaukat 'Ali and Sons: Karachi, n,d</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1357,797 1367,797 1372,802 1383,790 1417,792 1429,780 1439,782 1439,747 1420,753 1406,742 1393,743 1384,737 1377,742 1373,737 1357,740"/>
+                <Baseline points="1365,786 1398,784 1431,786"/>
+                <TextEquiv>
+                    <Unicode>12-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1326,843 1340,840 1349,846 1362,841 1377,847 1390,836 1407,846 1419,840 1429,845 1456,843 1457,810 1449,810 1432,793 1419,800 1407,798 1396,808 1371,806 1359,797 1327,797"/>
+                <Baseline points="1333,834 1362,836 1391,836 1420,836 1449,840"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kalim [A novel].&#13;
+pp. 272. lith.&#13;
+Shaikh Shaukat 'Ali and Sons: Karachi, n,d&#13;
+12-&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="229,209 842,209 842,291 229,291"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="311,278 345,294 358,291 369,297 383,297 405,283 421,290 445,280 462,289 481,282 481,217 455,211 435,224 419,221 412,228 384,220 378,226 354,225 339,237 311,235"/>
+                <Baseline points="318,273 343,273 369,273 395,272 421,273 447,273 473,274"/>
+                <TextEquiv>
+                    <Unicode>KALIM</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KALIM</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="263,305 693,297 693,375 263,383"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="267,385 310,368 358,379 398,365 420,382 445,370 471,387 597,379 632,393 677,369 677,336 639,314 593,332 526,329 500,307 432,325 349,307 267,319"/>
+                <Baseline points="274,356 300,358 326,360 353,361 379,361 406,361 432,361 458,361 485,361 511,360 538,360 564,360 590,361 617,361 643,363 670,365"/>
+                <TextEquiv>
+                    <Unicode>KAISI, Rampuri.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KAISI, Rampuri.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

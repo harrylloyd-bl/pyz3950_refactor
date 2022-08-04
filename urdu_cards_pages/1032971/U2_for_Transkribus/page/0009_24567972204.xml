@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:28.341+01:00</Created>
+        <LastChange>2022-08-01T18:47:44.123+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404989" pageNr="9" tsid="92259558" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=FEFQFFKTAJOIDEHNQCQJIBMH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PADGPODJZHLRBZEGMAXVBZPP" imageId="35575644"/>
+    </Metadata>
+    <Page imageFilename="0009_24567972204.jpg" imageWidth="1478" imageHeight="1225">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938127" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="922,152 1341,152 1341,252 922,252"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="935,226 974,224 985,235 1019,224 1048,237 1109,218 1146,235 1186,223 1208,234 1248,227 1268,217 1268,160 1200,182 1162,175 1117,196 1078,194 1046,177 935,184"/>
+                <Baseline points="941,220 967,220 994,220 1021,220 1048,220 1074,221 1101,221 1128,221 1155,221 1181,221 1208,220 1235,218 1262,216"/>
+                <TextEquiv>
+                    <Unicode>14114. g. 87</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14114. g. 87</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="145,427 1364,427 1365,1118 146,1118"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="236,611 1063,603 1115,595 1115,562 235,562"/>
+                <Baseline points="242,601 285,600 328,599 372,598 415,597 458,597 502,596 545,596 588,595 632,595 675,595 718,594 762,594 805,594 848,593 892,593 935,592 978,591 1022,591 1065,589 1109,588"/>
+                <TextEquiv>
+                    <Unicode>Kasa'id-i- Zauk. [Poetical works.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="231,654 1215,656 1215,625 1124,602 231,623"/>
+                <Baseline points="237,653 285,653 334,653 382,653 431,653 480,652 528,651 577,650 625,649 674,648 723,647 771,646 820,645 868,645 917,644 966,644 1014,643 1063,643 1111,644 1160,644 1209,645"/>
+                <TextEquiv>
+                    <Unicode>Edited, with a critical introduction,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="241,713 652,703 734,727 1034,702 1154,731 1136,651 241,670"/>
+                <Baseline points="247,707 292,707 337,707 382,707 427,707 472,707 517,706 562,706 607,705 652,704 697,703 742,702 787,702 832,701 877,700 922,700 967,699 1012,699 1057,698 1102,698 1148,698"/>
+                <TextEquiv>
+                    <Unicode>by Dr. Sir Shah Muhammad Sulaiman.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="242,780 286,783 343,759 412,779 457,763 496,775 604,769 627,757 627,738 491,716 458,742 395,718 381,731 360,722 241,737"/>
+                <Baseline points="248,768 274,767 301,765 327,764 354,763 381,762 407,761 434,761 461,760 487,759 514,759 541,759 567,758 594,758 621,758"/>
+                <TextEquiv>
+                    <Unicode>pp. 164. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="234,866 998,876 1186,857 1186,815 234,821"/>
+                <Baseline points="240,861 287,861 334,862 381,862 428,862 475,862 522,861 569,861 616,860 663,859 710,858 757,857 804,856 851,855 898,855 945,854 992,854 1039,853 1086,853 1133,854 1180,854"/>
+                <TextEquiv>
+                    <Unicode>Urdu Academy (Sindh): Karachi, 1967.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1202,986 1217,985 1223,990 1234,984 1245,991 1256,987 1282,999 1290,992 1305,993 1318,982 1332,985 1331,936 1323,933 1306,946 1281,936 1267,950 1201,932"/>
+                <Baseline points="1207,979 1236,979 1266,978 1295,978 1325,979"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kasa'id-i- Zauk. [Poetical works.&#13;
+Edited, with a critical introduction,&#13;
+by Dr. Sir Shah Muhammad Sulaiman.&#13;
+pp. 164. lith.&#13;
+Urdu Academy (Sindh): Karachi, 1967.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="182,238 797,238 797,321 182,321"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="193,311 227,322 253,307 277,320 295,305 392,295 417,314 462,303 487,323 574,321 598,313 599,250 561,263 543,244 489,236 455,257 404,258 351,230 322,241 269,228 253,241 194,241"/>
+                <Baseline points="199,293 225,293 251,293 277,293 303,293 330,293 356,293 382,294 408,294 434,294 461,294 487,294 513,295 539,295 565,296 592,297"/>
+                <TextEquiv>
+                    <Unicode>KASA'ID-I- ZAUK</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KASA'ID-I- ZAUK</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="175,337 1029,329 1029,407 175,415"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="177,395 255,418 419,389 850,411 956,394 955,338 911,332 643,367 557,332 469,354 177,341"/>
+                <Baseline points="183,391 221,391 259,390 297,390 336,389 374,389 412,389 451,389 489,388 527,388 566,388 604,387 642,387 680,387 719,386 757,386 795,385 834,384 872,383 910,382 949,381"/>
+                <TextEquiv>
+                    <Unicode>MUHAMMAD IBRAHIM, called ZAUK</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>MUHAMMAD IBRAHIM, called ZAUK</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:32</Created>
+        <LastChange>2022-08-01T18:52:30.205+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405048" pageNr="49" tsid="92259740" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=OBFUEUTPSIQXBHOSFGHYDJJR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XYRYDUJSOHPFNXSJNFMDRBPM" imageId="35575685"/>
+    </Metadata>
+    <Page imageFilename="0049_24568001364.jpg" imageWidth="1467" imageHeight="1207">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534939066" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="932,66 1347,66 1347,163 932,163"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="935,137 1314,140 1313,82 1272,75 1216,108 1150,91 1129,113 1070,83 934,91"/>
+                <Baseline points="942,124 968,125 994,127 1020,127 1046,128 1072,128 1098,128 1124,128 1150,128 1176,127 1202,127 1228,126 1254,125 1280,125 1307,123"/>
+                <TextEquiv>
+                    <Unicode>14112. aa. 60</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. aa. 60</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="223,381 1433,381 1436,1133 226,1133"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="242,592 1384,596 1372,521 947,553 690,521 620,563 340,516 242,537"/>
+                <Baseline points="250,567 306,570 362,572 418,573 475,574 531,574 587,574 644,574 700,574 756,573 813,573 869,572 925,572 981,571 1038,571 1094,571 1150,571 1207,571 1263,572 1319,573 1376,575"/>
+                <TextEquiv>
+                    <Unicode>Khak u Khun. [A novel. Tenth edition.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="248,648 301,657 357,633 367,643 446,640 469,649 492,633 492,611 466,603 435,579 404,591 379,587 340,615 309,600 247,601"/>
+                <Baseline points="255,635 280,635 306,635 332,634 357,632 383,630 409,630 434,630 460,632 486,635"/>
+                <TextEquiv>
+                    <Unicode>pp. 568.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="255,755 272,752 286,760 298,752 391,756 419,755 424,749 460,755 460,727 437,725 419,707 373,711 328,702 298,706 256,700"/>
+                <Baseline points="262,741 289,742 316,741 343,740 371,740 398,740 425,742 453,746"/>
+                <TextEquiv>
+                    <Unicode>Lahore.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1229,769 1242,770 1249,779 1285,779 1295,774 1321,781 1327,718 1307,716 1300,707 1283,705 1274,710 1263,709 1254,717 1234,717"/>
+                <Baseline points="1237,764 1263,765 1289,766 1315,772"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1223,873 1236,871 1247,883 1261,884 1267,890 1301,880 1305,884 1365,880 1367,830 1307,836 1299,844 1287,844 1279,835 1224,834"/>
+                <Baseline points="1231,871 1256,871 1282,871 1307,871 1333,873 1359,874"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="280,993 930,1006 987,973 1232,1011 1368,997 1369,948 280,948"/>
+                <Baseline points="287,983 340,982 394,982 448,982 501,981 555,982 609,982 662,982 716,983 770,983 824,984 877,984 931,985 985,985 1038,985 1092,986 1146,986 1199,986 1253,986 1307,986 1361,985"/>
+                <TextEquiv>
+                    <Unicode>At the end, the date May 1949 is given</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="282,1042 1371,1066 1420,1059 1421,1016 282,1015"/>
+                <Baseline points="289,1038 345,1039 401,1039 457,1040 513,1040 570,1041 626,1041 682,1042 738,1042 794,1043 851,1043 907,1043 963,1044 1019,1044 1075,1045 1132,1045 1188,1045 1244,1046 1300,1046 1356,1047 1413,1048"/>
+                <TextEquiv>
+                    <Unicode>which is presumably the date of the first</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:7;}">
+                <Coords points="280,1102 308,1112 351,1106 390,1122 398,1113 422,1121 434,1110 496,1122 517,1114 518,1084 498,1084 477,1069 443,1074 424,1062 338,1059 328,1068 281,1076"/>
+                <Baseline points="288,1098 315,1098 343,1099 371,1099 399,1099 426,1100 454,1101 482,1103 510,1105"/>
+                <TextEquiv>
+                    <Unicode>edition.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khak u Khun. [A novel. Tenth edition.]&#13;
+pp. 568.&#13;
+Lahore.&#13;
+89.&#13;
+Urdu&#13;
+At the end, the date May 1949 is given&#13;
+which is presumably the date of the first&#13;
+edition.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="149,154 760,154 760,236 149,236"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="179,239 249,242 276,228 356,228 389,242 486,216 485,168 454,170 440,160 385,164 367,180 321,179 298,156 238,168 178,151"/>
+                <Baseline points="185,212 211,213 238,214 265,214 291,214 318,213 345,213 372,213 398,212 425,212 452,212 479,213"/>
+                <TextEquiv>
+                    <Unicode>KHAK U KHUN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHAK U KHUN</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="94,302 940,302 940,380 94,380"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="161,367 332,376 360,357 393,386 532,376 550,386 564,380 566,299 508,300 476,326 401,307 323,324 285,293 238,316 162,313"/>
+                <Baseline points="169,350 194,352 220,353 246,354 272,355 298,356 324,356 350,356 376,357 402,357 428,357 454,357 480,358 506,359 532,360 558,361"/>
+                <TextEquiv>
+                    <Unicode>NASIM, Hijazl.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>NASIM, Hijazl.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

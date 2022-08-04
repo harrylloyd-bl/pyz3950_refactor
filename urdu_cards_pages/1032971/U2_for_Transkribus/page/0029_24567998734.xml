@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:45</Created>
+        <LastChange>2022-08-01T18:50:39.060+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405023" pageNr="29" tsid="92259672" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=PNICLCLRGJODCWPCAXWJEWUV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XFNLUTSRWSQWJMULPAODLHGP" imageId="35575665"/>
+    </Metadata>
+    <Page imageFilename="0029_24567998734.jpg" imageWidth="1469" imageHeight="1216">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938627" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="829,100 1244,100 1244,197 829,197"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="831,164 858,179 929,172 989,186 1018,174 1072,179 1101,167 1123,180 1213,166 1212,115 1170,103 1103,134 1039,121 1006,145 942,118 831,131"/>
+                <Baseline points="837,167 863,167 889,167 916,167 942,167 969,166 995,166 1022,166 1048,166 1074,165 1101,164 1127,163 1154,162 1180,161 1207,160"/>
+                <TextEquiv>
+                    <Unicode>14112. b. 138</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. b. 138</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="144,413 1355,413 1350,942 139,942"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="258,618 1081,611 1112,553 836,548 775,586 670,556 258,565"/>
+                <Baseline points="263,603 305,603 347,603 389,603 431,603 474,603 516,602 558,602 600,602 642,601 685,601 727,601 769,600 811,600 853,600 896,600 938,600 980,600 1022,601 1064,601 1107,602"/>
+                <TextEquiv>
+                    <Unicode>Kya Shadi Kya Gham. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="255,677 310,682 319,672 340,674 352,662 376,675 401,661 440,676 452,669 470,674 492,657 492,644 441,612 426,621 386,613 351,646 312,628 253,635"/>
+                <Baseline points="260,670 285,669 310,667 335,666 360,665 386,664 411,663 436,663 461,663 487,663"/>
+                <TextEquiv>
+                    <Unicode>pp. 319.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="255,780 418,786 457,771 482,785 591,782 591,740 577,743 555,725 465,727 430,754 388,725 255,729"/>
+                <Baseline points="260,769 285,769 310,769 335,769 360,769 385,769 410,769 435,769 460,769 485,769 510,769 535,769 560,769 586,770"/>
+                <TextEquiv>
+                    <Unicode>Delhi, 1959.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1189,808 1202,809 1216,825 1243,802 1257,809 1266,819 1275,819 1288,815 1291,777 1275,776 1245,747 1228,748 1201,769 1192,768"/>
+                <Baseline points="1194,809 1223,809 1253,812 1283,814"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1166,924 1178,924 1183,929 1203,925 1240,929 1248,922 1289,922 1303,916 1303,900 1296,900 1282,885 1256,872 1230,885 1215,870 1201,869 1194,876 1167,870"/>
+                <Baseline points="1172,916 1197,916 1222,916 1247,915 1272,916 1297,918"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kya Shadi Kya Gham. [A novel.]&#13;
+pp. 319.&#13;
+Delhi, 1959.&#13;
+89.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="149,186 761,186 761,268 149,268"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="218,271 261,261 293,273 324,256 396,274 448,258 686,283 698,219 662,205 570,218 533,199 474,210 455,190 413,208 280,203 253,182 219,184"/>
+                <Baseline points="223,246 249,246 275,246 301,246 327,246 353,246 379,247 405,247 431,248 457,248 483,249 509,249 535,250 561,250 587,250 613,250 639,250 665,250 692,250"/>
+                <TextEquiv>
+                    <Unicode>KYA SHADI KYA GHAN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KYA SHADI KYA GHAN</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="65,332 911,332 911,411 65,411"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="197,418 245,401 267,414 383,405 404,419 607,404 606,347 574,333 442,364 399,348 372,362 331,333 292,350 197,350"/>
+                <Baseline points="202,396 228,396 255,395 281,395 308,394 335,393 361,393 388,392 414,392 441,392 468,392 494,392 521,392 547,393 574,394 601,396"/>
+                <TextEquiv>
+                    <Unicode>KAISI, Rampuri.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KAISI, Rampuri.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
