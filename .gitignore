@@ -1,1 +1,6 @@
+# any compiled python files
 *.pyc 
+
+
+# ipynb checkpoints
+.ipynb_checkpoints/*
