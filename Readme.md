@@ -1,7 +1,7 @@
 This repo created by Giorgia Tolfo and picked up by Harry LLoyd, readme by HL.
 
 This repo is part of the Convert-a-Card project to convert catalogue cards, primarily from the Asian and African Studies Reading Room at the BL.
-Code here consumes xml files produced from card transcription by [Transkribus] (lite.transkribus.eu), parses the xml to extract card title/author/shelfmark the queries [OCLC Worldcat] (https://www.worldcat.org/) to see if a matching record exists.
+Code here consumes xml files produced from card transcription by [Transkribus](lite.transkribus.eu), parses the xml to extract card title/author/shelfmark the queries [OCLC Worldcat](https://www.worldcat.org/) to see if a matching record exists.
 
 Structure  
 ├── README.md          <- The top-level README for developers using this project.  
