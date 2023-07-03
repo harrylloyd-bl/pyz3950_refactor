@@ -16,7 +16,7 @@ os.listdir("notebooks")
 LOAD_PICKLE = True
 if LOAD_PICKLE:
     # cards_df = pickle.load(open("/app/convert-a-card/notebooks/cards_df.p", "rb"))
-    cards_df = pickle.load(open(os.fsencode("notebooks\\cards_df.p"), "rb"))
+    cards_df = pickle.load(open(os.fsencode("notebooks/cards_df.p"), "rb"))
     # cards_df["xml"] = cards_df["xml"].str.decode("utf-8")
 
 p5_root = (
