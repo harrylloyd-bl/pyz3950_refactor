@@ -1,9 +1,8 @@
 # any compiled python files
 *.pyc 
 
-
 # ipynb checkpoints
-.ipynb_checkpoints/*
+notebooks/.ipynb_checkpoints/*
 
 # pycache
 *__pycache__/
