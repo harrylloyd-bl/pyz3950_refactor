@@ -15,14 +15,8 @@ os.listdir("notebooks")
 
 LOAD_PICKLE = True
 if LOAD_PICKLE:
-    # cards_df = pickle.load(open("/app/convert-a-card/notebooks/cards_df.p", "rb"))
     cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
     # cards_df["xml"] = cards_df["xml"].str.decode("utf-8")
-
-p5_root = (
-    "G:\DigiSchol\Digital Research and Curator Team\Projects & Proposals\00_Current Projects"
-    "\LibCrowds Convert-a-Card (Adi)\OCR\20230504 TKB Export P5 175 GT pp\1016992\P5_for_Transkribus"
-)
 
 nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_result"))
 errors = len(cards_df.query("worldcat_result == 'Error'"))
@@ -37,6 +31,12 @@ option = st.selectbox(
     pd.Series(to_show.index, index=to_show.index, dtype=str) + " ti: " + to_show["title"] + " au: " + to_show["author"]
 )
 "Current selection: ", option
+
+p5_root = (
+    "G:/DigiSchol/Digital Research and Curator Team/Projects & Proposals/00_Current Projects"
+    "/LibCrowds Convert-a-Card (Adi)/OCR/20230504 TKB Export P5 175 GT pp/1016992/P5_for_Transkribus"
+)
+
 idx = int(option.split(" ")[0])
 card_jpg_path = os.path.join(p5_root, to_show.loc[idx, "xml"][:-4] + ".jpg")
 
