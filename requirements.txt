@@ -1,0 +1,2 @@
+# Only need streamlit for simplicity, it depends on pillow and pandas
+streamlit
