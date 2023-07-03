@@ -16,12 +16,12 @@ os.listdir("notebooks")
 LOAD_PICKLE = True
 if LOAD_PICKLE:
     # cards_df = pickle.load(open("/app/convert-a-card/notebooks/cards_df.p", "rb"))
-    cards_df = pickle.load(open(os.fsencode("notebooks/cards_df.p"), "rb"))
+    cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
     # cards_df["xml"] = cards_df["xml"].str.decode("utf-8")
 
 p5_root = (
-    r"G:\DigiSchol\Digital Research and Curator Team\Projects & Proposals\00_Current Projects"
-    r"\LibCrowds Convert-a-Card (Adi)\OCR\20230504 TKB Export P5 175 GT pp\1016992\P5_for_Transkribus"
+    "G:\DigiSchol\Digital Research and Curator Team\Projects & Proposals\00_Current Projects"
+    "\LibCrowds Convert-a-Card (Adi)\OCR\20230504 TKB Export P5 175 GT pp\1016992\P5_for_Transkribus"
 )
 
 nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_result"))
