@@ -194,10 +194,10 @@ needs_editing = col2.radio(
     options=[True, False],
     format_func=lambda x: {True: "Manual editing", False: "Ready to ingest"}[x]
 )
-save_res = col3.button(  # TODO press button rather than tick to avoid weird state
+save_res = col3.button(
     label="Save selection"
 )
-clear_res = col3.button(  # TODO press button rather than tick to avoid weird state
+clear_res = col3.button(
     label="Clear selection"
 )
 
