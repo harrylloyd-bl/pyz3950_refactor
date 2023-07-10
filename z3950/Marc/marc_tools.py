@@ -137,6 +137,9 @@ class Record(object):
         text_list.extend([str(field) for field in self.fields])
         return '\n'.join(text_list) + '\n'
 
+    def __len__(self):
+        return len(self.fields)
+
     def get_fields(self, *args):
         if len(args) == 0: return self.fields
         flds = [f for f in self.fields if f.tag in args]
