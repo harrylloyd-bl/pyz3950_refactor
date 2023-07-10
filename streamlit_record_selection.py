@@ -22,7 +22,8 @@ st.write(f"\nTotal of {len(cards_df)} cards")
 st.write(f"Showing {len(cards_to_show)} cards with Worldcat results, "
          f"omitting {nulls} without results and {errors} with errors in result retrieval")
 subset = ("title", "author", "shelfmark", "worldcat_result", "lines", "selected_record", "record_needs_editing")
-st.dataframe(cards_to_show.loc[:, subset])
+to_show_df_display = st.empty()
+to_show_df_display.dataframe(cards_to_show.loc[:, subset])
 cards_to_show["author"][cards_to_show["author"].isna()] = ""  # handle None values
 option = st.selectbox(
     "Which result set do you want to choose between?",
@@ -193,14 +194,35 @@ needs_editing = col2.radio(
     options=[True, False],
     format_func=lambda x: {True: "Manual editing", False: "Ready to ingest"}[x]
 )
-save_res = col3.checkbox(  # TODO press button rather than tick to avoid weird state
-    label="Tick to save your selection"
+save_res = col3.button(  # TODO press button rather than tick to avoid weird state
+    label="Save selection"
+)
+clear_res = col3.button(  # TODO press button rather than tick to avoid weird state
+    label="Clear selection"
 )
 
 if save_res:
-    # TODO fix assignment if record is already assigned and not None
-    pass
-    # cards_df.loc[card_idx, "selected_record"] = matches_to_show.loc[best_res, "record"]
-    # cards_df.loc[card_idx, "record_needs_editing"] = needs_editing
-    # pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
-    # st.markdown("### Selection saved!")
+    cards_df.loc[card_idx, "selected_record"] = matches_to_show.loc[best_res, "record"]
+    cards_df.loc[card_idx, "record_needs_editing"] = needs_editing
+    pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
+
+    nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_result"))
+    errors = len(cards_df.query("worldcat_result == 'Error'"))
+    cards_to_show = cards_df.query("worldcat_result != 'Error'").dropna(subset="worldcat_result")
+    subset = ("title", "author", "shelfmark", "worldcat_result", "lines", "selected_record", "record_needs_editing")
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset])
+
+    st.markdown("### Selection saved!")
+
+if clear_res:
+    cards_df.loc[card_idx, "selected_record"] = None
+    cards_df.loc[card_idx, "record_needs_editing"] = None
+    pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
+
+    nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_result"))
+    errors = len(cards_df.query("worldcat_result == 'Error'"))
+    cards_to_show = cards_df.query("worldcat_result != 'Error'").dropna(subset="worldcat_result")
+    subset = ("title", "author", "shelfmark", "worldcat_result", "lines", "selected_record", "record_needs_editing")
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset])
+
+    st.markdown("### Selection cleared!")
