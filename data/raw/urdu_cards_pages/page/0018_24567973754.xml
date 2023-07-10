@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:35.378+01:00</Created>
+        <LastChange>2022-08-01T18:49:11.231+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405003" pageNr="18" tsid="92259619" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=BXHBZHNDZUWAXFHGLYWMARMP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FIFRKQVDQXQKVVQOAHWIZLCJ" imageId="35575653"/>
+    </Metadata>
+    <Page imageFilename="0018_24567973754.jpg" imageWidth="1480" imageHeight="1221">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938365" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="852,64 1271,64 1271,163 852,163"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="873,149 974,163 1004,151 1108,155 1135,140 1186,162 1245,143 1245,107 1202,96 1157,101 1126,130 1085,111 1049,131 1015,100 935,108 873,94"/>
+                <Baseline points="878,143 903,143 929,143 955,143 981,144 1006,144 1032,144 1058,144 1084,144 1110,144 1135,144 1161,143 1187,142 1213,141 1239,139"/>
+                <TextEquiv>
+                    <Unicode>14114. e. 208</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14114. e. 208</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="142,408 1362,408 1365,1166 145,1166"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="159,729 387,746 530,708 568,735 1003,737 985,669 804,696 764,669 654,689 553,669 525,697 159,678"/>
+                <Baseline points="164,720 205,720 247,720 289,721 330,721 372,721 414,721 455,721 497,721 539,720 581,720 622,720 664,720 706,720 747,720 789,720 831,720 872,721 914,721 956,722 998,723"/>
+                <TextEquiv>
+                    <Unicode>Kakul-i-subh. [Poetical works.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="166,795 240,786 260,766 330,792 381,777 432,801 485,800 531,786 531,762 499,741 429,731 386,756 286,733 235,759 224,749 165,750"/>
+                <Baseline points="171,778 196,778 221,778 246,778 272,778 297,778 322,777 348,777 373,777 398,776 423,776 449,776 474,775 499,775 525,775"/>
+                <TextEquiv>
+                    <Unicode>pp. 112. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="160,881 1025,876 1025,848 967,822 868,853 717,828 537,847 503,821 385,852 160,844"/>
+                <Baseline points="166,877 208,876 251,875 294,875 336,874 379,874 422,874 464,873 507,873 550,873 593,873 635,873 678,872 721,872 763,872 806,872 849,872 891,872 934,872 977,872 1020,873"/>
+                <TextEquiv>
+                    <Unicode>Sab-rang Kitab Ghar: Delhi, 1960.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1144,968 1150,968 1163,979 1179,978 1195,965 1210,980 1228,977 1230,918 1220,920 1200,907 1188,914 1171,914 1167,910 1145,913"/>
+                <Baseline points="1149,968 1186,969 1223,970"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1121,1050 1129,1050 1137,1058 1168,1057 1179,1067 1208,1065 1225,1056 1257,1058 1258,1026 1239,1016 1213,1009 1203,1011 1197,1005 1182,1005 1174,1013 1164,1004 1123,1006"/>
+                <Baseline points="1127,1046 1158,1047 1189,1048 1220,1049 1251,1050"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kakul-i-subh. [Poetical works.]&#13;
+pp. 112. lith.&#13;
+Sab-rang Kitab Ghar: Delhi, 1960.&#13;
+89.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:author;}">
+            <Coords points="113,300 639,290 639,369 113,379"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="136,362 556,378 556,299 495,326 436,310 350,316 323,338 272,307 218,316 199,301 136,315"/>
+                <Baseline points="142,354 167,355 193,356 218,356 244,356 269,356 295,356 320,356 346,356 372,356 397,356 423,356 448,355 474,355 499,355 525,355 551,355"/>
+                <TextEquiv>
+                    <Unicode>ISHRAT, Kirtpuri</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ISHRAT, Kirtpuri</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:title;}">
+            <Coords points="151,198 767,198 767,281 151,281"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="237,265 407,258 425,247 451,266 492,248 526,260 558,256 557,201 544,198 495,207 436,199 414,211 236,208"/>
+                <Baseline points="242,248 267,247 293,247 319,246 345,245 371,245 397,244 423,243 449,243 475,243 501,243 527,243 553,243"/>
+                <TextEquiv>
+                    <Unicode>KAKUL-I-SUBH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KAKUL-I-SUBH</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

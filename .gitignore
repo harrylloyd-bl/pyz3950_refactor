@@ -1,0 +1,11 @@
+# any compiled python files
+*.pyc 
+
+# ipynb checkpoints
+notebooks/.ipynb_checkpoints/*
+
+# pycache
+*__pycache__/
+
+# Pycharm
+.idea/

@@ -7,8 +7,6 @@
 
 # Import required modules
 import html
-import re
-from z3950.PyZ3950 import zoom
 from z3950.Marc.marc8_to_unicode import marc8_to_unicode
 
 __author__ = 'Victoria Morris'
@@ -223,7 +221,7 @@ class Record(object):
                         print('Error in subfield code')
                     else:
                         if self.marc8:
-                            data = marc8_to_unicode(data)
+                            data = marc8_to_unicode(data.encode('utf-8'))
                         subfields.append(code)
                         subfields.append(html.unescape(data))
                 field = Field(tag=tag, indicators=[first_indicator, second_indicator], subfields=subfields)

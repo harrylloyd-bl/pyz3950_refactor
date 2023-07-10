@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:40</Created>
+        <LastChange>2022-08-01T18:51:36.449+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405036" pageNr="39" tsid="92259709" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=FPLQZVSLQKJOAACQASNHUDEB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=SSCRGOCFPCODDESFCWSMJEEG" imageId="35575675"/>
+    </Metadata>
+    <Page imageFilename="0039_24568000244.jpg" imageWidth="1472" imageHeight="1215">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938859" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="856,47 1272,47 1272,145 856,145"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="901,120 939,129 971,113 1053,122 1173,110 1186,122 1248,121 1272,100 1272,73 1245,57 1196,61 1137,90 1088,67 1058,93 1031,69 964,69 951,81 938,69 901,74"/>
+                <Baseline points="906,110 931,109 957,108 983,108 1009,108 1034,108 1060,108 1086,108 1112,108 1138,108 1163,107 1189,106 1215,104 1241,102 1267,98"/>
+                <TextEquiv>
+                    <Unicode>14112. b. 146</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. b. 146</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="145,373 1358,373 1361,1128 148,1128"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="229,561 390,543 532,566 700,533 1013,546 1035,490 812,512 765,486 721,522 629,493 229,503"/>
+                <Baseline points="234,538 273,538 313,538 353,538 393,538 433,538 472,537 512,537 552,536 592,536 632,535 671,535 711,535 751,534 791,534 831,535 870,535 910,535 950,536 990,537 1030,539"/>
+                <TextEquiv>
+                    <Unicode>Khuda na-Khwasta. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="239,619 315,611 340,590 366,605 460,602 459,582 412,549 387,549 373,562 352,557 319,583 271,563 237,572"/>
+                <Baseline points="243,604 269,603 296,601 322,599 349,597 375,596 402,596 428,596 455,597"/>
+                <TextEquiv>
+                    <Unicode>pp. 162.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="228,709 435,724 466,704 490,722 508,710 628,714 628,692 561,653 490,666 453,691 426,669 275,677 251,663 228,676"/>
+                <Baseline points="233,705 259,706 285,706 311,706 337,706 363,705 389,705 415,704 441,704 467,703 493,703 519,703 545,703 571,704 597,705 623,707"/>
+                <TextEquiv>
+                    <Unicode>Lucknow, 1960.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1138,750 1152,752 1166,762 1175,753 1183,754 1195,747 1209,762 1230,761 1232,703 1217,702 1197,686 1184,687 1160,702 1140,702"/>
+                <Baseline points="1143,748 1170,747 1197,750 1225,750"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1118,858 1135,866 1158,864 1169,858 1215,865 1222,858 1252,852 1252,824 1214,820 1207,813 1182,813 1174,821 1161,813 1118,813"/>
+                <Baseline points="1123,850 1154,851 1185,850 1216,850 1247,852"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khuda na-Khwasta. [A novel.]&#13;
+pp. 162.&#13;
+Lucknow, 1960.&#13;
+89.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="150,155 762,155 762,237 150,237"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="180,227 320,205 396,206 422,226 575,217 600,207 600,164 408,158 390,172 358,158 179,157"/>
+                <Baseline points="184,202 209,201 235,201 261,200 286,200 312,200 338,199 363,199 389,199 415,199 440,199 466,199 492,199 517,199 543,199 569,198 595,198"/>
+                <TextEquiv>
+                    <Unicode>KHUDA NA-KH WASTA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHUDA NA-KH WASTA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="97,272 945,272 945,351 97,351"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="173,335 633,338 640,287 602,277 588,291 474,297 410,278 388,300 366,279 335,292 173,290"/>
+                <Baseline points="178,331 203,330 228,329 254,328 279,327 304,327 330,326 355,326 381,325 406,325 431,325 457,325 482,325 508,325 533,325 558,325 584,325 609,326 635,326"/>
+                <TextEquiv>
+                    <Unicode>THANAWI (Shaukat)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>THANAWI (Shaukat)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

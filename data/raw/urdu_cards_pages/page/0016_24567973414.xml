@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:33.912+01:00</Created>
+        <LastChange>2022-08-01T18:48:47.283+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404999" pageNr="16" tsid="92259601" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=AZIMCZJTQTIDBHLMBMGFPXAX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WRPLTGEUMOMYOBTKNBYKPRPI" imageId="35575651"/>
+    </Metadata>
+    <Page imageFilename="0016_24567973414.jpg" imageWidth="1469" imageHeight="1204">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938309" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="922,79 1338,79 1338,178 922,178"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="950,147 1013,165 1204,156 1225,173 1276,168 1278,122 1224,110 1184,134 1143,114 1112,138 1071,107 1057,118 951,111"/>
+                <Baseline points="955,149 981,150 1007,152 1034,153 1060,154 1086,155 1113,156 1139,157 1165,158 1192,159 1218,159 1244,160 1271,162"/>
+                <TextEquiv>
+                    <Unicode>14112. h. 79</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. h. 79</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="82,371 1293,371 1296,1124 85,1124"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="111,635 911,644 937,632 938,574 805,596 676,573 605,603 112,577"/>
+                <Baseline points="116,617 156,618 197,619 238,620 279,620 320,621 360,621 401,621 442,622 483,622 524,623 564,623 605,623 646,624 687,624 728,625 768,625 809,626 850,627 891,627 932,628"/>
+                <TextEquiv>
+                    <Unicode>Kali kali tabassum. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="115,697 211,678 240,692 337,676 401,689 482,683 505,678 505,646 469,653 448,637 362,636 339,658 274,631 247,648 235,638 212,660 175,645 115,652"/>
+                <Baseline points="120,680 145,680 170,680 196,679 221,679 246,678 272,678 297,677 322,677 348,676 373,676 398,676 424,676 449,676 474,677 500,678"/>
+                <TextEquiv>
+                    <Unicode>pp. 415. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="118,783 943,787 943,745 901,742 759,764 643,738 118,743"/>
+                <Baseline points="123,778 163,778 204,778 245,778 286,779 326,779 367,779 408,780 449,781 489,781 530,782 571,782 612,783 652,784 693,784 734,785 775,785 815,786 856,786 897,787 938,787"/>
+                <TextEquiv>
+                    <Unicode>Chief Publishers: Lahore, 1971.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1118,889 1150,895 1175,877 1202,897 1223,893 1218,821 1181,832 1172,828 1162,838 1139,843 1122,860 1115,861"/>
+                <Baseline points="1123,893 1218,886"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1111,932 1126,934 1144,953 1156,954 1178,953 1191,944 1243,953 1256,944 1262,946 1275,933 1285,935 1285,918 1239,913 1224,902 1201,900 1187,908 1164,908 1158,902 1132,901 1112,908"/>
+                <Baseline points="1116,936 1143,936 1170,937 1197,938 1224,938 1251,939 1279,940"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kali kali tabassum. [A novel.]&#13;
+pp. 415. lith.&#13;
+Chief Publishers: Lahore, 1971.&#13;
+89.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:author;}">
+            <Coords points="73,251 595,241 595,319 73,330"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="76,322 416,312 480,328 493,321 494,260 432,278 353,279 326,260 273,260 250,274 140,256 76,268"/>
+                <Baseline points="81,307 106,307 131,307 157,307 182,307 208,307 233,308 259,308 284,309 309,309 335,310 360,310 386,310 411,309 437,309 462,308 488,306"/>
+                <TextEquiv>
+                    <Unicode>SHAHIN (Firozah)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>SHAHIN (Firozah)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:title;}">
+            <Coords points="61,160 672,160 672,242 61,242"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="67,234 167,242 196,225 287,238 322,219 346,234 542,236 542,179 67,180"/>
+                <Baseline points="72,224 97,224 123,224 149,224 175,224 201,224 227,225 252,225 278,225 304,225 330,225 356,225 382,225 407,225 433,224 459,224 485,224 511,223 537,223"/>
+                <TextEquiv>
+                    <Unicode>KALI KALI TABASSUM</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KALI KALI TABASSUM</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

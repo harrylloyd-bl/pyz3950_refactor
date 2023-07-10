@@ -21,9 +21,9 @@ class MARC8ToUnicode:
 
     def __init__(self, G0: int = basic_latin, G1: int = ansel) -> None:
         self.g0 = G0
-        self.g0_set = {b"(", b",", b"$"}
+        self.g0_set = {b"(", b",", b"$"}  # missing '$,' but this is caught on line 40
         self.g1 = G1
-        self.g1_set = {b")", b"-", b"$"}
+        self.g1_set = {b")", b"-", b"$"}  # should be '$)' and '$-' but these are caught later
 
     def translate(self, marc8_string):
         if not marc8_string:
@@ -36,13 +36,10 @@ class MARC8ToUnicode:
                 next_byte = marc8_string[pos + 1 : pos + 2]
                 if next_byte in self.g0_set:
                     if len(marc8_string) >= pos + 3:
-                        if (
-                            marc8_string[pos + 2 : pos + 3] == b","
-                            and next_byte == b"$"
-                        ):
+                        if marc8_string[pos + 1 : pos + 3] == b"$,":  # last G0 set character is two chars long
                             pos += 1
                         self.g0 = ord(marc8_string[pos + 2 : pos + 3])
-                        pos = pos + 3
+                        pos += 3
                         continue
                     else:
                         uni_list.append(marc8_string[pos : pos + 1].decode("ascii"))
@@ -50,17 +47,18 @@ class MARC8ToUnicode:
                         continue
 
                 elif next_byte in self.g1_set:
-                    if marc8_string[pos + 2 : pos + 3] == b"-" and next_byte == b"$":
+                    if marc8_string[pos + 1 : pos + 3] in [b"$-", b"$)"]:
                         pos += 1
                     self.g1 = ord(marc8_string[pos + 2 : pos + 3])
-                    pos = pos + 3
+                    pos += 3
                     continue
-                else:
+
+                else:  # custom set extension, no intermediate byte
                     charset = ord(next_byte)
                     if charset in marc8_mapping.CODESETS:
                         self.g0 = charset
                         pos += 2
-                    elif charset == 0x73:
+                    elif charset == 0x73:  # redesignate ASCII
                         self.g0 = self.basic_latin
                         pos += 2
                         if pos == len(marc8_string):
@@ -82,7 +80,7 @@ class MARC8ToUnicode:
                 code_point = ord(marc8_string[pos : pos + 1])
                 pos += 1
 
-            if code_point < 0x20 or 0x80 < code_point < 0xA0:
+            if code_point < 0x20 or 0x80 < code_point < 0xA0:  # control characters
                 uni = chr(code_point)
                 continue
 
@@ -111,4 +109,4 @@ class MARC8ToUnicode:
                     combinings = []
 
         uni_str = "".join(uni_list)
-        return unicodedata.normalize("NFC", uni_str)
+        return unicodedata.normalize("NFC", uni_str)  # normalise any combining characters

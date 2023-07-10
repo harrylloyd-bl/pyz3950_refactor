@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:45</Created>
+        <LastChange>2022-08-01T18:50:32.172+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405021" pageNr="28" tsid="92259668" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=OGJCNCBMGSOZIPGXPTDGZPMS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GBZPXDYBGNCYRPLKFUKAGNHT" imageId="35575663"/>
+    </Metadata>
+    <Page imageFilename="0028_24567998604.jpg" imageWidth="1469" imageHeight="1215">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938603" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="846,64 1261,64 1261,161 846,161"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="902,133 955,138 990,123 1054,132 1079,121 1144,130 1165,119 1207,137 1264,120 1264,67 1203,68 1164,102 1136,101 1109,77 1071,102 1036,77 902,88"/>
+                <Baseline points="907,117 932,117 957,117 982,118 1007,118 1032,118 1057,118 1083,118 1108,117 1133,117 1158,117 1183,116 1208,115 1233,114 1259,113"/>
+                <TextEquiv>
+                    <Unicode>14112. b. 136</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. b. 136</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="146,363 1357,363 1360,1116 149,1116"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="238,566 959,571 982,561 982,505 773,537 708,509 660,542 622,509 503,536 238,521"/>
+                <Baseline points="243,557 279,557 316,557 353,557 389,557 426,557 463,556 499,556 536,556 573,555 610,555 646,555 683,554 720,554 756,554 793,554 830,554 866,555 903,555 940,556 977,557"/>
+                <TextEquiv>
+                    <Unicode>Kinara na mila. [A novel.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="239,617 288,619 341,601 355,611 412,604 423,611 453,610 468,604 467,581 456,582 427,558 362,563 351,575 328,574 320,583 293,572 237,579"/>
+                <Baseline points="243,607 270,606 297,605 325,603 352,602 379,600 407,599 434,599 462,600"/>
+                <TextEquiv>
+                    <Unicode>pp. 392.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="240,703 453,716 488,688 507,706 584,714 632,704 632,678 584,653 494,661 470,684 429,661 395,671 239,661"/>
+                <Baseline points="245,698 270,698 295,698 321,697 346,697 372,697 397,697 423,697 448,697 474,697 499,697 525,697 550,697 576,697 601,698 627,698"/>
+                <TextEquiv>
+                    <Unicode>Luoknow, 1959.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="1108,734 1116,733 1136,747 1154,746 1171,734 1191,754 1218,749 1219,717 1214,717 1182,681 1173,677 1152,678 1134,694 1110,706"/>
+                <Baseline points="1113,740 1138,739 1163,740 1188,743 1213,744"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1097,849 1152,852 1168,848 1189,854 1193,850 1221,850 1236,841 1236,829 1230,829 1207,806 1193,813 1184,805 1171,805 1164,812 1142,812 1135,805 1097,807"/>
+                <Baseline points="1102,843 1127,841 1153,841 1179,842 1205,842 1231,841"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kinara na mila. [A novel.]&#13;
+pp. 392.&#13;
+Luoknow, 1959.&#13;
+89.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="149,154 761,154 761,236 149,236"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="203,217 575,219 584,155 559,154 537,173 464,171 451,184 317,149 275,169 249,157 204,161"/>
+                <Baseline points="208,201 234,202 260,202 287,202 313,203 339,203 366,204 392,205 418,205 445,206 471,207 497,207 524,208 550,209 577,210"/>
+                <TextEquiv>
+                    <Unicode>KINARA NA MILA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KINARA NA MILA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="97,283 943,283 943,362 97,362"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="189,370 365,353 404,371 526,377 607,353 607,327 555,293 515,317 385,304 360,327 324,292 277,310 188,304"/>
+                <Baseline points="194,348 219,348 245,348 270,348 296,347 321,346 347,346 372,345 398,344 423,344 449,344 474,343 500,344 525,344 551,345 576,347 602,348"/>
+                <TextEquiv>
+                    <Unicode>KAISI, Rampuri.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KAISI, Rampuri.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

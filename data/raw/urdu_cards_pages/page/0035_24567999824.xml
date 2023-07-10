@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:25</Created>
+        <LastChange>2022-08-01T18:51:12.259+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405031" pageNr="35" tsid="92259694" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=XSOXGHRLKHFRPGXUVJVYYQZE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GIVPHBNHQCRUDUQPPTAMKDCZ" imageId="35575671"/>
+    </Metadata>
+    <Page imageFilename="0035_24567999824.jpg" imageWidth="1474" imageHeight="1222">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938781" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="848,64 1265,64 1265,162 848,162"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="898,122 933,108 997,122 1082,107 1228,122 1228,63 1191,69 1182,60 1149,91 1106,63 1073,84 1031,61 983,72 941,61 898,76"/>
+                <Baseline points="903,104 929,105 956,105 983,106 1009,106 1036,106 1063,106 1089,105 1116,105 1143,105 1169,104 1196,104 1223,104"/>
+                <TextEquiv>
+                    <Unicode>14112. 1. 41</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. 1. 41</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="145,357 1360,357 1357,984 142,984"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="727,541 1273,537 1272,510 1221,485 1088,502 1063,484 962,498 905,485 879,500 726,485"/>
+                <Baseline points="732,533 758,532 785,532 812,531 839,531 866,530 892,530 919,530 946,529 973,529 1000,529 1026,529 1053,528 1080,528 1107,528 1134,528 1160,528 1187,528 1214,528 1241,528 1268,529"/>
+                <TextEquiv>
+                    <Unicode>[A historical novel.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="214,550 282,560 319,539 653,537 653,513 575,492 491,509 459,493 349,493 289,508 214,495"/>
+                <Baseline points="219,529 244,530 269,530 294,531 319,531 345,531 370,531 395,531 420,530 446,530 471,530 496,530 521,531 547,531 572,532 597,532 622,533 648,535"/>
+                <TextEquiv>
+                    <Unicode>Khun Bahta Raha.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="224,600 361,598 410,584 650,596 650,577 596,546 550,556 535,542 461,543 409,566 381,548 224,558"/>
+                <Baseline points="229,586 255,586 281,586 307,586 333,586 359,585 385,585 411,584 437,584 463,583 489,583 515,583 541,584 567,584 593,585 619,587 645,589"/>
+                <TextEquiv>
+                    <Unicode>Second edition.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="212,678 249,661 273,666 309,651 340,659 386,652 450,664 448,616 433,616 409,599 363,604 348,597 312,631 269,605 210,623"/>
+                <Baseline points="216,654 241,651 266,649 292,647 317,646 343,645 368,644 394,644 419,644 445,645"/>
+                <TextEquiv>
+                    <Unicode>pp. 507.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="213,769 241,778 300,764 411,770 436,748 490,778 534,777 556,758 576,761 576,723 528,705 453,716 425,737 300,717 236,715 213,730"/>
+                <Baseline points="218,755 243,755 268,755 293,755 318,755 344,755 369,755 394,755 419,755 444,756 470,756 495,756 520,756 545,756 571,756"/>
+                <TextEquiv>
+                    <Unicode>Lahore, 1959.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1169,803 1179,808 1202,811 1259,811 1269,807 1270,779 1248,774 1234,785 1221,784 1196,757 1170,759"/>
+                <Baseline points="1174,797 1204,801 1234,801 1264,801"/>
+                <TextEquiv>
+                    <Unicode>4 .</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="1095,961 1104,961 1114,970 1147,972 1160,964 1169,970 1205,967 1226,956 1226,929 1206,925 1198,917 1188,921 1170,910 1153,919 1138,920 1095,911"/>
+                <Baseline points="1100,956 1130,958 1160,958 1190,957 1221,955"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>[A historical novel.&#13;
+Khun Bahta Raha.&#13;
+Second edition.]&#13;
+pp. 507.&#13;
+Lahore, 1959.&#13;
+4 .&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="150,155 763,155 763,237 150,237"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="164,219 212,233 261,202 379,200 420,226 495,201 565,202 576,197 576,141 489,163 430,134 367,152 164,149"/>
+                <Baseline points="169,195 194,194 219,194 244,194 269,194 294,194 319,193 344,193 370,193 395,193 420,193 445,193 470,194 495,194 520,194 545,195 571,196"/>
+                <TextEquiv>
+                    <Unicode>EHUN BAHTA RAHA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>EHUN BAHTA RAHA</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="97,273 946,273 946,352 97,352"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="158,333 301,338 377,319 408,341 565,321 722,340 731,273 587,278 561,303 503,290 480,310 406,269 343,262 158,289"/>
+                <Baseline points="163,322 191,322 219,322 247,322 275,322 303,322 331,322 360,321 388,321 416,321 444,320 472,320 500,320 528,319 557,319 585,319 613,319 641,319 669,319 697,320 726,320"/>
+                <TextEquiv>
+                    <Unicode>JA'FARI (Ra is Ahmad)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>JA'FARI (Ra is Ahmad)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:25</Created>
+        <LastChange>2022-08-01T18:50:49.625+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405026" pageNr="31" tsid="92259681" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=CCSVFDLZADRFYUKDNHARZFSH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZQUKINBQSGVBUQOAYPQGXGLA" imageId="35575667"/>
+    </Metadata>
+    <Page imageFilename="0031_24567999074.jpg" imageWidth="1468" imageHeight="1220">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938686" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="757,64 1172,64 1172,161 757,161"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="765,138 930,139 963,127 1041,139 1063,127 1101,146 1156,129 1156,104 1101,77 1056,107 974,77 935,107 902,79 766,81"/>
+                <Baseline points="772,123 797,124 822,126 847,126 872,127 898,127 923,127 948,127 973,127 998,126 1024,126 1049,126 1074,127 1099,127 1124,128 1150,130"/>
+                <TextEquiv>
+                    <Unicode>14112. bb. 64</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14112. bb. 64</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="144,372 1355,372 1356,1007 145,1007"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="229,591 604,591 638,557 699,602 748,577 1204,575 1183,534 1116,524 980,524 945,557 775,525 622,552 229,531"/>
+                <Baseline points="235,571 283,571 331,572 379,572 427,572 475,573 523,574 572,574 620,575 668,576 716,576 764,577 812,578 860,578 909,578 957,578 1005,578 1053,578 1101,578 1149,577 1198,576"/>
+                <TextEquiv>
+                    <Unicode>Khyab-i-hasti. [A drama. Compiled</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="227,633 266,651 317,610 352,642 518,632 761,650 790,639 791,591 761,580 725,608 590,587 516,602 349,581 310,598 227,590"/>
+                <Baseline points="233,628 260,629 288,629 315,629 343,629 370,629 398,629 425,629 453,629 480,629 508,629 536,630 563,630 591,630 618,631 646,631 673,633 701,634 728,636 756,638 784,640"/>
+                <TextEquiv>
+                    <Unicode>by 'Ishrat Rahmani.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="224,707 255,715 265,705 312,698 320,690 347,699 391,692 419,700 459,696 458,669 447,669 419,645 337,645 309,667 288,651 223,653"/>
+                <Baseline points="230,696 257,694 285,692 313,690 341,689 369,689 397,689 425,690 453,691"/>
+                <TextEquiv>
+                    <Unicode>pp. 112.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="217,801 393,804 415,819 436,799 565,811 603,797 603,777 567,777 515,748 459,748 425,782 381,756 218,749"/>
+                <Baseline points="223,794 249,794 276,794 302,794 329,795 356,795 382,795 409,796 436,796 462,797 489,798 516,799 542,799 569,801 596,802"/>
+                <TextEquiv>
+                    <Unicode>Lahore, 1954.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1060,861 1079,864 1089,857 1111,858 1121,853 1134,865 1156,866 1161,800 1138,799 1119,781 1113,781 1081,807 1064,808"/>
+                <Baseline points="1067,850 1095,849 1123,851 1151,856"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1055,962 1070,963 1077,970 1098,972 1103,977 1116,977 1123,971 1136,978 1145,973 1171,975 1186,968 1200,969 1201,948 1195,948 1160,917 1138,916 1116,925 1098,916 1056,920"/>
+                <Baseline points="1061,962 1087,963 1114,963 1140,964 1167,965 1194,966"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khyab-i-hasti. [A drama. Compiled&#13;
+by 'Ishrat Rahmani.]&#13;
+pp. 112.&#13;
+Lahore, 1954.&#13;
+89.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="149,154 760,154 760,236 149,236"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="173,228 247,225 263,209 520,208 520,146 489,142 451,156 401,148 313,164 251,141 232,154 198,142 173,151"/>
+                <Baseline points="179,196 204,196 230,195 256,195 282,194 307,194 333,194 359,194 385,194 410,194 436,195 462,196 488,197 514,198"/>
+                <TextEquiv>
+                    <Unicode>KHWKB-I-HASTI</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHWKB-I-HASTI</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="106,293 952,293 952,371 106,371"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="163,354 208,379 300,357 500,379 723,378 748,362 748,338 694,318 645,325 608,292 531,300 485,327 278,294 163,304"/>
+                <Baseline points="169,353 197,354 226,354 254,354 283,354 312,354 340,354 369,354 398,354 426,354 455,354 484,354 512,354 541,354 570,354 598,354 627,354 656,354 684,354 713,355 742,356"/>
+                <TextEquiv>
+                    <Unicode>ACHA HASHR, Ka'smarl.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>ACHA HASHR, Ka'smarl.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

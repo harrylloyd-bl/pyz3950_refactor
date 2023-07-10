@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:45</Created>
+        <LastChange>2022-08-01T18:51:40.618+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405037" pageNr="40" tsid="92259713" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=DZJBYEWLLVFPDHZWZPAESJUS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DHYXIURWKGEXVPLZTGKIPSAR" imageId="35575676"/>
+    </Metadata>
+    <Page imageFilename="0040_24568000444.jpg" imageWidth="1464" imageHeight="1211">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938879" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="1021,55 1435,55 1435,152 1021,152"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="1050,122 1109,137 1127,126 1190,128 1213,114 1247,130 1297,109 1323,123 1425,113 1424,82 1404,83 1385,66 1323,69 1298,88 1246,76 1223,95 1153,69 1049,77"/>
+                <Baseline points="1056,115 1081,115 1107,115 1133,115 1159,114 1185,114 1211,113 1237,112 1263,111 1289,110 1315,109 1341,108 1367,107 1393,107 1419,107"/>
+                <TextEquiv>
+                    <Unicode>14109. a. 212.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14109. a. 212.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="236,358 1443,358 1446,1109 239,1109"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="240,560 884,562 1238,525 1237,499 1149,486 1040,513 880,492 835,526 758,491 653,527 600,503 239,517"/>
+                <Baseline points="246,553 295,552 344,551 393,551 443,550 492,549 541,549 591,548 640,547 689,546 739,545 788,544 837,543 886,542 936,541 985,539 1034,538 1084,537 1133,535 1182,533 1232,531"/>
+                <TextEquiv>
+                    <Unicode>Khuda aur us ke rasul. [Lives of the</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="236,617 283,624 300,611 334,628 355,616 439,619 463,609 502,625 509,623 508,554 483,557 455,578 413,567 381,581 359,569 327,580 317,573 236,579"/>
+                <Baseline points="242,610 268,609 294,608 320,607 346,606 372,606 398,606 424,605 450,605 476,605 502,605"/>
+                <TextEquiv>
+                    <Unicode>Prophets.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="236,691 285,691 304,671 344,666 430,681 475,659 503,685 621,683 648,662 647,635 595,613 519,617 489,648 420,620 366,619 331,649 290,628 234,645"/>
+                <Baseline points="241,676 266,674 291,672 316,669 341,668 366,666 391,664 416,663 441,663 466,662 491,661 516,661 541,660 566,659 591,658 616,658 641,656"/>
+                <TextEquiv>
+                    <Unicode>pp. 205. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="239,786 599,794 1160,749 1085,707 967,740 829,715 762,743 632,708 550,739 238,735"/>
+                <Baseline points="245,774 290,772 335,770 381,769 426,767 472,766 517,765 562,764 608,763 653,762 699,761 744,760 789,759 835,758 880,757 926,756 971,756 1016,755 1062,754 1107,753 1153,751"/>
+                <TextEquiv>
+                    <Unicode>Kaumi Kutub-Khanah: Lahore, 1964.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="1322,766 1342,778 1369,779 1381,778 1401,762 1417,777 1438,776 1439,716 1421,716 1416,710 1384,700 1355,728 1338,717 1323,718"/>
+                <Baseline points="1328,767 1432,769"/>
+                <TextEquiv>
+                    <Unicode>129.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1290,874 1298,874 1308,882 1409,882 1409,844 1388,844 1377,833 1366,833 1352,843 1338,845 1314,829 1304,837 1290,837"/>
+                <Baseline points="1297,872 1323,871 1349,872 1375,872 1402,871"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khuda aur us ke rasul. [Lives of the&#13;
+Prophets.]&#13;
+pp. 205. lith.&#13;
+Kaumi Kutub-Khanah: Lahore, 1964.&#13;
+129.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="226,156 835,156 835,237 226,237"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="250,249 333,216 799,219 799,188 764,166 323,174 295,157 250,173"/>
+                <Baseline points="257,208 283,209 310,209 337,209 364,209 391,210 417,210 444,209 471,209 498,209 525,209 551,209 578,209 605,209 632,209 659,209 685,209 712,209 739,209 766,210 793,210"/>
+                <TextEquiv>
+                    <Unicode>KHUDA AUR US KE RASUL</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHUDA AUR US KE RASUL</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="96,286 1086,286 1086,364 96,364"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="177,361 334,338 438,364 614,331 1019,362 1058,338 1011,277 892,316 842,283 682,309 176,309"/>
+                <Baseline points="183,349 226,347 269,346 313,345 356,344 400,343 443,342 487,341 530,340 574,339 617,338 660,338 704,337 747,336 791,335 834,334 878,334 921,333 965,332 1008,332 1052,331"/>
+                <TextEquiv>
+                    <Unicode>NIYKZ (Mubammad 'Abdullah), Raja.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>NIYKZ (Mubammad 'Abdullah), Raja.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

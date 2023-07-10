@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:32</Created>
+        <LastChange>2022-08-01T18:51:02.044+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405028" pageNr="33" tsid="92259687" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=CYHEBSIEOHXFNQIKWSLBWPLQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MJDDZXPXPGNGZOHEQHAXSNPK" imageId="35575669"/>
+    </Metadata>
+    <Page imageFilename="0033_24567999184.jpg" imageWidth="1466" imageHeight="1217">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938734" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="763,90 1177,90 1177,187 763,187"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="762,184 819,171 836,183 955,170 1008,185 1142,186 1142,131 1126,125 1066,122 1015,142 963,131 938,147 897,119 850,132 831,120 816,130 763,123"/>
+                <Baseline points="769,166 795,166 821,166 847,166 873,166 899,166 925,166 952,166 978,166 1004,167 1030,167 1056,167 1082,168 1108,168 1135,168"/>
+                <TextEquiv>
+                    <Unicode>14119. aa. 90.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14119. aa. 90.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="84,361 1293,361 1296,1058 87,1058"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="120,558 690,580 1153,553 1129,513 830,509 760,541 652,509 120,512"/>
+                <Baseline points="126,551 177,551 228,551 279,551 330,552 381,552 432,553 483,554 534,554 585,555 636,556 687,556 738,557 789,557 840,557 891,557 942,557 993,557 1044,556 1095,555 1146,554"/>
+                <TextEquiv>
+                    <Unicode>Khutbat-i-Ka'id-i-a'gam. [Speeches of</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="117,612 1181,627 1181,582 1137,561 788,564 725,600 631,560 117,568"/>
+                <Baseline points="124,605 176,605 229,606 281,606 334,606 386,607 439,607 491,608 544,609 596,609 649,610 701,610 754,611 806,611 859,611 911,612 964,612 1016,611 1069,611 1121,610 1174,610"/>
+                <TextEquiv>
+                    <Unicode>Muhammad 'AlI Jinnab. Edited by Ra'is</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="118,672 145,667 174,683 241,665 323,674 350,664 526,677 527,615 494,628 455,614 427,633 358,613 338,628 301,620 281,638 258,621 212,633 150,618 118,626"/>
+                <Baseline points="125,660 151,660 177,660 204,660 230,660 256,659 283,659 309,659 335,659 362,660 388,660 414,661 441,662 467,663 493,665 520,667"/>
+                <TextEquiv>
+                    <Unicode>Ahmad Ja'farI.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="107,717 144,735 374,718 433,744 566,745 566,701 505,676 422,675 390,706 345,703 300,669 254,669 217,705 195,684 107,685"/>
+                <Baseline points="114,724 140,722 166,720 192,719 218,719 244,718 271,718 297,718 323,718 349,718 375,719 401,719 428,719 454,720 480,720 506,720 532,719 559,718"/>
+                <TextEquiv>
+                    <Unicode>pp. 687. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="118,841 283,820 353,842 477,820 611,841 854,825 854,795 793,773 691,811 510,777 485,798 423,780 322,795 255,768 119,780"/>
+                <Baseline points="125,821 161,820 197,818 233,818 269,817 305,817 341,817 378,817 414,817 450,818 486,818 522,819 558,820 594,821 631,821 667,822 703,823 739,823 775,824 811,824 848,824"/>
+                <TextEquiv>
+                    <Unicode>Shu'a-i-Adab: Lahore, 1961.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1067,900 1082,900 1090,910 1118,906 1130,900 1146,912 1177,912 1179,863 1156,862 1141,845 1133,843 1118,843 1110,850 1098,851 1090,859 1069,858"/>
+                <Baseline points="1074,901 1106,899 1138,902 1171,904"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="1014,1023 1025,1025 1041,1040 1092,1040 1104,1050 1122,1049 1140,1040 1168,1044 1169,1014 1160,1014 1143,996 1116,995 1102,988 1065,995 1038,982 1015,986"/>
+                <Baseline points="1020,1027 1048,1028 1076,1028 1105,1028 1133,1029 1162,1035"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Khutbat-i-Ka'id-i-a'gam. [Speeches of&#13;
+Muhammad 'AlI Jinnab. Edited by Ra'is&#13;
+Ahmad Ja'farI.]&#13;
+pp. 687. lith.&#13;
+Shu'a-i-Adab: Lahore, 1961.&#13;
+89.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="149,154 759,154 759,236 149,236"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="145,206 240,225 272,200 413,220 466,198 589,198 672,220 736,199 736,153 674,143 539,159 426,143 387,161 145,140"/>
+                <Baseline points="152,194 180,194 209,193 238,193 267,194 296,194 325,194 353,194 382,194 411,194 440,194 469,194 498,194 527,194 555,194 584,193 613,193 642,193 671,192 700,192 729,191"/>
+                <TextEquiv>
+                    <Unicode>KHUIBAT-I-KA'ID-I-A'ZAM</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KHUIBAT-I-KA'ID-I-A'ZAM</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="62,269 907,269 907,348 62,348"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="71,331 222,347 260,323 362,347 422,328 669,327 669,287 635,268 515,290 277,271 251,288 209,268 71,281"/>
+                <Baseline points="78,318 107,319 136,320 165,320 194,321 224,321 253,321 282,321 311,321 340,320 370,320 399,320 428,320 457,320 486,320 516,320 545,321 574,322 603,322 632,323 662,325"/>
+                <TextEquiv>
+                    <Unicode>JINNAH (Muhammad "AlI)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>JINNAH (Muhammad "AlI)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

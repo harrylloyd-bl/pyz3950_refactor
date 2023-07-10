@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:45</Created>
+        <LastChange>2022-08-01T18:50:07.543+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405016" pageNr="25" tsid="92259655" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=FXZVWYKEGFFPECTJNDGJVTIQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RRVWVOGMUOJGSGMPHZQZARWX" imageId="35575660"/>
+    </Metadata>
+    <Page imageFilename="0025_24567998404.jpg" imageWidth="1469" imageHeight="1209">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938529" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="846,64 1261,64 1261,161 846,161"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="895,105 1033,122 1082,110 1170,131 1230,120 1248,130 1249,74 1220,60 1192,58 1152,90 1105,70 1078,87 1045,53 969,71 947,60 896,70"/>
+                <Baseline points="903,106 929,105 955,105 981,106 1007,106 1033,107 1059,108 1085,109 1111,110 1137,110 1163,110 1189,110 1215,108 1241,105"/>
+                <TextEquiv>
+                    <Unicode>14106. g. 52</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14106. g. 52</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="193,348 1412,348 1415,1101 196,1101"/>
+            <TextLine id="r2l3" custom="readingOrder {index:0;}">
+                <Coords points="289,558 1333,577 1333,526 1231,517 840,510 774,543 720,501 448,529 398,492 290,507"/>
+                <Baseline points="296,551 347,550 399,550 450,551 502,551 553,552 605,552 656,553 708,554 759,555 811,556 862,557 914,558 965,560 1017,560 1068,561 1120,562 1171,562 1223,562 1274,562 1326,562"/>
+                <TextEquiv>
+                    <Unicode>Kitab al-Mufradat. [On different drugs</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:1;}">
+                <Coords points="293,620 1109,636 1135,578 736,568 698,602 548,565 293,581"/>
+                <Baseline points="300,609 341,609 382,609 424,610 465,610 507,610 548,610 589,610 631,610 672,611 714,611 755,611 796,611 838,612 879,613 921,613 962,615 1003,616 1045,617 1086,619 1128,621"/>
+                <TextEquiv>
+                    <Unicode>and medicines. Third edition.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:2;}">
+                <Coords points="285,686 460,680 487,695 646,670 768,674 789,691 816,680 816,654 741,620 681,619 639,656 577,620 524,651 463,617 407,620 382,643 284,638"/>
+                <Baseline points="291,674 316,673 342,672 368,671 394,670 420,669 446,668 472,668 498,667 524,667 550,667 575,666 601,666 627,666 653,666 679,667 705,667 731,668 757,668 783,669 809,671"/>
+                <TextEquiv>
+                    <Unicode>pp. 560, 12. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:3;}">
+                <Coords points="287,802 1421,786 1354,732 1260,758 288,730"/>
+                <Baseline points="294,777 350,775 406,774 462,773 518,772 574,771 630,771 686,772 742,772 798,773 854,774 910,775 966,776 1022,777 1078,778 1134,780 1190,781 1246,782 1302,783 1358,784 1414,785"/>
+                <TextEquiv>
+                    <Unicode>Shaikh Ghulam 'AlI and Sons: Lahore, 1960.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:4;}">
+                <Coords points="1160,890 1169,889 1176,894 1186,889 1196,891 1217,879 1230,891 1245,893 1250,829 1218,820 1202,828 1195,825 1179,834 1164,833"/>
+                <Baseline points="1168,879 1203,882 1239,884"/>
+                <TextEquiv>
+                    <Unicode>89.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:5;}">
+                <Coords points="1132,1043 1147,1043 1155,1051 1179,1051 1190,1046 1214,1051 1224,1043 1249,1044 1256,1037 1266,1039 1266,1007 1238,1005 1218,986 1197,997 1168,995 1160,988 1153,994 1150,991 1143,997 1132,997"/>
+                <Baseline points="1138,1036 1168,1036 1198,1035 1228,1035 1259,1037"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kitab al-Mufradat. [On different drugs&#13;
+and medicines. Third edition.]&#13;
+pp. 560, 12. lith.&#13;
+Shaikh Ghulam 'AlI and Sons: Lahore, 1960.&#13;
+89.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="151,184 763,184 763,266 151,266"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="282,261 741,265 741,212 704,203 411,210 397,197 315,208 282,195"/>
+                <Baseline points="289,248 315,248 341,248 367,248 393,247 419,247 446,247 472,247 498,248 524,248 550,248 576,248 603,248 629,249 655,249 681,250 707,250 734,251"/>
+                <TextEquiv>
+                    <Unicode>KITAB AL-MUFRADAT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KITAB AL-MUFRADAT</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="247,274 1093,274 1093,353 247,353"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="241,341 1074,339 1074,307 1010,275 887,308 837,277 242,292"/>
+                <Baseline points="248,331 291,330 334,330 377,330 420,329 463,329 506,329 549,329 592,329 635,329 679,330 722,330 765,330 808,331 851,332 894,333 937,334 980,335 1023,336 1067,337"/>
+                <TextEquiv>
+                    <Unicode>A'WAN (Muzaffar Husain), Hakim.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>A'WAN (Muzaffar Husain), Hakim.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>1032971</docId>
+    <title>U2 for Transkribus</title>
+    <uploadTimestamp>1655815304392</uploadTimestamp>
+    <uploader>adi.keinan-schoonbaert@bl.uk</uploader>
+    <uploaderId>23823</uploaderId>
+    <nrOfPages>348</nrOfPages>
+    <pageId>43404980</pageId>
+    <url>https://files.transkribus.eu/Get?fileType=view&amp;id=EMTWPSVAFKXJDDRYFZZRCOHW</url>
+    <thumbUrl>https://files.transkribus.eu/Get?fileType=thumb&amp;id=EMTWPSVAFKXJDDRYFZZRCOHW</thumbUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_1032971</fimgStoreColl>
+    <origDocId>0</origDocId>
+    <collectionList>
+        <colList>
+            <colId>150454</colId>
+            <colName>Convert-a-Card Urdu D2</colName>
+            <description>created by adi.keinan-schoonbaert@bl.uk</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+        </colList>
+    </collectionList>
+</trpDocMetadata>

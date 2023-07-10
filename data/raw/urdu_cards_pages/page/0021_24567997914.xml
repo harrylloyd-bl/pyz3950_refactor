@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+P2PaLA-PRHLT</Creator>
+        <Created>2022-07-07T12:55:25</Created>
+        <LastChange>2022-08-01T18:49:39.978+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43405008" pageNr="21" tsid="92259640" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=FYIOGJGJYYZSLFSKTGCUHOGV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FVKEXOKQEBPBIYGSFNRWOHFS" imageId="35575656"/>
+    </Metadata>
+    <Page imageFilename="0021_24567997914.jpg" imageWidth="1476" imageHeight="1215">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938433" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="768,77 1185,77 1185,175 768,175"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="761,157 867,180 974,137 1010,170 1031,170 1058,156 1157,151 1158,112 1125,123 1062,93 1015,127 982,116 916,124 895,102 829,118 786,101 761,110"/>
+                <Baseline points="767,149 792,149 818,149 843,150 869,150 895,150 920,150 946,150 971,150 997,150 1023,150 1048,150 1074,150 1099,150 1125,150 1151,150"/>
+                <TextEquiv>
+                    <Unicode>14114. 144.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14114. 144.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="125,343 1383,352 1423,1087 128,1133"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="156,565 988,545 1170,570 1192,511 156,515"/>
+                <Baseline points="163,557 214,556 265,555 316,555 367,554 418,554 469,553 520,553 571,552 622,552 674,552 725,551 776,551 827,550 878,549 929,548 980,547 1031,546 1082,544 1133,542 1185,540"/>
+                <TextEquiv>
+                    <Unicode>Kuchh zare kuchh tare. [A cc ection</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="156,615 207,626 232,614 251,633 309,617 373,626 409,614 433,625 444,621 444,559 416,562 393,583 362,585 156,575"/>
+                <Baseline points="163,613 189,612 215,612 241,610 267,610 293,609 319,609 345,609 371,610 397,611 437,616"/>
+                <TextEquiv>
+                    <Unicode>of poems.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="148,674 185,697 247,676 351,689 414,658 497,697 563,690 598,667 597,643 580,646 551,619 470,619 434,638 362,620 324,634 303,620 261,653 188,635 147,647"/>
+                <Baseline points="154,678 179,677 205,675 231,673 256,672 282,671 308,671 333,670 359,670 385,669 411,668 436,668 462,667 488,667 513,666 539,664 565,662 591,661"/>
+                <TextEquiv>
+                    <Unicode>pp. 147. lith.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="161,813 1169,810 1246,800 1246,771 1085,736 969,767 925,740 769,768 550,737 371,778 160,757"/>
+                <Baseline points="168,805 221,803 275,802 328,801 382,800 435,798 489,798 542,797 596,796 649,796 703,795 757,795 810,794 864,794 917,793 971,793 1024,793 1078,792 1131,792 1185,791 1239,791"/>
+                <TextEquiv>
+                    <Unicode>Anjuman Tarakki-i-Urdu (Hind); Aligarh,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="163,881 179,881 191,870 198,877 203,874 216,880 236,871 253,874 284,864 301,867 301,830 294,830 275,812 255,821 249,817 225,820 215,812 206,812 192,814 184,822 163,824"/>
+                <Baseline points="170,857 201,857 232,856 263,856 294,857"/>
+                <TextEquiv>
+                    <Unicode>1959.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="1093,955 1129,959 1140,966 1148,959 1152,961 1163,953 1178,950 1185,951 1195,963 1204,963 1206,911 1198,912 1180,894 1164,892 1152,903 1126,902 1114,906 1102,893 1096,893"/>
+                <Baseline points="1100,951 1132,950 1165,951 1198,955"/>
+                <TextEquiv>
+                    <Unicode>129.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="1066,1069 1088,1080 1110,1075 1116,1081 1131,1081 1138,1075 1158,1080 1188,1069 1197,1075 1223,1071 1224,1040 1209,1034 1189,1037 1180,1028 1148,1024 1117,1034 1104,1020 1093,1019 1068,1024"/>
+                <Baseline points="1073,1062 1101,1061 1130,1062 1158,1064 1187,1065 1216,1067"/>
+                <TextEquiv>
+                    <Unicode>Urdu.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kuchh zare kuchh tare. [A cc ection&#13;
+of poems.]&#13;
+pp. 147. lith.&#13;
+Anjuman Tarakki-i-Urdu (Hind); Aligarh,&#13;
+1959.&#13;
+129.&#13;
+Urdu.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="150,155 765,155 765,237 150,237"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="170,242 324,223 386,243 442,224 721,240 720,165 691,157 593,186 566,169 449,185 379,167 317,187 273,163 170,179"/>
+                <Baseline points="176,220 202,220 229,220 256,219 283,219 310,219 337,218 364,218 391,218 418,218 445,218 471,218 498,218 525,218 552,217 579,217 606,217 633,217 660,217 687,218 714,218"/>
+                <TextEquiv>
+                    <Unicode>KUCHH ZARE KUCHH TARE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KUCHH ZARE KUCHH TARE</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="97,256 948,256 948,335 97,335"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="91,330 654,330 675,322 675,271 545,286 472,269 354,290 313,260 90,283"/>
+                <Baseline points="98,318 126,317 155,317 183,316 212,316 240,315 269,315 297,315 326,314 354,314 383,314 411,314 440,314 468,313 497,313 525,313 554,313 582,313 611,314 639,314 668,314"/>
+                <TextEquiv>
+                    <Unicode>MULLA (Anand Narayan)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>MULLA (Anand Narayan)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

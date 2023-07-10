@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=English Typewritten Catalogue Cards HTR+(htr_id=43783)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2022-06-21T12:53:25.911+01:00</Created>
+        <LastChange>2022-08-01T18:47:11.109+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404986" pageNr="6" tsid="92259539" status="IN_PROGRESS" userId="23823" imgUrl="https://files.transkribus.eu/Get?id=WQHPQMHVQGISJNWANPDCHTDE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VSOWWVXDIOESBBELPHUVVGSJ" imageId="35575641"/>
+    </Metadata>
+    <Page imageFilename="0006_24567972094.jpg" imageWidth="1468" imageHeight="1212">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534938046" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="936,49 1352,49 1352,148 936,148"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="938,133 981,138 1041,124 1064,137 1142,124 1191,135 1245,119 1271,101 1271,88 1233,71 1203,74 1173,101 1123,86 1100,102 1044,76 1032,86 937,77"/>
+                <Baseline points="944,122 970,121 997,121 1024,122 1051,122 1077,122 1104,121 1131,121 1158,120 1184,120 1211,118 1238,116 1265,114"/>
+                <TextEquiv>
+                    <Unicode>14110. e. 28</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>14110. e. 28</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;} structure {type:additional_information;}">
+            <Coords points="142,357 1353,357 1356,1110 145,1110"/>
+            <TextLine id="r2l2" custom="readingOrder {index:0;}">
+                <Coords points="182,566 1062,539 1061,507 880,491 823,531 711,493 595,525 464,508 411,540 347,504 181,524"/>
+                <Baseline points="188,559 231,557 274,556 318,555 361,554 405,553 448,552 491,551 535,550 578,550 622,549 665,548 708,547 752,546 795,546 839,544 882,543 925,542 969,541 1012,540 1056,538"/>
+                <TextEquiv>
+                    <Unicode>Kashmir, adab-o-sikafat. [On the</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="189,620 593,627 730,595 938,616 1109,598 1108,551 833,577 467,560 427,594 188,573"/>
+                <Baseline points="195,612 240,612 285,611 331,610 376,609 422,608 467,607 512,606 558,605 603,604 649,603 694,602 739,601 785,599 830,598 876,597 921,596 966,595 1012,594 1057,594 1103,593"/>
+                <TextEquiv>
+                    <Unicode>language. literature and culture of</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="187,674 344,670 353,676 403,669 424,677 424,637 392,645 344,613 289,633 266,620 239,636 218,620 186,624"/>
+                <Baseline points="193,667 218,666 243,665 268,664 293,663 318,663 343,663 368,664 393,665 418,666"/>
+                <TextEquiv>
+                    <Unicode>Kashmir.]</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="182,740 290,718 322,731 413,723 443,747 674,730 672,684 590,668 573,683 465,676 404,693 328,673 282,708 180,695"/>
+                <Baseline points="187,728 212,727 237,725 262,724 288,723 313,721 338,721 363,719 389,719 414,718 439,717 464,716 490,715 515,715 540,714 565,714 591,714 616,714 641,714 667,714"/>
+                <TextEquiv>
+                    <Unicode>pp. 208. with pls.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="193,831 1184,816 1183,771 1135,762 192,780"/>
+                <Baseline points="199,824 247,823 296,822 345,822 394,821 443,820 492,819 541,818 590,816 639,815 688,814 736,813 785,812 834,811 883,810 932,809 981,808 1030,808 1079,807 1128,807 1177,807"/>
+                <TextEquiv>
+                    <Unicode>Idarah-i-Matbu'at-i-Pakistan: Karachi,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="197,897 224,900 260,884 265,889 293,889 300,882 321,887 329,878 336,878 335,850 322,854 295,835 284,838 268,830 252,843 239,833 224,843 213,835 197,839"/>
+                <Baseline points="203,879 228,876 253,874 278,875 303,876 329,878"/>
+                <TextEquiv>
+                    <Unicode>1963.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="188,993 768,1003 909,980 908,934 863,927 412,950 188,935"/>
+                <Baseline points="194,979 229,978 264,978 300,978 335,977 371,977 406,976 442,976 477,975 513,975 548,974 583,974 619,973 654,973 690,972 725,972 761,972 796,972 832,972 867,972 903,973"/>
+                <TextEquiv>
+                    <Unicode>Reproduced from typesoript.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:7;}">
+                <Coords points="1198,1031 1223,1023 1237,1029 1267,1027 1283,1020 1297,1021 1313,1031 1325,1029 1325,984 1314,979 1299,982 1277,971 1264,972 1251,982 1242,981 1221,961 1198,965"/>
+                <Baseline points="1204,1012 1232,1013 1261,1012 1290,1012 1319,1013"/>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Kashmir, adab-o-sikafat. [On the&#13;
+language. literature and culture of&#13;
+Kashmir.]&#13;
+pp. 208. with pls.&#13;
+Idarah-i-Matbu'at-i-Pakistan: Karachi,&#13;
+1963.&#13;
+Reproduced from typesoript.&#13;
+Urdu</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;} structure {type:title;}">
+            <Coords points="168,150 779,150 779,232 168,232"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="173,224 745,221 773,209 773,139 636,148 574,176 481,142 405,167 282,132 173,168"/>
+                <Baseline points="180,201 209,202 238,203 268,203 297,204 326,204 356,204 385,204 414,204 444,204 473,204 502,203 532,203 561,203 590,203 620,203 649,203 678,204 708,204 737,205 767,206"/>
+                <TextEquiv>
+                    <Unicode>KASHMIR, ADAB-O-SIKAFAT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>KASHMIR, ADAB-O-SIKAFAT</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;} structure {type:author;}">
+            <Coords points="130,280 616,272 616,350 130,358"/>
+            <TextLine id="r4l1" custom="readingOrder {index:0;}">
+                <Coords points="127,354 580,362 604,351 603,290 478,288 454,309 415,289 366,302 252,285 220,309 126,311"/>
+                <Baseline points="133,347 158,347 184,347 210,346 236,346 262,345 288,344 313,343 339,343 365,342 391,341 417,341 443,340 468,340 494,340 520,339 546,339 572,340 598,340"/>
+                <TextEquiv>
+                    <Unicode>GUMMI (Salim Khan)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>GUMMI (Salim Khan)</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

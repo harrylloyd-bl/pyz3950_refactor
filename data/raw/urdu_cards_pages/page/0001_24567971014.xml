@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=0.7.3:model_id=36202:lm=none:date=27_07_2022_17:25
+prov=READ-COOP:name=PyLaia@Transkribus:version=0.7.3:model_id=36202:date=27_07_2022_17:25
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7</Creator>
+        <Created>2022-06-21T12:53:21.822+01:00</Created>
+        <LastChange>2022-07-27T17:25:05.478+02:00</LastChange>
+        <TranskribusMetadata docId="1032971" pageId="43404980" pageNr="1" tsid="91649564" status="IN_PROGRESS" userId="107354" imgUrl="https://files.transkribus.eu/Get?id=EMTWPSVAFKXJDDRYFZZRCOHW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VRNJPOZKGTCXJKZRBVSEDYJA" imageId="35575636"/>
+    </Metadata>
+    <Page imageFilename="0001_24567971014.jpg" imageWidth="1478" imageHeight="1218">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1659534937881" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1657110407922_3"/>
+                <RegionRefIndexed index="1" regionRef="region_1657110409746_6"/>
+                <RegionRefIndexed index="2" regionRef="region_1657110416474_9"/>
+                <RegionRefIndexed index="3" regionRef="region_1657112218172_28"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="region_1657110407922_3" custom="readingOrder {index:0;} structure {type:shelfmark;}">
+            <Coords points="841,49 1260,49 1260,149 841,149"/>
+            <TextLine id="region_1657110407922_3l1" custom="readingOrder {index:0;}">
+                <Coords points="887,117 943,131 1063,120 1186,130 1236,123 1237,70 1175,69 1140,97 1115,84 1052,94 1027,68 981,83 936,69 887,84"/>
+                <Baseline points="894,112 919,113 945,115 971,115 997,116 1022,117 1048,118 1074,118 1100,118 1125,118 1151,117 1177,116 1203,115 1229,113"/>
+                <Word id="region_1657110407922_3l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="889,75 889,135 1049,135 1049,75"/>
+                    <TextEquiv>
+                        <Unicode>14115.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657110407922_3l1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="1086,78 1086,138 1141,138 1141,78"/>
+                    <TextEquiv>
+                        <Unicode>e.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657110407922_3l1_w3" custom="readingOrder {index:2;}">
+                    <Coords points="1178,75 1178,135 1221,135 1221,75"/>
+                    <TextEquiv>
+                        <Unicode>72</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>14115. e. 72</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="region_1657110409746_6" custom="readingOrder {index:1;} structure {type:title;}">
+            <Coords points="237,151 702,151 702,234 237,234"/>
+            <TextLine id="region_1657110409746_6l1" custom="readingOrder {index:0;}">
+                <Coords points="271,217 327,223 346,213 380,226 403,212 491,230 515,217 548,225 631,211 631,161 589,171 458,148 393,171 357,150 323,160 301,146 272,161"/>
+                <Baseline points="279,202 305,203 331,204 358,204 384,205 411,205 437,205 464,206 490,206 517,206 543,206 570,206 596,205 623,205"/>
+                <Word id="region_1657110409746_6l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="278,165 278,225 616,225 616,165"/>
+                    <TextEquiv>
+                        <Unicode>KAUL-I-TAIYIB</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>KAUL-I-TAIYIB</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="region_1657110416474_9" custom="readingOrder {index:2;} structure {type:author;}">
+            <Coords points="111,271 1336,261 1336,339 111,349"/>
+            <TextLine id="region_1657110416474_9l1" custom="readingOrder {index:0;}">
+                <Coords points="142,333 1329,345 1291,292 142,277"/>
+                <Baseline points="149,331 207,330 266,329 324,329 383,329 442,328 500,329 559,329 618,329 676,329 735,330 794,331 852,331 911,332 970,333 1028,333 1087,334 1146,335 1204,335 1263,336 1322,336"/>
+                <Word id="region_1657110416474_9l1_w1" custom="readingOrder {index:0;}">
+                    <Coords points="146,289 146,349 275,349 275,289"/>
+                    <TextEquiv>
+                        <Unicode>BARNI</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657110416474_9l1_w2" custom="readingOrder {index:1;}">
+                    <Coords points="305,288 305,348 546,348 546,288"/>
+                    <TextEquiv>
+                        <Unicode>(Muhammad</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657110416474_9l1_w3" custom="readingOrder {index:2;}">
+                    <Coords points="576,289 576,349 757,349 757,289"/>
+                    <TextEquiv>
+                        <Unicode>Ilyas),</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657110416474_9l1_w4" custom="readingOrder {index:3;}">
+                    <Coords points="787,291 787,351 1006,351 1006,291"/>
+                    <TextEquiv>
+                        <Unicode>Maulana,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657110416474_9l1_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1036,294 1036,354 1172,354 1172,294"/>
+                    <TextEquiv>
+                        <Unicode>M.A.,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657110416474_9l1_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1202,296 1202,356 1330,356 1330,296"/>
+                    <TextEquiv>
+                        <Unicode>LL.B.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>BARNI (Muhammad Ilyas), Maulana, M.A., LL.B.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="region_1657112218172_28" custom="readingOrder {index:3;} structure {type:additional_information;}">
+            <Coords points="143,359 1362,359 1362,1125 143,1125"/>
+            <TextLine id="region_1657112218172_28l1" custom="readingOrder {index:0;}">
+                <Coords points="287,467 360,460 387,482 406,482 437,503 483,466 472,372 419,357 385,382 365,379 316,431 283,432"/>
+                <Baseline points="292,456 317,454 343,451 368,450 394,449 419,445 445,440 471,432"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1657112218172_28l2" custom="readingOrder {index:1;}">
+                <Coords points="197,554 1329,555 1329,514 1251,484 1047,524 197,493"/>
+                <Baseline points="205,544 260,543 316,543 372,542 428,542 484,542 540,542 595,541 651,541 707,541 763,541 819,541 875,541 931,541 986,541 1042,541 1098,541 1154,542 1210,542 1266,542 1322,542"/>
+                <Word id="region_1657112218172_28l2_w1" custom="readingOrder {index:0;}">
+                    <Coords points="198,502 198,562 566,562 566,502"/>
+                    <TextEquiv>
+                        <Unicode>Kaul-i-Taiyib.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l2_w2" custom="readingOrder {index:1;}">
+                    <Coords points="630,501 630,561 722,561 722,501"/>
+                    <TextEquiv>
+                        <Unicode>The</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l2_w3" custom="readingOrder {index:2;}">
+                    <Coords points="763,501 763,561 1021,561 1021,501"/>
+                    <TextEquiv>
+                        <Unicode>utteranoes</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l2_w4" custom="readingOrder {index:3;}">
+                    <Coords points="1062,501 1062,561 1102,561 1102,501"/>
+                    <TextEquiv>
+                        <Unicode>of</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l2_w5" custom="readingOrder {index:4;}">
+                    <Coords points="1136,502 1136,562 1321,562 1321,502"/>
+                    <TextEquiv>
+                        <Unicode>Maulana</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Kaul-i-Taiyib. The utteranoes of Maulana</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1657112218172_28l3" custom="readingOrder {index:2;}">
+                <Coords points="191,610 520,631 938,598 982,627 1257,608 1257,556 191,563"/>
+                <Baseline points="199,598 251,599 304,599 356,599 409,599 461,599 514,599 566,599 619,599 671,599 724,598 776,598 829,598 881,598 934,597 986,597 1039,598 1091,598 1144,598 1196,599 1249,600"/>
+                <Word id="region_1657112218172_28l3_w1" custom="readingOrder {index:0;}">
+                    <Coords points="198,559 198,619 349,619 349,559"/>
+                    <TextEquiv>
+                        <Unicode>Barni.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l3_w2" custom="readingOrder {index:1;}">
+                    <Coords points="415,559 415,619 626,619 626,559"/>
+                    <TextEquiv>
+                        <Unicode>Compiled</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l3_w3" custom="readingOrder {index:2;}">
+                    <Coords points="663,558 663,618 735,618 735,558"/>
+                    <TextEquiv>
+                        <Unicode>and</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l3_w4" custom="readingOrder {index:3;}">
+                    <Coords points="771,558 771,618 922,618 922,558"/>
+                    <TextEquiv>
+                        <Unicode>edited</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l3_w5" custom="readingOrder {index:4;}">
+                    <Coords points="964,557 964,617 1001,617 1001,557"/>
+                    <TextEquiv>
+                        <Unicode>by</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l3_w6" custom="readingOrder {index:5;}">
+                    <Coords points="1043,558 1043,618 1254,618 1254,558"/>
+                    <TextEquiv>
+                        <Unicode>Muhammad</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Barni. Compiled and edited by Muhammad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1657112218172_28l4" custom="readingOrder {index:3;}">
+                <Coords points="221,662 919,681 938,608 770,633 716,603 667,628 221,624"/>
+                <Baseline points="228,653 263,654 298,654 333,654 368,654 403,654 438,655 473,655 508,655 543,655 579,656 614,656 649,657 684,657 719,658 754,658 789,659 824,660 859,661 894,662 930,663"/>
+                <Word id="region_1657112218172_28l4_w1" custom="readingOrder {index:0;}">
+                    <Coords points="231,614 231,674 545,674 545,614"/>
+                    <TextEquiv>
+                        <Unicode>Abd-ul-Halim</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l4_w2" custom="readingOrder {index:1;}">
+                    <Coords points="585,617 585,677 769,677 769,617"/>
+                    <TextEquiv>
+                        <Unicode>Ilyasi,</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l4_w3" custom="readingOrder {index:2;}">
+                    <Coords points="797,621 797,681 933,681 933,621"/>
+                    <TextEquiv>
+                        <Unicode>M.A.)</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Abd-ul-Halim Ilyasi, M.A.)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1657112218172_28l5" custom="readingOrder {index:4;}">
+                <Coords points="189,721 209,731 228,723 250,734 304,710 325,726 413,721 410,674 381,665 374,672 323,665 288,697 241,674 188,685"/>
+                <Baseline points="197,720 223,717 249,715 275,713 301,712 327,711 353,710 379,709 405,709"/>
+                <Word id="region_1657112218172_28l5_w1" custom="readingOrder {index:0;}">
+                    <Coords points="198,675 198,735 275,735 275,675"/>
+                    <TextEquiv>
+                        <Unicode>pp.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <Word id="region_1657112218172_28l5_w2" custom="readingOrder {index:1;}">
+                    <Coords points="310,669 310,729 415,729 415,669"/>
+                    <TextEquiv>
+                        <Unicode>400.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>pp. 400.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1657112218172_28l6" custom="readingOrder {index:5;}">
+                <Coords points="181,821 259,842 454,817 594,845 626,826 712,834 713,792 655,771 566,786 351,764 298,780 250,756 182,770"/>
+                <Baseline points="189,816 214,816 240,815 266,815 292,815 318,815 344,816 369,816 395,816 421,816 447,817 473,817 499,818 525,818 550,819 576,819 602,819 628,820 654,820 680,820 706,820"/>
+                <Word id="region_1657112218172_28l6_w1" custom="readingOrder {index:0;}">
+                    <Coords points="182,776 182,836 710,836 710,776"/>
+                    <TextEquiv>
+                        <Unicode>Hyderabad-Dn.,1962.</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Hyderabad-Dn.,1962.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1657112218172_28l7" custom="readingOrder {index:6;}">
+                <Coords points="1108,867 1125,867 1137,881 1155,879 1194,843 1202,843 1203,805 1188,808 1184,803 1169,804 1147,815 1120,841 1109,842"/>
+                <Baseline points="1116,864 1142,866 1168,865 1194,868"/>
+                <Word id="region_1657112218172_28l7_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1122,825 1122,885 1187,885 1187,825"/>
+                    <TextEquiv>
+                        <Unicode>80</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>80</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1657112218172_28l8" custom="readingOrder {index:7;}">
+                <Coords points="1095,1129 1110,1130 1128,1114 1166,1122 1172,1117 1187,1119 1230,1109 1231,1084 1215,1084 1207,1076 1184,1075 1177,1069 1131,1075 1120,1067 1098,1066"/>
+                <Baseline points="1104,1105 1133,1106 1163,1108 1192,1109 1222,1108"/>
+                <Word id="region_1657112218172_28l8_w1" custom="readingOrder {index:0;}">
+                    <Coords points="1097,1067 1097,1127 1214,1127 1214,1067"/>
+                    <TextEquiv>
+                        <Unicode>Urdu</Unicode>
+                    </TextEquiv>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Urdu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
