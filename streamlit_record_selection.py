@@ -63,13 +63,16 @@ re_040b = re.compile(r"\$b[a-z]+\$")
 match_df["language_040$b"] = match_df["record"].apply(lambda x: re_040b.search(x.get_fields("040")[0].__str__()).group())
 match_df["language"] = match_df["language_040$b"].str[2:-1].map(lang_dict)
 
-lang_select = st.radio(
+lang_select = st.multiselect(
     "Select Cataloguing Language (040 $b)",
     match_df["language"].unique(),
     format_func=lambda x: f"{x} ({len(match_df.query('language == @x'))} total)"
 )
 
-filtered_df = match_df.query("language == @lang_select").copy()
+if not lang_select:
+    filtered_df = match_df
+else:
+    filtered_df = match_df.query("language in @lang_select").copy()
 
 # sort options
 subject_access = [
@@ -171,9 +174,8 @@ records_to_ignore = st.multiselect(
     options=match_ids
 )
 
-for rec in records_to_ignore:
-    match_ids.remove(rec)
-st.dataframe(st_display_df.loc[:, match_ids[:max_to_display]])
+records_to_display = [x for x in match_ids if x not in records_to_ignore]
+st.dataframe(st_display_df.loc[:, records_to_display[:max_to_display]])
 
 # cols = st.columns(max_to_display)
 #
@@ -187,7 +189,7 @@ st.dataframe(st_display_df.loc[:, match_ids[:max_to_display]])
 col1, col2, col3 = st.columns(3)
 best_res = col1.radio(
     label="Which is the closest Worldcat result?",
-    options=(match_ids[:max_to_display] + ["None of the results are correct"])
+    options=(records_to_display[:max_to_display] + ["None of the results are correct"])
 )
 needs_editing = col2.radio(
     label="Does this record need manual editing or is it ready to ingest?",
@@ -201,8 +203,19 @@ clear_res = col3.button(
     label="Clear selection"
 )
 
+
+def assign_dict(row, idx, matching_record):
+    if row.name == idx:
+        return {matching_record: row["worldcat_result"][matching_record]}
+    else:
+        return row["selected_record"]
+
+
 if save_res:
-    cards_df.loc[card_idx, "selected_record"] = matches_to_show.loc[best_res, "record"]
+    # Arrow doesn't like the PyMARC Record type, so need to keep it in a dict
+    # but can't assign dict to df loc so assign_dict is a workaround
+    assign_selection = cards_df.apply(assign_dict, idx=card_idx, matching_record=best_res, axis=1)
+    cards_df["selected_record"] = assign_selection
     cards_df.loc[card_idx, "record_needs_editing"] = needs_editing
     pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
 
