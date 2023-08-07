@@ -810,10 +810,7 @@ class OidVal:
         return cmp(self.lst, other.lst)
 
     def __eq__(self, other):
-        if self.lst == other.lst:
-            return True
-        else:
-            return False
+        return self.lst == other.lst
 
     def encode(self, lst):
         encoded = [40 * lst[0] + lst[1]]

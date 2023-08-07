@@ -126,6 +126,8 @@ def make_initreq(optionslist=None, authentication=None,
     InitReq.preferredMessageSize = 0x100000
     InitReq.exceptionalRecordSize = 0x100000
 
+    # InitReq.otherInfo["externallyDefinedInfo"] = asn1.OidVal([1, 2, 840, 10003, 15, 3])
+
     if implementationId:
         InitReq.implementationId = implementationId
     else:
