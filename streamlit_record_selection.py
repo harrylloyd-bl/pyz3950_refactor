@@ -226,8 +226,7 @@ if save_res:
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
     cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
-    subset = ("title", "author", "shelfmark", "worldcat_matches", "lines", "selected_match", "match_needs_editing")
-    to_show_df_display.dataframe(cards_to_show.loc[:, subset])
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 24
 
     st.markdown("### Selection saved!")
 
@@ -239,7 +238,6 @@ if clear_res:
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
     cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
-    subset = ("title", "author", "shelfmark", "worldcat_matches", "lines", "selected_match", "match_needs_editing")
-    to_show_df_display.dataframe(cards_to_show.loc[:, subset])
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 24
 
     st.markdown("### Selection cleared!")
