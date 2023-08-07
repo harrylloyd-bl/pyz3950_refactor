@@ -13,9 +13,9 @@ import requests
 
 cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
 
-nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_result"))
-errors = len(cards_df.query("worldcat_result == 'Error'"))
-cards_to_show = cards_df.query("worldcat_result != 'Error'").dropna(subset="worldcat_result")
+nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
+errors = len(cards_df.query("worldcat_matches == 'Error'"))
+cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
 
 st.markdown("# Worldcat results for searches for catalogue card title/author")
 st.write(f"\nTotal of {len(cards_df)} cards")
@@ -51,7 +51,7 @@ search_ti = cards_to_show.loc[card_idx, 'title'].replace(' ', '+')
 search_au = cards_to_show.loc[card_idx, 'author'].replace(' ', '+')
 search_term = f"https://www.worldcat.org/search?q=ti%3A{search_ti}+AND+au%3A{search_au}"
 st.markdown(f"You can also check the [Worldcat search]({search_term}) for this card")
-match_df = pd.DataFrame({"record": list(cards_to_show.loc[card_idx, "worldcat_result"].values())})
+match_df = pd.DataFrame({"record": list(cards_to_show.loc[card_idx, "worldcat_matches"].values())})
 
 # filter options
 match_df["has_title"] = match_df["record"].apply(lambda x: bool(x.get_fields("245")))
@@ -210,36 +210,36 @@ clear_res = col3.button(
 
 def assign_dict(row, idx, matching_record):
     if row.name == idx:
-        return {matching_record: row["worldcat_result"][matching_record]}
+        return {matching_record: row["worldcat_matches"][matching_record]}
     else:
-        return row["selected_record"]
+        return row["selected_match"]
 
 
 if save_res:
     # Arrow doesn't like the PyMARC Record type, so need to keep it in a dict
     # but can't assign dict to df loc so assign_dict is a workaround
     assign_selection = cards_df.apply(assign_dict, idx=card_idx, matching_record=best_res, axis=1)
-    cards_df["selected_record"] = assign_selection
-    cards_df.loc[card_idx, "record_needs_editing"] = needs_editing
+    cards_df["selected_match"] = assign_selection
+    cards_df.loc[card_idx, "match_needs_editing"] = needs_editing
     pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
 
-    nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_result"))
-    errors = len(cards_df.query("worldcat_result == 'Error'"))
-    cards_to_show = cards_df.query("worldcat_result != 'Error'").dropna(subset="worldcat_result")
-    subset = ("title", "author", "shelfmark", "worldcat_result", "lines", "selected_record", "record_needs_editing")
+    nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
+    errors = len(cards_df.query("worldcat_matches == 'Error'"))
+    cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
+    subset = ("title", "author", "shelfmark", "worldcat_matches", "lines", "selected_match", "match_needs_editing")
     to_show_df_display.dataframe(cards_to_show.loc[:, subset])
 
     st.markdown("### Selection saved!")
 
 if clear_res:
-    cards_df.loc[card_idx, "selected_record"] = None
-    cards_df.loc[card_idx, "record_needs_editing"] = None
+    cards_df.loc[card_idx, "selected_match"] = None
+    cards_df.loc[card_idx, "match_needs_editing"] = None
     pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
 
-    nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_result"))
-    errors = len(cards_df.query("worldcat_result == 'Error'"))
-    cards_to_show = cards_df.query("worldcat_result != 'Error'").dropna(subset="worldcat_result")
-    subset = ("title", "author", "shelfmark", "worldcat_result", "lines", "selected_record", "record_needs_editing")
+    nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
+    errors = len(cards_df.query("worldcat_matches == 'Error'"))
+    cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
+    subset = ("title", "author", "shelfmark", "worldcat_matches", "lines", "selected_match", "match_needs_editing")
     to_show_df_display.dataframe(cards_to_show.loc[:, subset])
 
     st.markdown("### Selection cleared!")
