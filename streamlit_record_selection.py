@@ -21,7 +21,7 @@ st.markdown("# Worldcat results for searches for catalogue card title/author")
 st.write(f"\nTotal of {len(cards_df)} cards")
 st.write(f"Showing {len(cards_to_show)} cards with Worldcat results, "
          f"omitting {nulls} without results and {errors} with errors in result retrieval")
-subset = ("title", "author", "shelfmark", "worldcat_result", "lines", "selected_record", "record_needs_editing")
+subset = ("title", "author", "selected_match", "match_needs_editing", "shelfmark", "worldcat_matches", "lines")
 to_show_df_display = st.empty()
 to_show_df_display.dataframe(cards_to_show.loc[:, subset])
 cards_to_show["author"][cards_to_show["author"].isna()] = ""  # handle None values
@@ -31,6 +31,10 @@ option = st.selectbox(
     + " ti: " + cards_to_show["title"] + " au: " + cards_to_show["author"]
 )
 st.write("Current selection: ", option)
+card_idx = int(option.split(" ")[0])
+
+if cards_to_show.loc[card_idx, "selected_match"]:
+    st.markdown(":green[**This record has already been matched!**]")
 
 # p5_root = (
 #     "G:/DigiSchol/Digital Research and Curator Team/Projects & Proposals/00_Current Projects"
