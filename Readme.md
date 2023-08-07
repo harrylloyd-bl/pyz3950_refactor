@@ -1,36 +1,33 @@
-This repo created by Giorgia Tolfo and picked up by Harry LLoyd, readme by HL.
-
 This repo is part of the Convert-a-Card project to convert catalogue cards, primarily from the Asian and African Studies Reading Room at the BL.
-Code here consumes xml files produced from card transcription by [Transkribus](lite.transkribus.eu), parses the xml to extract card title/author/shelfmark the queries [OCLC Worldcat](https://www.worldcat.org/) to see if a matching record exists.
+Code here consumes xml files produced from card transcription by [Transkribus](lite.transkribus.eu),
+parses the xml to extract card title/author/shelfmark the queries [OCLC Worldcat](https://www.worldcat.org/) to see if a matching record exists.
+
+The prototype for this repo was created by Giorgia Tolfo and Victoria Morris and has been developed to working stage by
+Harry LLoyd. Readme by HL.
 
 Structure  
-├── README.md          <- The top-level README for developers using this project.  
+```
+├── README.md           <- The top-level README for developers using this project.  
 ├── data  
-│   ├── processed      <- The final, canonical data sets  
-│   └── raw            <- The original, immutable data dump.  
+│   ├── processed       <- The final, canonical data sets  
+│   └── raw             <- The original, immutable data dump.  
 │  
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),  
-│                         the creator's initials, and a short `-` delimited description, e.g.  
-│                         `1.0-jqp-initial-data-exploration`.  
+├── notebooks           <- Jupyter notebooks.  
 │  
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.  
-│   └── figures        <- Generated graphics and figures to be used in reporting  
+├── reports             <- Generated analysis as HTML, PDF, LaTeX, etc.  
+│   └── figures         <- Generated graphics and figures to be used in reporting  
 │  
-├── environment.yml	<- conda/mamba environment, recreated via e.g. conda create -f environment.yml  
+├── hide_env.txt        <- hidden conda/mamba environment to force streamlit recreate from requirements.txt, recreated via e.g. conda create -f environment.yml
+├── requirements.txt	<- pip freeze environment solely for streamlit use
 │  
-├── src                <- Source code for use in this project.  
-│   ├── __init__.py    <- Makes src a Python module  
+├── src                 <- Source code for use in this project.  
+│   ├── __init__.py     <- Makes src a Python module  
 │   │  
-│   ├── data           <- Scripts to download or generate data  
-│   │   └── make_dataset.py  
-│   │  
-│   ├── features       <- Scripts to turn raw data into features for modeling  
-│   │   └── build_features.py  
-│   │  
-│   ├── models         <- Scripts to train models and then use trained models to make  
-│   │   │                 predictions  
-│   │   ├── predict_model.py  
-│   │   └── train_model.py  
-│   │  
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations  
-│       └── visualize.py  
+│   ├── data            <- Scripts to download or generate data  
+│   │   └── oclc.py     <- wrappers for Zoom queries to query OCLC Worldcat
+│   │   └── xml_extraction.py   <- extract labelled text from xml files 
+│
+├── tests               <- pytest unit tests for src  
+│
+└── z3950               <- combined PyZ3950 and PyMARC modules to run Z3950 queries and display MARC records
+```
