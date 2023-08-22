@@ -2,31 +2,32 @@
 
 import codecs
 
-from z3950.PyZ3950.oids import *
-from z3950.PyZ3950.z3950_2001 import *
+from z3950.PyZ3950 import oids
+from z3950.PyZ3950 import z3950_2001 as z2001
+from z3950.PyZ3950 import asn1
 
-asn1.register_oid(Z3950_RECSYN_GRS1, GenericRecord)
-asn1.register_oid(Z3950_RECSYN_SUTRS, asn1.GeneralString)
-asn1.register_oid(Z3950_RECSYN_EXPLAIN, Explain_Record)
-asn1.register_oid(Z3950_RECSYN_OPAC, OPACRecord)
+asn1.register_oid(oids.Z3950_RECSYN_GRS1, z2001.GenericRecord)
+asn1.register_oid(oids.Z3950_RECSYN_SUTRS, asn1.GeneralString)
+asn1.register_oid(oids.Z3950_RECSYN_EXPLAIN, z2001.Explain_Record)
+asn1.register_oid(oids.Z3950_RECSYN_OPAC, z2001.OPACRecord)
 
-asn1.register_oid(Z3950_USR_SEARCHRES1, SearchInfoReport)
-asn1.register_oid(Z3950_USR_INFO1, OtherInformation)
-asn1.register_oid(Z3950_USR_PRIVATE_OCLC_INFO, OCLC_UserInformation)
+asn1.register_oid(oids.Z3950_USR_SEARCHRES1, z2001.SearchInfoReport)
+asn1.register_oid(oids.Z3950_USR_INFO1, z2001.OtherInformation)
+asn1.register_oid(oids.Z3950_USR_PRIVATE_OCLC_INFO, z2001.OCLC_UserInformation)
 
 impl_vers = "1.0 beta"
 impl_id = 'Buzz - contact victoria.morris@bl.uk'
 
 
 def make_attr(set=None, atype=None, val=None, valType=None):
-    ae = AttributeElement()
+    ae = z2001.AttributeElement()
     if set:
         ae.attributeSet = set
     ae.attributeType = atype
     if valType == 'numeric' or (valType is None and isinstance(val, int)):
         ae.attributeValue = ('numeric', val)
     else:
-        cattr = AttributeElement['attributeValue']['complex']()
+        cattr = z2001.AttributeElement['attributeValue']['complex']()
         if valType is None:
             valType = 'string'
         cattr.list = [(valType, val)]
@@ -35,10 +36,11 @@ def make_attr(set=None, atype=None, val=None, valType=None):
 
 
 retrievalRecord_oids = [
-    Z3950_RECSYN_OPAC_ov,
-    Z3950_RECSYN_SUMMARY_ov,
-    Z3950_RECSYN_GRS1_ov,
-    Z3950_RECSYN_FRAGMENT_ov, ]
+    oids.Z3950_RECSYN_OPAC_ov,
+    oids.Z3950_RECSYN_SUMMARY_ov,
+    oids.Z3950_RECSYN_GRS1_ov,
+    oids.Z3950_RECSYN_FRAGMENT_ov
+]
 
 
 def register_retrieval_record_oids(ctx, new_codec_name='ascii'):
@@ -53,9 +55,9 @@ def register_retrieval_record_oids(ctx, new_codec_name='ascii'):
 
 
 iso_10646_oid_to_name = {
-    UNICODE_PART1_XFERSYN_UCS2_ov: 'utf-16',
-    UNICODE_PART1_XFERSYN_UTF16_ov: 'utf-16',
-    UNICODE_PART1_XFERSYN_UTF8_ov: 'utf-8'
+    oids.UNICODE_PART1_XFERSYN_UCS2_ov: 'utf-16',
+    oids.UNICODE_PART1_XFERSYN_UTF16_ov: 'utf-16',
+    oids.UNICODE_PART1_XFERSYN_UTF8_ov: 'utf-8'
 }
 
 
@@ -77,7 +79,7 @@ def asn_charset_to_name(charset_tup):
         (spectyp, val) = charset
         if spectyp == 'externallySpecified':
             oid = getattr(val, 'direct_reference', None)
-            if oid == Z3950_NEG_PRIVATE_INDEXDATA_CHARSETNAME_ov:
+            if oid == oids.Z3950_NEG_PRIVATE_INDEXDATA_CHARSETNAME_ov:
                 enctyp, encval = val.encoding
                 if enctyp == 'octet-aligned':
                     charset_name = encval
@@ -87,12 +89,12 @@ def asn_charset_to_name(charset_tup):
 def charset_to_asn(charset_name):
     oid = try_get_iso10646_oid(charset_name)
     if oid:
-        iso10646 = Iso10646_3()
+        iso10646 = z2001.Iso10646_3()
         iso10646.encodingLevel = oid
         return 'iso10646', iso10646
     else:
         ext = asn1.EXTERNAL()
-        ext.direct_reference = Z3950_NEG_PRIVATE_INDEXDATA_CHARSETNAME_ov
+        ext.direct_reference = oids.Z3950_NEG_PRIVATE_INDEXDATA_CHARSETNAME_ov
         ext.encoding = ('octet-aligned', charset_name)
         return 'private', ('externallySpecified', ext)
 
@@ -103,12 +105,12 @@ def_msg_size = 0x10000
 def make_initreq(optionslist=None, authentication=None,
                  implementationId="", implementationName="", implementationVersion=""):
     # see http://lcweb.loc.gov/z3950/agency/wisdom/unicode.html
-    InitReq = InitializeRequest()
-    InitReq.protocolVersion = ProtocolVersion()
+    InitReq = z2001.InitializeRequest()
+    InitReq.protocolVersion = z2001.ProtocolVersion()
     InitReq.protocolVersion['version_1'] = 1
     InitReq.protocolVersion['version_2'] = 1
     InitReq.protocolVersion['version_3'] = 1
-    InitReq.options = Options()
+    InitReq.options = z2001.Options()
     if optionslist:
         for o in optionslist:
             InitReq.options[o] = 1
@@ -146,7 +148,7 @@ def make_initreq(optionslist=None, authentication=None,
         for val, attr in zip(authentication, upAttrList):  # silently truncate
             if val:
                 setattr(up, attr, val)
-        data = asn1.encode(IdAuthentication, ('idPass', up))
+        data = asn1.encode(z2001.IdAuthentication, ('idPass', up))
         any_data = asn1.decode(asn1.ANY, data)
         InitReq.idAuthentication = any_data
 
@@ -154,7 +156,7 @@ def make_initreq(optionslist=None, authentication=None,
 
 
 def make_sreq(query, dbnames, rsn, **kw):
-    sreq = SearchRequest()
+    sreq = z2001.SearchRequest()
     sreq.smallSetUpperBound = 0
     sreq.largeSetLowerBound = 1
     sreq.mediumSetPresentNumber = 0
