@@ -715,17 +715,27 @@ class OidVal:
     def __init__ (self, lst):
         self.lst = tuple (lst)
         self.encoded = self.encode (lst)
+
     def __hash__ (self):
         return hash (self.lst)
+
     def __repr__ (self):
         s = 'OID:'
         for i in self.lst:
             s = s + ' %d' % i
         return s
+
     def __cmp__ (self, other):
         if not hasattr (other, 'lst'):
             return -1
         return cmp (self.lst, other.lst)
+
+    def __eq__(self, other):
+        if self.lst == other.lst:
+            return True
+        else:
+            return False
+
     def encode (self, lst):
         encoded = [40 * lst [0] + lst [1]]
         for val in lst [2:]:
