@@ -7,8 +7,9 @@ from z3950.PyZ3950 import ccl
 from z3950.PyZ3950 import asn1
 from z3950.PyZ3950 import bib1msg
 from z3950.PyZ3950 import oids
+from z3950.PyZ3950 import z3950_2001 as z2001
 
-asn1.register_oid(oids.Z3950_QUERY_SQL, z3950.SQLQuery)
+asn1.register_oid(oids.Z3950_QUERY_SQL, z2001.SQLQuery)
 
 
 class ZoomError(Exception):

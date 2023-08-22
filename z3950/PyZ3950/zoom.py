@@ -58,7 +58,6 @@ you may want to use the functions in the z3950 module instead.  """
 __author__ = 'Aaron Lav (asl2@pobox.com)'
 __version__ = '1.0'  # XXX
 
-import collections.abc
 import getopt
 import sys
 
@@ -74,6 +73,7 @@ from z3950.PyZ3950 import ccl
 from z3950.PyZ3950 import asn1
 from z3950.PyZ3950 import bib1msg
 from z3950.PyZ3950 import oids
+from z3950.PyZ3950 import z3950_2001 as z2001
 
 # excluded the below as not needed for CCL only queries
 # from z3950.PyZ3950 import zmarc
@@ -81,7 +81,7 @@ from z3950.PyZ3950 import oids
 # from z3950.PyZ3950 import CQLParser, SRWDiagnostics, pqf
 # from z3950.PyZ3950 import c2query as c2
 
-asn1.register_oid(oids.Z3950_QUERY_SQL, z3950.SQLQuery)
+asn1.register_oid(oids.Z3950_QUERY_SQL, z2001.SQLQuery)
 
 
 def my_enumerate(l):  # replace w/ enumerate when we go to Python 2.3
@@ -387,7 +387,7 @@ class Connection(_AttrCheck, _ErrHdlr):
         # XXX This should probably be shuffled down into z3950.py
         sortrelations = ['ascending', 'descending', 'ascendingByFrequency', 'descendingByFrequency']
 
-        req = z3950.SortRequest()
+        req = z2001.SortRequest()
         req.inputResultSetNames = []
         for s in sets:
             s._check_stale()
@@ -397,7 +397,7 @@ class Connection(_AttrCheck, _ErrHdlr):
 
         zkeys = []
         for k in keys:
-            zk = z3950.SortKeySpec()
+            zk = z2001.SortKeySpec()
             zk.sortRelation = sortrelations.index(k.relation)
             zk.caseSensitivity = k.caseInsensitive
             if k.missingValueAction:
@@ -408,14 +408,14 @@ class Connection(_AttrCheck, _ErrHdlr):
             if k.type == 'accessPoint':
                 if value.typ != 'RPN':
                     raise ValueError  # XXX
-                l = z3950.SortKey['sortAttributes']()
+                l = z2001.SortKey['sortAttributes']()
                 l.id = value.query[1].attributeSet
                 l.list = value.query[1].rpn[1][1].attributes
                 seq = ('sortAttributes', l)
             elif k.type == 'private':
                 seq = ('privateSortKey', value)
             elif k.type == 'elementSetName':
-                spec = z3950.Specification()
+                spec = z2001.Specification()
                 spec.elementSpec = ('elementSetName', value)
                 seq = ('elementSpec', spec)
             else:
@@ -515,7 +515,7 @@ Supported query types:  CCL, S-CCL, CQL, S-CQL, PQF, C2, ZSQL, CQL-TREE
         #     self.typ = typ
         #     xq = asn1.EXTERNAL()
         #     xq.direct_reference = oids.Z3950_QUERY_SQL_ov
-        #     q = z3950.SQLQuery()
+        #     q = z2001.SQLQuery()
         #     q.queryExpression = query
         #     xq.encoding = ('single-ASN1-type', q)
         #     self.query = ('type_104', xq)
@@ -618,8 +618,10 @@ class ResultSet(_AttrCheck, _ErrHdlr):
         return i
 
     def _make_keywords(self):
-        return {'recsyn': z3950.Z3950_RECSYN_USMARC_ov, 'esn': ('genericElementSetName', 'F')}  # from VMs version
-        """Set up dict of parms for present request"""
+
+        return {'recsyn': oids.Z3950_RECSYN_USMARC_ov, 'esn': ('genericElementSetName', 'F')}  # from VMs version
+
+        # Set up dict of parms for present request
         kw = {}
         # need for translation here from preferredRecordSyntax to recsyn
         # is kinda pointless
@@ -664,7 +666,7 @@ class ResultSet(_AttrCheck, _ErrHdlr):
                 lbound = int(i)
                 count = len(self) - lbound
             else:
-                lbound = int((i / maxreq) * maxreq)
+                lbound = int(i)
                 count = min(maxreq, len(self) - lbound)
             kw = self._make_keywords()
             if self._get_rec(lbound) == None:
@@ -672,7 +674,8 @@ class ResultSet(_AttrCheck, _ErrHdlr):
                     start=lbound + 1,  # + 1 b/c 1-based
                     count=count,
                     rsn=self._resultSetName,
-                    **kw)
+                    **kw
+                )
                 if not hasattr(presentResp, 'records'):
                     raise ProtocolError(str(presentResp))
                 self._extract_recs(presentResp.records, lbound)
@@ -692,8 +695,13 @@ class ResultSet(_AttrCheck, _ErrHdlr):
         # if rec != None and rec.is_surrogate_diag():
         #     rec.raise_exn()
 
+    def _extract_recs(self, records: tuple, lbound: int):
+        """
 
-    def _extract_recs(self, records, lbound):
+        @param records: tuple
+        @param lbound: int
+        @return: None
+        """
         (typ, recs) = records
         if typ == 'nonSurrogateDiagnostic':
             self.err(recs.condition, recs.addinfo[1], recs.diagnosticSetId)
@@ -705,7 +713,7 @@ class ResultSet(_AttrCheck, _ErrHdlr):
         if typ != 'responseRecords':
             raise ProtocolError("Bad records typ " + str(typ) + str(recs))
         if trace_extract:
-            print(("Extracting", len(recs), "starting at", lbound))
+            print("Extracting", len(recs), "starting at", lbound)
         for i, r in enumerate(recs):
             # r = recs[i]
             # dbname = getattr(r, 'name', '')
