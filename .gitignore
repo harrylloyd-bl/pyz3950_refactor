@@ -11,3 +11,5 @@ notebooks/.ipynb_checkpoints/*
 .idea/
 
 data/
+
+notebooks/Transkribus_credential.py
