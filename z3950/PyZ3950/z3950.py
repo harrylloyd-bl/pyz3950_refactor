@@ -1,9 +1,12 @@
 from __future__ import print_function, absolute_import
 
 import socket
+import codecs
 
-from z3950.PyZ3950.zdefs import *
-
+from z3950.PyZ3950 import zdefs
+from z3950.PyZ3950 import asn1
+from z3950.PyZ3950 import z3950_2001 as z2001
+from z3950.PyZ3950 import oids
 
 # out_encoding = None
 
@@ -43,7 +46,7 @@ class Conn:
         else:
             self.sock = sock
 
-        self.decode_ctx = asn1.IncrementalDecodeCtx(APDU)
+        self.decode_ctx = asn1.IncrementalDecodeCtx(z2001.APDU)
         self.encode_ctx = asn1.Ctx()
 
     def set_codec(self, charset_name, charsets_in_records):
@@ -54,8 +57,8 @@ class Conn:
             self.encode_ctx.set_codec(asn1.GeneralString, codecs.lookup(self.charset_name), strip_bom)
             self.decode_ctx.set_codec(asn1.GeneralString, codecs.lookup(self.charset_name), strip_bom)
             if not charsets_in_records:
-                register_retrieval_record_oids(self.decode_ctx)
-                register_retrieval_record_oids(self.encode_ctx)
+                zdefs.register_retrieval_record_oids(self.decode_ctx)
+                zdefs.register_retrieval_record_oids(self.encode_ctx)
 
     def readproc(self):
         if self.sock is None:
@@ -112,7 +115,7 @@ class Client(Conn):
         else:
             authentication = None
 
-        InitReq = make_initreq(optionslist, authentication=authentication,
+        InitReq = zdefs.make_initreq(optionslist, authentication=authentication,
                                implementationId=implementationId,
                                implementationName=implementationName,
                                implementationVersion=implementationVersion)
@@ -121,13 +124,13 @@ class Client(Conn):
 
         self.search_results = {}
         self.max_to_request = 20
-        self.default_recordSyntax = Z3950_RECSYN_USMARC_ov
+        self.default_recordSyntax = oids.Z3950_RECSYN_USMARC_ov
 
     def get_option(self, option_name):
         return self.initresp.options[option_name]
 
     def transact(self, to_send, expected):
-        b = self.encode_ctx.encode(APDU, to_send)
+        b = self.encode_ctx.encode(z2001.APDU, to_send)
 
         if self.sock is None:
             raise self.ConnectionError('disconnected')
@@ -156,7 +159,7 @@ class Client(Conn):
         self.dbnames = dbnames
 
     def search_2(self, query, rsn='default', **kw):
-        sreq = make_sreq(query, self.dbnames, rsn, **kw)
+        sreq = zdefs.make_sreq(query, self.dbnames, rsn, **kw)
         recv = self.transact(('searchRequest', sreq), 'searchResponse')
         self.search_results[rsn] = recv
         return recv
@@ -181,7 +184,7 @@ class Client(Conn):
             pass
         if recsyn:
             recsyn = self.default_recordSyntax
-        preq = PresentRequest()
+        preq = z2001.PresentRequest()
         preq.resultSetId = rsn
         preq.resultSetStartPoint = start
         preq.numberOfRecordsRequested = count
@@ -204,7 +207,7 @@ class Client(Conn):
     '''
 
     def close(self):
-        close = Close()
+        close = z2001.Close()
         close.closeReason = 0
         close.diagnosticInformation = 'Normal close'
         try:
