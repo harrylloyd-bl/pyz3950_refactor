@@ -23,6 +23,7 @@ class UnexpectedCloseError(ProtocolError):
 
 vers = '0.62'
 DEFAULT_PORT = 2101
+default_resultSetName = "ResultSet"
 
 class Conn:
     rdsz = 65536
