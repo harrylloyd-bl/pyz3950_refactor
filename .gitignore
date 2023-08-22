@@ -9,3 +9,5 @@ notebooks/.ipynb_checkpoints/*
 
 # Pycharm
 .idea/
+
+data/
