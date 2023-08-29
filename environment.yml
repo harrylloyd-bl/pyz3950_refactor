@@ -10,4 +10,3 @@ dependencies:
   - ca-certificates
   - certifi
   - openssl
-prefix: C:\Users\HLloyd\AppData\Local\mambaforge\envs\cac_st
