@@ -1,6 +1,6 @@
 name: base
 channels:
-  - conda-forge
+  - defaults
 dependencies:
   - pandas
   - pillow
