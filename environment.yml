@@ -1,0 +1,13 @@
+name: cac_st
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - streamlit
+  - pillow
+  - tqdm
+  - s3fs
+  - ca-certificates
+  - certifi
+  - openssl
+prefix: C:\Users\HLloyd\AppData\Local\mambaforge\envs\cac_st
