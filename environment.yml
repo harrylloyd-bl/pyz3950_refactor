@@ -1,9 +1,8 @@
-name: cac_st
+name: base
 channels:
   - conda-forge
 dependencies:
   - pandas
-  - streamlit
   - pillow
   - tqdm
   - s3fs
