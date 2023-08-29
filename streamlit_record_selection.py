@@ -16,22 +16,32 @@ cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
 nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
 errors = len(cards_df.query("worldcat_matches == 'Error'"))
 cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
+cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
 
 st.markdown("# Worldcat results for searches for catalogue card title/author")
 st.write(f"\nTotal of {len(cards_df)} cards")
 st.write(f"Showing {len(cards_to_show)} cards with Worldcat results, "
          f"omitting {nulls} without results and {errors} with errors in result retrieval")
-subset = ("title", "author", "selected_match", "match_needs_editing", "shelfmark", "worldcat_matches", "lines")
+subset = ("card_id", "title", "author", "selected_match", "match_needs_editing", "shelfmark", "worldcat_matches", "lines")
 to_show_df_display = st.empty()
-to_show_df_display.dataframe(cards_to_show.loc[:, subset])
+to_show_df_display.dataframe(cards_to_show.loc[:, subset])#.set_index("card_id", drop=True))
 cards_to_show["author"][cards_to_show["author"].isna()] = ""  # handle None values
-option = st.selectbox(
-    "Which result set do you want to choose between?",
-    pd.Series(cards_to_show.index, index=cards_to_show.index, dtype=str)
-    + " ti: " + cards_to_show["title"] + " au: " + cards_to_show["author"]
+
+option = st.number_input(
+    "Which card do you want to select a match for?",
+    min_value=1, max_value=len(cards_to_show)
 )
+
+# option_dropdown = st.selectbox(
+#     "Which result set do you want to choose between?",
+#     pd.Series(cards_to_show.index, index=cards_to_show.index, dtype=str)
+#     + " ti: " + cards_to_show["title"] + " au: " + cards_to_show["author"]
+# )
+# card_idx = int(option.split(" ")[0])
+readable_idx = int(option)
+card_idx = cards_to_show.query("card_id == @readable_idx").index.values[0]
+# card_idx = int(option)
 st.write("Current selection: ", option)
-card_idx = int(option.split(" ")[0])
 
 if cards_to_show.loc[card_idx, "selected_match"]:
     st.markdown(":green[**This record has already been matched!**]")
@@ -41,7 +51,6 @@ if cards_to_show.loc[card_idx, "selected_match"]:
 #     "/LibCrowds Convert-a-Card (Adi)/OCR/20230504 TKB Export P5 175 GT pp/1016992/P5_for_Transkribus"
 # )
 
-card_idx = int(option.split(" ")[0])
 card_jpg_path = os.path.join("data/images", cards_to_show.loc[card_idx, "xml"][:-4] + ".jpg")
 
 st.image(Image.open(card_jpg_path))
