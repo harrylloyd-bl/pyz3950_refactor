@@ -1,13 +1,10 @@
-name: base
+name: cac_st
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - pandas
+  - streamlit
   - pillow
   - tqdm
   - s3fs
-  - ca-certificates
-  - certifi
-  - openssl
-pip:
-  - git+https://github.com/streamlit/files-connection
+prefix: C:\Users\HLloyd\AppData\Local\mambaforge\envs\cac_st
