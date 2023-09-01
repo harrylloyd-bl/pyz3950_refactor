@@ -1,6 +1,6 @@
 name: cac_st
 channels:
-  - conda-forge
+  - defaults
 dependencies:
   - pandas
   - streamlit
