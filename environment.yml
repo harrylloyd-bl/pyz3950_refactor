@@ -3,8 +3,7 @@ channels:
   - defaults
 dependencies:
   - pandas
-  - streamlit=1.26.0
+  - streamlit=1.26.*
   - pillow
   - tqdm
   - s3fs
-prefix: C:\Users\HLloyd\AppData\Local\mambaforge\envs\cac_st
