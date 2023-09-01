@@ -3,7 +3,7 @@ channels:
   - defaults
 dependencies:
   - pandas
-  - streamlit=1.26.*
+  - streamlit=1.24.*
   - pillow
   - tqdm
   - s3fs
