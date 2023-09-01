@@ -10,15 +10,24 @@ from PIL import Image
 import pandas as pd
 import streamlit as st
 import requests
+import s3fs
 
-cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
+
+st.markdown("# Worldcat results for searches for catalogue card title/author")
+
+s3 = s3fs.S3FileSystem(anon=False)
+with s3.open('cac-bucket/cards_df.p', 'rb') as f:
+    cards_df = pickle.load(f)
+    st.write("Cards data loaded from S3")
+
+# cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
 
 nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
 errors = len(cards_df.query("worldcat_matches == 'Error'"))
 cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
 cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
 
-st.markdown("# Worldcat results for searches for catalogue card title/author")
+
 st.write(f"\nTotal of {len(cards_df)} cards")
 st.write(f"Showing {len(cards_to_show)} cards with Worldcat results, "
          f"omitting {nulls} without results and {errors} with errors in result retrieval")
