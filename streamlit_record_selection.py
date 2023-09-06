@@ -16,12 +16,18 @@ import s3fs
 st.markdown("# Worldcat results for searches for catalogue card title/author")
 
 s3 = s3fs.S3FileSystem(anon=False)
-with s3.open('cac-bucket/cards_df.p', 'rb') as f:
-    cards_df = pickle.load(f)
-    st.write("Cards data loaded from S3")
 
+
+@st.cache_data
+def load_s3(s3_path):
+    with s3.open(s3_path, 'rb') as f:
+        df = pickle.load(f)
+        st.write("Cards data loaded from S3")
+    return df
+
+
+cards_df = load_s3('cac-bucket/cards_df.p')
 # cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
-
 nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
 errors = len(cards_df.query("worldcat_matches == 'Error'"))
 cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
@@ -239,23 +245,28 @@ if save_res:
     assign_selection = cards_df.apply(assign_dict, idx=card_idx, matching_record=best_res, axis=1)
     cards_df["selected_match"] = assign_selection
     cards_df.loc[card_idx, "match_needs_editing"] = needs_editing
-    pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
+
+    with s3.open('cac-bucket/cards_df.p', 'wb') as f:
+        pickle.dump(cards_df, f)
 
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
     cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
-    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 24
+    cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 34
 
     st.markdown("### Selection saved!")
 
 if clear_res:
     cards_df.loc[card_idx, "selected_match"] = None
     cards_df.loc[card_idx, "match_needs_editing"] = None
-    pickle.dump(cards_df, open("notebooks/cards_df.p", "wb"))
+    with s3.open('cac-bucket/cards_df.p', 'wb') as f:
+        pickle.dump(cards_df, f)
 
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
     cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
-    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 24
+    cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 34
 
     st.markdown("### Selection cleared!")
