@@ -22,7 +22,7 @@ s3 = s3fs.S3FileSystem(anon=False)
 def load_s3(s3_path):
     with s3.open(s3_path, 'rb') as f:
         df = pickle.load(f)
-        st.write("Cards data loaded from S3")
+        # st.write("Cards data loaded from S3")
     return df
 
 
@@ -242,12 +242,16 @@ def assign_dict(row, idx, matching_record):
 if save_res:
     # Arrow doesn't like the PyMARC Record type, so need to keep it in a dict
     # but can't assign dict to df loc so assign_dict is a workaround
-    assign_selection = cards_df.apply(assign_dict, idx=card_idx, matching_record=best_res, axis=1)
-    cards_df["selected_match"] = assign_selection
-    cards_df.loc[card_idx, "match_needs_editing"] = needs_editing
+    if best_res == "None of the results are correct":
+        cards_df.loc[card_idx, "selected_match"] = "No matches"
+    else:
+        assign_selection = cards_df.apply(assign_dict, idx=card_idx, matching_record=best_res, axis=1)
+        cards_df["selected_match"] = assign_selection
+        cards_df.loc[card_idx, "match_needs_editing"] = needs_editing
 
     with s3.open('cac-bucket/cards_df.p', 'wb') as f:
         pickle.dump(cards_df, f)
+    st.cache_data.clear()
 
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
@@ -262,6 +266,7 @@ if clear_res:
     cards_df.loc[card_idx, "match_needs_editing"] = None
     with s3.open('cac-bucket/cards_df.p', 'wb') as f:
         pickle.dump(cards_df, f)
+    st.cache_data.clear()
 
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
