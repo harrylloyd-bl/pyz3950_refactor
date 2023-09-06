@@ -39,7 +39,7 @@ st.write(f"Showing {len(cards_to_show)} cards with Worldcat results, "
          f"omitting {nulls} without results and {errors} with errors in result retrieval")
 subset = ("card_id", "title", "author", "selected_match", "match_needs_editing", "shelfmark", "worldcat_matches", "lines")
 to_show_df_display = st.empty()
-to_show_df_display.dataframe(cards_to_show.loc[:, subset])#.set_index("card_id", drop=True))
+to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)#.set_index("card_id", drop=True))
 cards_to_show["author"][cards_to_show["author"].isna()] = ""  # handle None values
 
 option = st.number_input(
@@ -253,7 +253,7 @@ if save_res:
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
     cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
     cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
-    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 34
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)  # subset defined line 34
 
     st.markdown("### Selection saved!")
 
@@ -267,6 +267,6 @@ if clear_res:
     errors = len(cards_df.query("worldcat_matches == 'Error'"))
     cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
     cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
-    to_show_df_display.dataframe(cards_to_show.loc[:, subset])  # subset defined line 34
+    to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)  # subset defined line 34
 
     st.markdown("### Selection cleared!")
