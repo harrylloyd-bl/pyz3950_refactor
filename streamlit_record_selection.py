@@ -33,19 +33,20 @@ errors = len(cards_df.query("worldcat_matches == 'Error'"))
 cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
 cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
 
-
-st.write(f"\nTotal of {len(cards_df)} cards")
-st.write(f"Showing {len(cards_to_show)} cards with Worldcat results, "
+st.write(f"Showing {len(cards_to_show)} cards with Worldcat results out of of {len(cards_df)} total cards, "
          f"omitting {nulls} without results and {errors} with errors in result retrieval")
 subset = ("card_id", "title", "author", "selected_match", "match_needs_editing", "shelfmark", "worldcat_matches", "lines")
+
+select_c1, select_c2 = st.columns([0.4, 0.6])
+selected_card = select_c1.number_input(
+    "Select a card to match",
+    min_value=1, max_value=len(cards_to_show),
+    help="Type or use +/-"
+)
+
 to_show_df_display = st.empty()
 to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)#.set_index("card_id", drop=True))
 cards_to_show["author"][cards_to_show["author"].isna()] = ""  # handle None values
-
-option = st.number_input(
-    "Which card do you want to select a match for?",
-    min_value=1, max_value=len(cards_to_show)
-)
 
 # option_dropdown = st.selectbox(
 #     "Which result set do you want to choose between?",
@@ -53,13 +54,16 @@ option = st.number_input(
 #     + " ti: " + cards_to_show["title"] + " au: " + cards_to_show["author"]
 # )
 # card_idx = int(option.split(" ")[0])
-readable_idx = int(option)
+readable_idx = int(selected_card)
 card_idx = cards_to_show.query("card_id == @readable_idx").index.values[0]
 # card_idx = int(option)
-st.write("Current selection: ", option)
 
 if cards_to_show.loc[card_idx, "selected_match"]:
-    st.markdown(":green[**This record has already been matched!**]")
+    select_c2.markdown(":green[**This record has already been matched!**]")
+
+st.write("\n")
+st.markdown("#### Select from Worldcat results")
+
 
 # p5_root = (
 #     "G:/DigiSchol/Digital Research and Curator Team/Projects & Proposals/00_Current Projects"
@@ -68,7 +72,7 @@ if cards_to_show.loc[card_idx, "selected_match"]:
 
 card_jpg_path = os.path.join("data/images", cards_to_show.loc[card_idx, "xml"][:-4] + ".jpg")
 
-# st.markdown("### Select from Worldcat results")
+
 ic_left, ic_centred, ic_right = st.columns([0.2,0.6,0.2])
 ic_centred.image(Image.open(card_jpg_path), use_column_width=True)
 label_text = """
