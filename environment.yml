@@ -6,5 +6,6 @@ dependencies:
   - pillow
   - tqdm
   - s3fs
-pip:
-  - streamlit>=1.26
+  - pip
+  - pip:
+    - streamlit>=1.26
