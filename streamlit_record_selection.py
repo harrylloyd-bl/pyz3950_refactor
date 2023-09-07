@@ -68,9 +68,19 @@ if cards_to_show.loc[card_idx, "selected_match"]:
 
 card_jpg_path = os.path.join("data/images", cards_to_show.loc[card_idx, "xml"][:-4] + ".jpg")
 
-st.image(Image.open(card_jpg_path))
+# st.markdown("### Select from Worldcat results")
+ic_left, ic_centred, ic_right = st.columns([0.2,0.6,0.2])
+ic_centred.image(Image.open(card_jpg_path), use_column_width=True)
+label_text = """
+**Right**:  
+Catalogue card\n
+**Below**:  
+OCLC MARC match table\n
+Filters and sort options are below the table
+"""
+ic_left.write(label_text)
 
-st.markdown("## Select from Worldcat results")
+marc_table = st.empty()
 search_ti = cards_to_show.loc[card_idx, 'title'].replace(' ', '+')
 search_au = cards_to_show.loc[card_idx, 'author'].replace(' ', '+')
 search_term = f"https://www.worldcat.org/search?q=ti%3A{search_ti}+AND+au%3A{search_au}"
@@ -203,7 +213,7 @@ records_to_ignore = st.multiselect(
 )
 
 records_to_display = [x for x in match_ids if x not in records_to_ignore]
-st.dataframe(st_display_df.loc[:, records_to_display[:max_to_display]])
+marc_table.dataframe(st_display_df.loc[:, records_to_display[:max_to_display]])
 
 # cols = st.columns(max_to_display)
 #
