@@ -3,7 +3,7 @@ channels:
   - defaults
 dependencies:
   - pandas
-  - streamlit=1.24.*
+  - conda-forge::streamlit
   - pillow
   - tqdm
   - s3fs
