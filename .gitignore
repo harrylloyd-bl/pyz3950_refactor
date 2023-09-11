@@ -17,3 +17,5 @@ notebooks/Transkribus_credential.py
 reports/figures/sample_MARC_results
 
 .streamlit/
+
+.secrets/
