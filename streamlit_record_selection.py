@@ -13,7 +13,7 @@ import streamlit as st
 import s3fs
 
 
-st.markdown("# Worldcat results for searches for catalogue card title/author")
+st.title("Worldcat results for searches for catalogue card title/author")
 
 s3 = s3fs.S3FileSystem(anon=False)
 
@@ -62,7 +62,7 @@ if cards_to_show.loc[card_idx, "selected_match"]:
     select_c2.markdown(":green[**This record has already been matched!**]")
 
 st.write("\n")
-st.markdown("#### Select from Worldcat results")
+st.subheader("Select from Worldcat results")
 
 
 # p5_root = (
@@ -72,24 +72,26 @@ st.markdown("#### Select from Worldcat results")
 
 card_jpg_path = os.path.join("data/images", cards_to_show.loc[card_idx, "xml"][:-4] + ".jpg")
 
+search_ti = cards_to_show.loc[card_idx, 'title'].replace(' ', '+')
+search_au = cards_to_show.loc[card_idx, 'author'].replace(' ', '+')
+search_term = f"https://www.worldcat.org/search?q=ti%3A{search_ti}+AND+au%3A{search_au}"
 
-ic_left, ic_centred, ic_right = st.columns([0.2,0.6,0.2])
+ic_left, ic_centred, ic_right = st.columns([0.3,0.6,0.1])
 ic_centred.image(Image.open(card_jpg_path), use_column_width=True)
-label_text = """
+label_text = f"""
 **Right**:  
 Catalogue card\n
 **Below**:  
 OCLC MARC match table\n
-Filters and sort options are below the table
+Filters and sort options are below the table\n
+You can also check the [Worldcat search]({search_term}) for this card
 """
 ic_left.write(label_text)
 
 marc_table = st.empty()
-search_ti = cards_to_show.loc[card_idx, 'title'].replace(' ', '+')
-search_au = cards_to_show.loc[card_idx, 'author'].replace(' ', '+')
-search_term = f"https://www.worldcat.org/search?q=ti%3A{search_ti}+AND+au%3A{search_au}"
-st.markdown(f"You can also check the [Worldcat search]({search_term}) for this card")
 match_df = pd.DataFrame({"record": list(cards_to_show.loc[card_idx, "worldcat_matches"].values())})
+
+max_to_display_col, removed_records_col = st.columns([0.3, 0.7])
 
 # filter options
 match_df["has_title"] = match_df["record"].apply(lambda x: bool(x.get_fields("245")))
@@ -125,12 +127,6 @@ filtered_df["num_linked"] = filtered_df["record"].apply(lambda x: len(x.get_fiel
 filtered_df["has_phys_desc"] = filtered_df["record"].apply(lambda x: bool(x.get_fields("300")))
 filtered_df["good_encoding_level"] = filtered_df["record"].apply(lambda x: x.get_fields("LDR")[0][17] not in [3, 5, 7])
 filtered_df["record_length"] = filtered_df["record"].apply(lambda x: len(x.get_fields()))
-
-input_max = st.number_input("Max records to display", min_value=1, value=3)
-if input_max <= len(filtered_df):
-    max_to_display = int(input_max)
-else:
-    max_to_display = len(filtered_df)
 
 
 def pretty_filter_option(option):
@@ -207,29 +203,28 @@ for i in range(len(matches_to_show)):
     )
     displayed_matches.append(gen_unique_idx(col))
 
+
+max_to_display_help = """
+Select the number of records to display in the MARC table above.  
+Setting this value very high can lead to lots of mostly blank rows to scroll through.
+"""
+max_to_display = int(max_to_display_col.number_input("Max records to display", min_value=1, value=5, help=max_to_display_help))
+
 st_display_df = pd.concat(displayed_matches, axis=1).sort_index(key=sort_fields_idx)
 match_ids = st_display_df.columns.tolist()
-records_to_ignore = st.multiselect(
-    label="Select any bad records you'd like to remove from the comparison",
+records_to_ignore = removed_records_col.multiselect(
+    label="Select bad records you'd like to remove from the comparison",
     options=match_ids
 )
 
+ic_left.write(f"Displaying {max_to_display} of {len(match_ids)} records, excluding {len(records_to_ignore)} bad records")
 records_to_display = [x for x in match_ids if x not in records_to_ignore]
-marc_table.dataframe(st_display_df.loc[:, records_to_display[:max_to_display]])
+marc_table.dataframe(st_display_df.loc[:, records_to_display[:max_to_display]].dropna(how="all"))
 
-# cols = st.columns(max_to_display)
-#
-# for i, c in enumerate(cols):
-#     with c:
-#         res = matches_to_show.iloc[i-1, 0].get_fields()
-#         st.dataframe(pd.DataFrame(
-#             index=[int(x.tag) for x in res],
-#             data=[x.__str__()[6:] for x in res],
-#             columns=[i]))
 col1, col2, col3 = st.columns(3)
 best_res = col1.radio(
     label="Which is the closest Worldcat result?",
-    options=(records_to_display[:max_to_display] + ["None of the results are correct"])
+    options=(records_to_display[:max_to_display] + ["No correct results"])
 )
 needs_editing = col2.radio(
     label="Does this record need manual editing or is it ready to ingest?",
