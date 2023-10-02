@@ -5,11 +5,11 @@ Will need to prepare elsewhere then pull in as pickle or csv
 import re
 import os
 import pickle
-import xml.etree.ElementTree as ET
+import json
+
 from PIL import Image
 import pandas as pd
 import streamlit as st
-import requests
 import s3fs
 
 
@@ -97,13 +97,11 @@ match_df["has_author"] = match_df["record"].apply(lambda x: bool(x.get_fields("1
 au_exists = bool(search_au)
 match_df = match_df.query("has_title == True and (has_author == True or not @au_exists)")
 
-lang_xml = requests.get("https://www.loc.gov/standards/codelists/languages.xml")
-tree = ET.fromstring(lang_xml.text)
-lang_dict = {lang[2].text: lang[1].text for lang in tree[4]}
+lang_dict = json.load(open("data/raw/marc_lang_codes.json", "r"))
 
 re_040b = re.compile(r"\$b[a-z]+\$")
 match_df["language_040$b"] = match_df["record"].apply(lambda x: re_040b.search(x.get_fields("040")[0].__str__()).group())
-match_df["language"] = match_df["language_040$b"].str[2:-1].map(lang_dict)
+match_df["language"] = match_df["language_040$b"].str[2:-1].map(lang_dict["codes"])
 
 lang_select = st.multiselect(
     "Select Cataloguing Language (040 $b)",
