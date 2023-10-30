@@ -30,12 +30,12 @@ def load_s3(s3_path):
 cards_df = pickle.load(open("notebooks/401_cards.p", "rb"))
 cards_df = cards_df.iloc[:175].copy()  # just while we can't access the network drives
 nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
-cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
+cards_to_show = cards_df.dropna(subset="worldcat_matches").copy()
 cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
 
 st.write(f"Showing {len(cards_to_show)} cards with Worldcat results out of of {len(cards_df)} total cards, "
          f"omitting {nulls} without results.")
-subset = ("card_id", "title", "author", "selected_match", "match_needs_editing", "shelfmark", "lines")
+subset = ("card_id", "title", "author", "selected_match_ocn", "match_needs_editing", "shelfmark", "lines")
 
 select_c1, select_c2 = st.columns([0.4, 0.6])
 selected_card = select_c1.number_input(
@@ -45,8 +45,8 @@ selected_card = select_c1.number_input(
 )
 
 to_show_df_display = st.empty()
-to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)#.set_index("card_id", drop=True))
-cards_to_show["author"][cards_to_show["author"].isna()] = ""  # handle None values
+to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)  #.set_index("card_id", drop=True))
+cards_to_show["author"] = cards_df["author"].apply(lambda x: x if x else "") # [cards_to_show["author"].isna()] = ""  # handle None values
 
 # option_dropdown = st.selectbox(
 #     "Which result set do you want to choose between?",
@@ -251,18 +251,22 @@ if save_res:
     # but can't assign dict to df loc so assign_dict is a workaround
     if best_res == "None of the results are correct":
         cards_df.loc[card_idx, "selected_match"] = "No matches"
+        cards_df.loc[card_idx, "selected_match_ocn"] = "No matches"
     else:
-        assign_selection = cards_df.apply(assign_dict, idx=card_idx, matching_record=best_res, axis=1)
-        cards_df["selected_match"] = assign_selection
+        cards_df.loc[card_idx, "selected_match"] = cards_df.loc[card_idx, "worldcat_matches"][best_res]
+        cards_df.loc[card_idx, "selected_match_ocn"] = cards_df.loc[card_idx, "worldcat_matches"][best_res].get_fields("001")[0].data
+        # assign_selection = cards_df.apply(assign_dict, idx=card_idx, matching_record=best_res, axis=1)
+        # cards_df["selected_match"] = assign_selection
         cards_df.loc[card_idx, "match_needs_editing"] = needs_editing
 
-    with s3.open('cac-bucket/cards_df.p', 'wb') as f:
-        pickle.dump(cards_df, f)
+    # with s3.open('cac-bucket/cards_df.p', 'wb') as f:
+    #     pickle.dump(cards_df, f)
+    pickle.dump(cards_df, open("401_cards.p", "wb"))
     st.cache_data.clear()
 
+
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
-    errors = len(cards_df.query("worldcat_matches == 'Error'"))
-    cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
+    cards_to_show = cards_df.dropna(subset="worldcat_matches")
     cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
     to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)  # subset defined line 34
 
@@ -271,13 +275,13 @@ if save_res:
 if clear_res:
     cards_df.loc[card_idx, "selected_match"] = None
     cards_df.loc[card_idx, "match_needs_editing"] = None
-    with s3.open('cac-bucket/cards_df.p', 'wb') as f:
-        pickle.dump(cards_df, f)
+    # with s3.open('cac-bucket/cards_df.p', 'wb') as f:
+    #     pickle.dump(cards_df, f)
+    pickle.dump(cards_df, open("401_cards.p", "wb"))
     st.cache_data.clear()
 
     nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
-    errors = len(cards_df.query("worldcat_matches == 'Error'"))
-    cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
+    cards_to_show = cards_df.dropna(subset="worldcat_matches")
     cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
     to_show_df_display.dataframe(cards_to_show.loc[:, subset], hide_index=True)  # subset defined line 34
 
