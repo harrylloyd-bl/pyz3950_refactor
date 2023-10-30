@@ -26,16 +26,16 @@ def load_s3(s3_path):
     return df
 
 
-cards_df = load_s3('cac-bucket/cards_df.p')
-# cards_df = pickle.load(open("notebooks/cards_df.p", "rb"))
+# cards_df = load_s3('cac-bucket/401_cards.p')
+cards_df = pickle.load(open("notebooks/401_cards.p", "rb"))
+cards_df = cards_df.iloc[:175].copy()  # just while we can't access the network drives
 nulls = len(cards_df) - len(cards_df.dropna(subset="worldcat_matches"))
-errors = len(cards_df.query("worldcat_matches == 'Error'"))
 cards_to_show = cards_df.query("worldcat_matches != 'Error'").dropna(subset="worldcat_matches")
 cards_to_show.insert(loc=0, column="card_id", value=range(1, len(cards_to_show) + 1))
 
 st.write(f"Showing {len(cards_to_show)} cards with Worldcat results out of of {len(cards_df)} total cards, "
-         f"omitting {nulls} without results and {errors} with errors in result retrieval")
-subset = ("card_id", "title", "author", "selected_match", "match_needs_editing", "shelfmark", "worldcat_matches", "lines")
+         f"omitting {nulls} without results.")
+subset = ("card_id", "title", "author", "selected_match", "match_needs_editing", "shelfmark", "lines")
 
 select_c1, select_c2 = st.columns([0.4, 0.6])
 selected_card = select_c1.number_input(
@@ -70,7 +70,7 @@ st.subheader("Select from Worldcat results")
 #     "/LibCrowds Convert-a-Card (Adi)/OCR/20230504 TKB Export P5 175 GT pp/1016992/P5_for_Transkribus"
 # )
 
-card_jpg_path = os.path.join("data/images", cards_to_show.loc[card_idx, "xml"][:-4] + ".jpg")
+card_jpg_path = os.path.join("data/images", cards_to_show.loc[card_idx, "xml"][:-5] + ".jpg")
 
 search_ti = cards_to_show.loc[card_idx, 'title'].replace(' ', '+')
 search_au = cards_to_show.loc[card_idx, 'author'].replace(' ', '+')
@@ -89,7 +89,7 @@ You can also check the [Worldcat search]({search_term}) for this card
 ic_left.write(label_text)
 
 marc_table = st.empty()
-match_df = pd.DataFrame({"record": list(cards_to_show.loc[card_idx, "worldcat_matches"].values())})
+match_df = pd.DataFrame({"record": list(cards_to_show.loc[card_idx, "worldcat_matches"])})
 
 max_to_display_col, removed_records_col = st.columns([0.3, 0.7])
 
@@ -125,7 +125,7 @@ subject_access = [
 filtered_df["num_subject_access"] = filtered_df["record"].apply(lambda x: len(x.get_fields(*subject_access)))
 filtered_df["num_linked"] = filtered_df["record"].apply(lambda x: len(x.get_fields("880")))
 filtered_df["has_phys_desc"] = filtered_df["record"].apply(lambda x: bool(x.get_fields("300")))
-filtered_df["good_encoding_level"] = filtered_df["record"].apply(lambda x: x.get_fields("LDR")[0][17] not in [3, 5, 7])
+filtered_df["good_encoding_level"] = filtered_df["record"].apply(lambda x: x.leader[17] not in [3, 5, 7])
 filtered_df["record_length"] = filtered_df["record"].apply(lambda x: len(x.get_fields()))
 
 
@@ -195,10 +195,10 @@ matches_to_show = filtered_df.sort_values(
 displayed_matches = []
 for i in range(len(matches_to_show)):
     res = matches_to_show.iloc[i, 0].get_fields()
-    ldr = matches_to_show.iloc[i, 0].get_fields("LDR")
+    ldr = matches_to_show.iloc[i, 0].leader
     col = pd.DataFrame(
         index=pd.Index(["LDR"] + [x.tag for x in res], name="MARC Field"),
-        data=ldr + [x.__str__()[6:] for x in res],
+        data=[ldr] + [x.__str__()[6:] for x in res],
         columns=[matches_to_show.iloc[i].name]
     )
     displayed_matches.append(gen_unique_idx(col))
