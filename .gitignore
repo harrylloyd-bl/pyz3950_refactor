@@ -19,3 +19,5 @@ reports/figures/sample_MARC_results
 .streamlit/
 
 .env
+
+reports/blog_media
